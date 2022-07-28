@@ -1,0 +1,377 @@
+2022-07-28 17:24:58,978: - INFO - Test_NavData_JPN: beforeClass > Before Navigate To...https://10.8.162.157[JPN]
+2022-07-28 17:24:59,253: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2022-07-28 17:25:09,610: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > [Pass]Take screenshot...
+2022-07-28 17:25:09,783: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Switch to 'Non-Config' mode...
+2022-07-28 17:25:10,024: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data created!
+2022-07-28 17:25:14,381: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:14,416: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > システム
+2022-07-28 17:25:14,438: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > アクセス ポイント
+2022-07-28 17:25:14,460: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > キャプチャ ATP
+2022-07-28 17:25:14,481: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > トポロジ
+2022-07-28 17:25:14,531: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:14,531: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Dashboard
+2022-07-28 17:25:14,531: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > System
+2022-07-28 17:25:14,531: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Access Points
+2022-07-28 17:25:14,532: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Capture ATP
+2022-07-28 17:25:14,532: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Topology
+2022-07-28 17:25:14,532: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:25:15,372: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:15,373: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Legal Information
+2022-07-28 17:25:15,373: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 1
+2022-07-28 17:25:16,139: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:16,139: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > API
+2022-07-28 17:25:16,139: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 1
+2022-07-28 17:25:16,491: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data updated!
+2022-07-28 17:25:16,493: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Top menu 'HOME' is done!
+2022-07-28 17:25:20,140: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:20,162: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > システム監視
+2022-07-28 17:25:20,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > プロトコル監視
+2022-07-28 17:25:20,204: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ユーザ監視
+2022-07-28 17:25:20,223: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 帯域幅管理監視
+2022-07-28 17:25:20,267: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:20,268: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Real-Time Charts
+2022-07-28 17:25:20,268: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > System Monitor
+2022-07-28 17:25:20,268: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Protocol Monitor
+2022-07-28 17:25:20,269: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > User Monitor
+2022-07-28 17:25:20,269: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > BWM Monitor
+2022-07-28 17:25:20,269: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:25:22,688: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:22,856: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow 報告
+2022-07-28 17:25:22,884: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow 監視
+2022-07-28 17:25:22,908: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > CTA レポート
+2022-07-28 17:25:22,941: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:22,942: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow
+2022-07-28 17:25:22,942: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow Report
+2022-07-28 17:25:22,942: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow Monitor
+2022-07-28 17:25:22,943: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > CTA Report
+2022-07-28 17:25:22,943: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 4
+2022-07-28 17:25:23,643: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:23,662: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SDWAN 監視
+2022-07-28 17:25:23,682: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SD-WAN 接続
+2022-07-28 17:25:23,702: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:23,702: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SDWAN
+2022-07-28 17:25:23,704: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SDWAN Monitor
+2022-07-28 17:25:23,704: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SD-WAN Connections
+2022-07-28 17:25:23,704: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:25:26,449: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:26,469: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > システム ログ
+2022-07-28 17:25:26,494: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 監査ログ
+2022-07-28 17:25:26,515: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:26,516: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Logs
+2022-07-28 17:25:26,516: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > System Logs
+2022-07-28 17:25:26,516: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Auditing Logs
+2022-07-28 17:25:26,516: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:25:28,971: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:28,999: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > パケット監視
+2022-07-28 17:25:29,024: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 接続
+2022-07-28 17:25:29,074: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > コア 0 プロセス
+2022-07-28 17:25:29,138: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > パケット再生
+2022-07-28 17:25:29,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:29,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Tools & Monitors
+2022-07-28 17:25:29,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Packet Monitor
+2022-07-28 17:25:29,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Connections
+2022-07-28 17:25:29,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Core 0 Processes
+2022-07-28 17:25:29,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Packet Replay
+2022-07-28 17:25:29,184: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:25:29,207: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data updated!
+2022-07-28 17:25:29,207: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Top menu 'MONITOR' is done!
+2022-07-28 17:25:31,517: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:31,561: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ライセンス
+2022-07-28 17:25:31,587: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 管理
+2022-07-28 17:25:31,608: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 時間
+2022-07-28 17:25:31,627: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 証明書
+2022-07-28 17:25:31,651: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SNMP
+2022-07-28 17:25:31,670: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ファームウェアと設定
+2022-07-28 17:25:31,691: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 記憶装置
+2022-07-28 17:25:31,713: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 再起動
+2022-07-28 17:25:31,796: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:31,797: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings (TOP)
+2022-07-28 17:25:31,797: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Licenses
+2022-07-28 17:25:31,797: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Administration
+2022-07-28 17:25:31,797: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Time
+2022-07-28 17:25:31,797: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Certificates
+2022-07-28 17:25:31,798: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SNMP
+2022-07-28 17:25:31,798: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Firmware and Settings
+2022-07-28 17:25:31,798: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Storage
+2022-07-28 17:25:31,798: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Restart
+2022-07-28 17:25:31,798: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 9
+2022-07-28 17:25:34,795: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:34,822: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 状況
+2022-07-28 17:25:34,844: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 設定
+2022-07-28 17:25:34,865: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 詳細
+2022-07-28 17:25:34,887: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 監視
+2022-07-28 17:25:34,924: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:34,924: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > High Availability
+2022-07-28 17:25:34,925: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Status
+2022-07-28 17:25:34,925: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:25:34,925: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Advanced
+2022-07-28 17:25:34,926: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Monitoring
+2022-07-28 17:25:34,926: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:25:38,019: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:38,040: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 状況
+2022-07-28 17:25:38,059: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 設定
+2022-07-28 17:25:38,080: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > パーティション
+2022-07-28 17:25:38,100: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ローカル ユーザとグループ
+2022-07-28 17:25:38,125: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ゲスト サービス
+2022-07-28 17:25:38,145: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ゲスト アカウント
+2022-07-28 17:25:38,167: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ゲスト状況
+2022-07-28 17:25:38,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:38,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Users
+2022-07-28 17:25:38,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Status
+2022-07-28 17:25:38,258: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:25:38,258: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Partitions
+2022-07-28 17:25:38,258: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Local Users & Groups
+2022-07-28 17:25:38,258: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Guest Services
+2022-07-28 17:25:38,258: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Guest Accounts
+2022-07-28 17:25:38,259: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Guest Status
+2022-07-28 17:25:38,259: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 8
+2022-07-28 17:25:41,172: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:41,193: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > フロー報告
+2022-07-28 17:25:41,212: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow エージェント
+2022-07-28 17:25:41,233: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:41,234: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow
+2022-07-28 17:25:41,235: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Flow Reporting
+2022-07-28 17:25:41,235: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow Agent
+2022-07-28 17:25:41,235: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:25:43,840: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:43,894: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 設定
+2022-07-28 17:25:43,916: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Syslog
+2022-07-28 17:25:44,129: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 自動化
+2022-07-28 17:25:44,150: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 名前解決
+2022-07-28 17:25:44,172: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > レポート
+2022-07-28 17:25:44,197: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AWS
+2022-07-28 17:25:44,256: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:44,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Log
+2022-07-28 17:25:44,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:25:44,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Syslog
+2022-07-28 17:25:44,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Automation
+2022-07-28 17:25:44,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Name Resolution
+2022-07-28 17:25:44,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Reports
+2022-07-28 17:25:44,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AWS
+2022-07-28 17:25:44,258: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 7
+2022-07-28 17:25:47,227: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:47,249: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > テクニカル サポート レポート
+2022-07-28 17:25:47,271: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ネットワーク設定の確認
+2022-07-28 17:25:47,296: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > DNS 名の調査
+2022-07-28 17:25:47,318: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ネットワーク パス
+2022-07-28 17:25:47,341: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Ping
+2022-07-28 17:25:47,362: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ルート追跡
+2022-07-28 17:25:47,382: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > リアルタイム ブラックリスト
+2022-07-28 17:25:47,403: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 逆引き名前調査
+2022-07-28 17:25:47,422: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 上位接続
+2022-07-28 17:25:47,443: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 地域とボットネット
+2022-07-28 17:25:47,462: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > MX とバナー
+2022-07-28 17:25:47,483: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > グリッド確認
+2022-07-28 17:25:47,503: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > URL 格付け要求
+2022-07-28 17:25:47,522: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > PMTU 検出
+2022-07-28 17:25:47,541: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > スイッチ診断
+2022-07-28 17:25:47,697: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:47,697: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Diagnostics
+2022-07-28 17:25:47,698: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Tech Support Report
+2022-07-28 17:25:47,698: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Check Network Settings
+2022-07-28 17:25:47,698: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > DNS Name Lookup
+2022-07-28 17:25:47,698: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Network Path
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Ping
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Trace Route
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Real-Time Blacklist
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Reverse Name Lookup
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Connection TopX
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Geo and Botnet
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > MX and Banner
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > GRID Check
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > URL Rating Request
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > PMTU Discovery
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Switch Diagnostics
+2022-07-28 17:25:47,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 16
+2022-07-28 17:25:50,685: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:50,706: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 概要
+2022-07-28 17:25:50,725: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > スイッチ
+2022-07-28 17:25:50,746: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:50,746: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Switch Network
+2022-07-28 17:25:50,747: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Overview
+2022-07-28 17:25:50,747: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Switches
+2022-07-28 17:25:50,747: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:25:51,469: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > -------------------------------------------------
+2022-07-28 17:25:51,491: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 設定
+2022-07-28 17:25:51,511: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ファームウェア管理
+2022-07-28 17:25:51,541: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > フロア プランの表示
+2022-07-28 17:25:51,563: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ステーション状況
+2022-07-28 17:25:51,584: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > IDS
+2022-07-28 17:25:51,604: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 高度な IDP
+2022-07-28 17:25:51,625: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > パケット キャプチャ
+2022-07-28 17:25:51,644: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 仮想アクセス ポイント
+2022-07-28 17:25:51,662: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF 監視
+2022-07-28 17:25:51,683: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF 解析
+2022-07-28 17:25:51,704: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF スペクトラム
+2022-07-28 17:25:51,724: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > FairNet
+2022-07-28 17:25:51,743: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Wi-Fi マルチメディア
+2022-07-28 17:25:51,765: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 3G/4G/LTE WWAN
+2022-07-28 17:25:51,785: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Bluetooth LE
+2022-07-28 17:25:51,804: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 無線管理
+2022-07-28 17:25:51,980: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:51,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Access Points
+2022-07-28 17:25:51,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:25:51,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Firmware Management
+2022-07-28 17:25:51,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Floor Plan View
+2022-07-28 17:25:51,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Station Status
+2022-07-28 17:25:51,981: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > IDS
+2022-07-28 17:25:51,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Advanced IDP
+2022-07-28 17:25:51,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Packet Capture
+2022-07-28 17:25:51,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Virtual Access Point
+2022-07-28 17:25:51,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF Monitoring
+2022-07-28 17:25:51,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF Analysis
+2022-07-28 17:25:51,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF Spectrum
+2022-07-28 17:25:51,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > FairNet
+2022-07-28 17:25:51,983: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Wi-Fi Multimedia
+2022-07-28 17:25:51,983: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 3G/4G/LTE WWAN
+2022-07-28 17:25:51,983: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Bluetooth LE
+2022-07-28 17:25:51,983: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Radio Management
+2022-07-28 17:25:51,983: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 17
+2022-07-28 17:25:52,727: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:25:52,727: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > WWAN
+2022-07-28 17:25:52,727: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 1
+2022-07-28 17:25:52,782: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data updated!
+2022-07-28 17:25:52,783: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Top menu 'DEVICE' is done!
+2022-07-28 17:25:53,447: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > [Pass]Take screenshot...
+2022-07-28 17:27:26,119: - INFO - Test_NavData_JPN: beforeClass > Before Navigate To...https://10.8.162.157[JPN]
+2022-07-28 17:27:26,371: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > Login to main page...
+2022-07-28 17:27:37,095: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > [Pass]Take screenshot...
+2022-07-28 17:27:37,280: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Switch to 'Non-Config' mode...
+2022-07-28 17:27:37,498: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data created!
+2022-07-28 17:27:41,095: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:41,095: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Dashboard
+2022-07-28 17:27:41,096: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > System
+2022-07-28 17:27:41,096: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Access Points
+2022-07-28 17:27:41,096: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Capture ATP
+2022-07-28 17:27:41,096: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Topology
+2022-07-28 17:27:41,096: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:27:41,921: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:41,922: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Legal Information
+2022-07-28 17:27:41,922: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 1
+2022-07-28 17:27:42,692: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:42,692: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > API
+2022-07-28 17:27:42,692: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 1
+2022-07-28 17:27:43,053: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data updated!
+2022-07-28 17:27:43,054: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Top menu 'HOME' is done!
+2022-07-28 17:27:45,872: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:45,872: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Real-Time Charts
+2022-07-28 17:27:45,873: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > System Monitor
+2022-07-28 17:27:45,873: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Protocol Monitor
+2022-07-28 17:27:45,873: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > User Monitor
+2022-07-28 17:27:45,873: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > BWM Monitor
+2022-07-28 17:27:45,874: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:27:48,567: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:48,568: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow
+2022-07-28 17:27:48,568: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow Report
+2022-07-28 17:27:48,568: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow Monitor
+2022-07-28 17:27:48,568: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > CTA Report
+2022-07-28 17:27:48,569: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 4
+2022-07-28 17:27:49,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:49,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SDWAN
+2022-07-28 17:27:49,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SDWAN Monitor
+2022-07-28 17:27:49,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SD-WAN Connections
+2022-07-28 17:27:49,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:27:52,285: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:52,286: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Logs
+2022-07-28 17:27:52,286: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > System Logs
+2022-07-28 17:27:52,286: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Auditing Logs
+2022-07-28 17:27:52,287: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:27:54,825: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:54,825: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Tools & Monitors
+2022-07-28 17:27:54,826: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Packet Monitor
+2022-07-28 17:27:54,826: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Connections
+2022-07-28 17:27:54,826: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Core 0 Processes
+2022-07-28 17:27:54,826: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Packet Replay
+2022-07-28 17:27:54,827: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:27:54,851: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data updated!
+2022-07-28 17:27:54,852: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Top menu 'MONITOR' is done!
+2022-07-28 17:27:57,680: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:27:57,681: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings (TOP)
+2022-07-28 17:27:57,681: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Licenses
+2022-07-28 17:27:57,681: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Administration
+2022-07-28 17:27:57,681: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Time
+2022-07-28 17:27:57,681: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Certificates
+2022-07-28 17:27:57,682: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > SNMP
+2022-07-28 17:27:57,682: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Firmware and Settings
+2022-07-28 17:27:57,682: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Storage
+2022-07-28 17:27:57,682: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Restart
+2022-07-28 17:27:57,682: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 9
+2022-07-28 17:28:00,600: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:00,601: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > High Availability
+2022-07-28 17:28:00,601: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Status
+2022-07-28 17:28:00,601: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:28:00,602: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Advanced
+2022-07-28 17:28:00,602: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Monitoring
+2022-07-28 17:28:00,602: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 5
+2022-07-28 17:28:03,519: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:03,519: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Users
+2022-07-28 17:28:03,520: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Status
+2022-07-28 17:28:03,520: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:28:03,520: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Partitions
+2022-07-28 17:28:03,520: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Local Users & Groups
+2022-07-28 17:28:03,520: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Guest Services
+2022-07-28 17:28:03,520: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Guest Accounts
+2022-07-28 17:28:03,521: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Guest Status
+2022-07-28 17:28:03,521: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 8
+2022-07-28 17:28:06,336: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:06,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow
+2022-07-28 17:28:06,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Flow Reporting
+2022-07-28 17:28:06,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AppFlow Agent
+2022-07-28 17:28:06,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:28:09,525: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:09,525: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Log
+2022-07-28 17:28:09,525: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:28:09,526: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Syslog
+2022-07-28 17:28:09,526: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Automation
+2022-07-28 17:28:09,526: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Name Resolution
+2022-07-28 17:28:09,526: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Reports
+2022-07-28 17:28:09,526: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > AWS
+2022-07-28 17:28:09,527: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 7
+2022-07-28 17:28:13,108: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:13,108: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Diagnostics
+2022-07-28 17:28:13,108: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Tech Support Report
+2022-07-28 17:28:13,108: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Check Network Settings
+2022-07-28 17:28:13,109: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > DNS Name Lookup
+2022-07-28 17:28:13,109: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Network Path
+2022-07-28 17:28:13,109: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Ping
+2022-07-28 17:28:13,109: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Trace Route
+2022-07-28 17:28:13,109: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Real-Time Blacklist
+2022-07-28 17:28:13,109: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Reverse Name Lookup
+2022-07-28 17:28:13,110: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Connection TopX
+2022-07-28 17:28:13,110: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Geo and Botnet
+2022-07-28 17:28:13,110: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > MX and Banner
+2022-07-28 17:28:13,110: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > GRID Check
+2022-07-28 17:28:13,111: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > URL Rating Request
+2022-07-28 17:28:13,111: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > PMTU Discovery
+2022-07-28 17:28:13,111: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Switch Diagnostics
+2022-07-28 17:28:13,111: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 16
+2022-07-28 17:28:15,964: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:15,964: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Switch Network
+2022-07-28 17:28:15,965: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Overview
+2022-07-28 17:28:15,965: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Switches
+2022-07-28 17:28:15,965: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 3
+2022-07-28 17:28:17,032: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:17,034: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Access Points
+2022-07-28 17:28:17,034: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Settings
+2022-07-28 17:28:17,034: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Firmware Management
+2022-07-28 17:28:17,034: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Floor Plan View
+2022-07-28 17:28:17,034: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Station Status
+2022-07-28 17:28:17,035: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > IDS
+2022-07-28 17:28:17,035: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Advanced IDP
+2022-07-28 17:28:17,035: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Packet Capture
+2022-07-28 17:28:17,035: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Virtual Access Point
+2022-07-28 17:28:17,036: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF Monitoring
+2022-07-28 17:28:17,036: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF Analysis
+2022-07-28 17:28:17,036: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > RF Spectrum
+2022-07-28 17:28:17,036: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > FairNet
+2022-07-28 17:28:17,036: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Wi-Fi Multimedia
+2022-07-28 17:28:17,037: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 3G/4G/LTE WWAN
+2022-07-28 17:28:17,037: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Bluetooth LE
+2022-07-28 17:28:17,037: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Radio Management
+2022-07-28 17:28:17,037: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 17
+2022-07-28 17:28:17,829: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > =================================================
+2022-07-28 17:28:17,830: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > WWAN
+2022-07-28 17:28:17,830: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 1
+2022-07-28 17:28:17,884: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Data updated!
+2022-07-28 17:28:17,884: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > Top menu 'DEVICE' is done!
+2022-07-28 17:28:18,271: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > [Pass]Take screenshot...
