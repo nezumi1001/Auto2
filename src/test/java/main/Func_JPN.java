@@ -147,11 +147,11 @@ public class Func_JPN {
 
 	// Wait element (short time) > preempt
 	public WebElement wait_element_short(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 15);
 		try {
 			if (type.equals("xpath")) {
-//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(path)));
+//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
 			}
 		} catch (Exception e) {
 			return null;
@@ -161,7 +161,7 @@ public class Func_JPN {
 
 	// Wait element (long time)
 	public WebElement wait_element(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		try {
 			if (type.equals("id")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(path)));
@@ -203,33 +203,26 @@ public class Func_JPN {
 	}
 
 	// Expand menu
-	public List<String> expand_menu(List<WebElement> expand_Menus, String top_menu, String top_parent)
-			throws InterruptedException {
+	public List<String> expand_menu(List<WebElement> expand_Menus, String top_menu) throws InterruptedException {
 		List<String> actual_data = new ArrayList<String>();
 
-		// [T] Sub menu text (before)
-//		if (expand_Menus != null) {
-//			log_message(class_name, "-------------------------------------------------");
-//			for (WebElement expand_Menu : expand_Menus) {
-//				log_message(class_name, expand_Menu.getText());
-//			}
-//		}
-
-		// Add parent menu
-		actual_data.add(top_parent);
-
 		// Switch menu JPN > ENG
-		if (expand_Menus != null) {
-			for (WebElement expand_Menu_text : expand_Menus) {
-				actual_data.add(switch_menu(expand_Menu_text.getText(), top_menu));
+		for (WebElement expand_Menu_text : expand_Menus) {
+			actual_data.add(switch_menu(expand_Menu_text.getText(), top_menu));
+		}
+
+		// --- Reset each main menu >> xx (TOP) ---
+		log_message(class_name, "========================================================================");
+		for (int j = 0; j < actual_data.size(); j++) {
+			// "DEVICE > Settings" >> "DEVICE > Settings (TOP)"
+			if (actual_data.get(j).equals("Settings") && actual_data.get(j + 1).equals("Licenses")) {
+				actual_data.set(j, "Settings (TOP)");
+				log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Settings >> Settings (TOP)");
 			}
 		}
 
-		// [T] Sub menu text (after)
-		log_message(class_name, "=================================================");
-		for (String actualData : actual_data) {
-			log_message(class_name, actualData);
-		}
+		// [T] Sub menu text
+		log_message(class_name, "========================================================================");
 		log_message(class_name, "ALL MENU: " + actual_data.size());
 
 		return actual_data;
@@ -321,38 +314,64 @@ public class Func_JPN {
 
 	// VS menu
 	public String switch_menu(String text_JPN, String top_menu) throws InterruptedException {
+		String text_ENG = null;
 		// --- Add menu JPN >> ENG ---
 		// HOME
 		if (top_menu.equals("HOME")) {
 			for (int i = 0; i < iData_JPN.leftPane_HOME.length; i++) {
 				if (iData_JPN.leftPane_HOME[i][0].equals(text_JPN)) {
-					text_JPN = iData_JPN.leftPane_HOME[i][1];
+					text_ENG = iData_JPN.leftPane_HOME[i][1];
 				}
 			}
-//			log_message(class_name, "'" + top_menu + "'" + " Change sub closed menu >> " + text_JPN);
 		}
 
 		// MONITOR
 		if (top_menu.equals("MONITOR")) {
 			for (int i = 0; i < iData_JPN.leftPane_MONITOR.length; i++) {
 				if (iData_JPN.leftPane_MONITOR[i][0].equals(text_JPN)) {
-					text_JPN = iData_JPN.leftPane_MONITOR[i][1];
+					text_ENG = iData_JPN.leftPane_MONITOR[i][1];
 				}
 			}
-//			log_message(class_name, "'" + top_menu + "'" + " Change sub closed menu >> " + text_JPN);
 		}
 
 		// DEVICE
 		if (top_menu.equals("DEVICE")) {
 			for (int i = 0; i < iData_JPN.leftPane_DEVICE.length; i++) {
 				if (iData_JPN.leftPane_DEVICE[i][0].equals(text_JPN)) {
-					text_JPN = iData_JPN.leftPane_DEVICE[i][1];
+					text_ENG = iData_JPN.leftPane_DEVICE[i][1];
 				}
 			}
-//					log_message(class_name, "'" + top_menu + "'" + " Change sub closed menu >> " + text_JPN);
 		}
 
-		return text_JPN;
+		// NETWORK
+		if (top_menu.equals("NETWORK")) {
+			for (int i = 0; i < iData_JPN.leftPane_NETWORK.length; i++) {
+				if (iData_JPN.leftPane_NETWORK[i][0].equals(text_JPN)) {
+					text_ENG = iData_JPN.leftPane_NETWORK[i][1];
+				}
+			}
+		}
+
+		// OBJECT
+		if (top_menu.equals("OBJECT")) {
+			for (int i = 0; i < iData_JPN.leftPane_OBJECT.length; i++) {
+				if (iData_JPN.leftPane_OBJECT[i][0].equals(text_JPN)) {
+					text_ENG = iData_JPN.leftPane_OBJECT[i][1];
+				}
+			}
+		}
+
+		// POLICY
+		if (top_menu.equals("POLICY")) {
+			for (int i = 0; i < iData_JPN.leftPane_POLICY.length; i++) {
+				if (iData_JPN.leftPane_POLICY[i][0].equals(text_JPN)) {
+					text_ENG = iData_JPN.leftPane_POLICY[i][1];
+				}
+			}
+		}
+
+		log_message(class_name, "'" + top_menu + "'" + " Menu: " + text_JPN + " >> " + text_ENG);
+		return text_ENG;
 	}
 
 }

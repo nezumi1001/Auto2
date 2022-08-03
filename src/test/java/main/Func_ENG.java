@@ -18,6 +18,7 @@ import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -31,7 +32,6 @@ import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.ExtentTest;
 import com.relevantcodes.extentreports.LogStatus;
 
-import info.iData_ENG;
 import test.Test_NavData_ENG;
 
 public class Func_ENG {
@@ -146,7 +146,7 @@ public class Func_ENG {
 
 	// Wait element (short time) > preempt
 	public WebElement wait_element_short(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebDriverWait wait = new WebDriverWait(driver, 15);
 		try {
 			if (type.equals("xpath")) {
 //				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
@@ -160,7 +160,7 @@ public class Func_ENG {
 
 	// Wait element (long time)
 	public WebElement wait_element(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 20);
+		WebDriverWait wait = new WebDriverWait(driver, 30);
 		try {
 			if (type.equals("id")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(path)));
@@ -195,77 +195,34 @@ public class Func_ENG {
 		return ges;
 	}
 
+	// JS click
+	public void js_click(WebElement parent_menu) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].click();", parent_menu);
+	}
+
 	// Expand menu
 	public List<String> expand_menu(List<WebElement> expand_Menus, String top_menu) throws InterruptedException {
 		List<String> actual_data = new ArrayList<String>();
-		log_message(class_name,
-				"'" + top_menu + "'" + " has sub closed menu " + "(" + expand_Menus.size() + ")" + ". Please wait...");
 
-		// Show DarkMenu_LeftPane_path menus (not opened)
+		// Add menu ENG
 		for (WebElement expand_Menu_text : expand_Menus) {
-			log_message(class_name, expand_Menu_text.getText());
+			actual_data.add(expand_Menu_text.getText());
+			log_message(class_name, "'" + top_menu + "'" + " Menu: " + expand_Menu_text.getText());
 		}
 
-		log_message(class_name, "*************************************************");
-
-		// Add not opened menus to the list
-		int leftPaneMenus_minus_temp = 1;
-		for (int i = expand_Menus.size() - 1; i >= 0; i--) {
-			Boolean isCheck = expand_Menus.get(i).isSelected();
-			if (!isCheck) {
-				// Click sub closed menu
-				List<WebElement> leftPaneMenus_before = find_elements("xpath", iData_ENG.LeftPane_path);
-				int leftPaneMenus_before_no = leftPaneMenus_before.size();
-				expand_Menus.get(i).click();
-				log_message(class_name, ">>>>>>>>>>>>>>>>>>>");
-				log_message(class_name, expand_Menus.get(i).getText() + " is clicked!");
-				Thread.sleep(1000);
-
-				// Add sub closed menu to the list
-				List<WebElement> leftPaneMenus_after = find_elements("xpath", iData_ENG.LeftPane_path);
-				int leftPaneMenus_after_no = leftPaneMenus_after.size();
-				int leftPaneMenus_minus = leftPaneMenus_after_no - leftPaneMenus_before_no;
-				log_message(class_name, "'" + top_menu + "'" + " sub-menu " + expand_Menus.get(i).getText() + " total: "
-						+ leftPaneMenus_minus);
-				for (int k = leftPaneMenus_after_no - leftPaneMenus_minus
-						- leftPaneMenus_minus_temp; k <= leftPaneMenus_after_no - leftPaneMenus_minus_temp; k++) {
-					log_message(class_name, "Menu Index: " + k);
-					log_message(class_name, "Add sub closed menu: " + leftPaneMenus_after.get(k).getText());
-
-					// Add sub closed menu ENG
-					actual_data.add(leftPaneMenus_after.get(k).getText());
-				}
-				leftPaneMenus_minus_temp += leftPaneMenus_minus + 1;
-			}
-		}
-
-		// Count the number of all left pane menus
-		wait_element("xpath", iData_ENG.LeftPane_path);
-		List<WebElement> leftPaneMenus = find_elements("xpath", iData_ENG.LeftPane_path);
-		int leftPaneMenus_no = leftPaneMenus.size();
-
-		log_message(class_name, "+++++++++++++++++++++++++++++++++++++++++++++++++");
-
-		// Add top opened menu to the list
-		int topPaneMenus_no = leftPaneMenus_no - actual_data.size();
-		for (int t = 0; t < topPaneMenus_no; t++) {
-			log_message(class_name, "Add top opened menu: " + leftPaneMenus.get(t).getText());
-			// Add top opened menu ENG
-			actual_data.add(leftPaneMenus.get(t).getText());
-		}
-
-		// Show all left pane menu
-		log_message(class_name, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@");
+		// --- Reset each main menu >> xx (TOP) ---
+		log_message(class_name, "========================================================================");
 		for (int j = 0; j < actual_data.size(); j++) {
-			// --- Reset each main menu >> xx (TOP) ---
 			// "DEVICE > Settings" >> "DEVICE > Settings (TOP)"
 			if (actual_data.get(j).equals("Settings") && actual_data.get(j + 1).equals("Licenses")) {
 				actual_data.set(j, "Settings (TOP)");
+				log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Settings >> Settings (TOP)");
 			}
-			log_message(class_name, "MENU: " + actual_data.get(j));
 		}
 
-		// Show all left pane menu no
+		// [T] Sub menu text
+		log_message(class_name, "========================================================================");
 		log_message(class_name, "ALL MENU: " + actual_data.size());
 
 		return actual_data;

@@ -20,141 +20,111 @@ import main.Func_ENG;
 public class Test_NavData_ENG {
 	private Func_ENG mf;
 	private WebDriver driver;
-	private List<String> actualData;
 	private int Preempt;
 
 	@BeforeClass
 	public void beforeClass() throws InterruptedException, IOException {
-		// [A]ChromeDriver Settings
+		// [S]ChromeDriver Settings
 		System.setProperty(iData_ENG.chromeDriver_data[0], iData_ENG.chromeDriver_data[1]);
 		ChromeOptions chromOptions = new ChromeOptions();
-		chromOptions.addArguments("--user-data-dir=C:\\Users\\khuang\\AppData\\Local\\Google\\Chrome\\User Data2");
-		chromOptions.addArguments("--start-maximized", "--ignore-certificate-errors", "--lang=en-US");
-		chromOptions.addArguments("--incognito");
-//		chromOptions.addArguments("disable-infobars");
+		chromOptions.addArguments(iData_ENG.Chrome_userData);
+		chromOptions.addArguments("--lang=en-US", "--incognito", "--ignore-certificate-errors");
+//		chromOptions.addArguments("window-size=1920, 1080");
+		chromOptions.addArguments("window-size=1920, 1500");
+		chromOptions.addArguments("--headless");
 		driver = new ChromeDriver(chromOptions);
 		driver.get(iData_ENG.baseUrl);
 		mf = new Func_ENG(driver);
 		mf.start_exReport();
-		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
-				"Before Navigate To..." + iData_ENG.baseUrl + "[ENG]");
+		mf.log_message(this.getClass().getName(), "Before Navigate To..." + iData_ENG.baseUrl + "[ENG]");
+	}
+
+	// Box info
+	public void box_info() throws IOException {
+		List<String> info_ENGs = new ArrayList<String>();
+		// [A]Go to DEVICE > Settings
+		driver.get(iData_ENG.FirmwareSettings_url);
+		// [A]Fix Box & SN shows unknown
+		mf.wait_element("xpath", iData_ENG.Version_path_01);
+		// [A]Get info
+		String Box_ENG = mf.wait_element("xpath", iData_ENG.Box_path).getText();
+		String SN_ENG = mf.wait_element("xpath", iData_ENG.SN_path).getText();
+		String Version_ENG = mf.wait_element("xpath", iData_ENG.Version_path_02).getText();
+		info_ENGs.add(Box_ENG);
+		info_ENGs.add(SN_ENG);
+		info_ENGs.add(Version_ENG);
+		// [D]Create info >> Excel
+		mf.create_info();
+		mf.log_message(this.getClass().getName(), "Info created for [ENG]!");
+		// [D]Update info >> Excel
+		mf.update_info(info_ENGs, 0);
+		mf.log_message(this.getClass().getName(), "Info updated for [ENG]!");
 	}
 
 	// Actual data
-	public List<String> actual_data(String top_menu) throws InterruptedException {
-		// [M]Find and expand all menu (left pane)
-		mf.wait_element("xpath", iData_ENG.DarkMenu_LeftPane_path);
-		List<WebElement> expandMenus = mf.find_elements("xpath", iData_ENG.DarkMenu_LeftPane_path);
-		List<String> actual_data = mf.expand_menu(expandMenus, top_menu);
-		return actual_data;
-	}
+	public List<String> actual_data(String top_menu) throws InterruptedException, IOException {
+		List<String> actual_data = new ArrayList<String>();
 
-	// Click Top menu
-	public void top_menu_click(String topMenu) throws InterruptedException {
-		// [M]Click top menu > main menu > sub menu
-		if (topMenu.equals("HOME")) {
-			mf.wait_element("xpath", iData_ENG.HomeMenu_Top_path).click();
-			mf.wait_element("xpath", iData_ENG.HomeMenu_Dashboard_path).click();
-			mf.wait_element("xpath", iData_ENG.HomeMenu_System_path).click();
-			mf.wait_element("xpath", iData_ENG.HomeMenu_System_title_path);
+		// [A]Page redirect
+		for (int i = 0; i < iData_ENG.Menu_url.length; i++) {
+			if (iData_ENG.Menu_url[i][0].equals(top_menu)) {
+				driver.get(iData_ENG.Menu_url[i][1]);
+			}
 		}
-		if (topMenu.equals("MONITOR")) {
-			mf.wait_element("xpath", iData_ENG.MonitorMenu_Top_path).click();
-			mf.wait_element("xpath", iData_ENG.MonitorMenu_RealTimeCharts_path).click();
-			mf.wait_element("xpath", iData_ENG.MonitorMenu_SystemMonitor_path).click();
-			mf.wait_element("xpath", iData_ENG.MonitorMenu_SystemMonitor_title_path);
-		}
-		if (topMenu.equals("DEVICE")) {
-			mf.wait_element("xpath", iData_ENG.DeviceMenu_Top_path).click();
-			mf.wait_element("xpath", iData_ENG.DeviceMenu_Settings_path).click();
-			mf.wait_element("xpath", iData_ENG.DeviceMenu_Licenses_path).click();
-			mf.wait_element("xpath", iData_ENG.DeviceMenu_Licenses_title_path);
-		}
-		if (topMenu.equals("NETWORK")) {
-			mf.wait_element("xpath", iData_ENG.NetworkMenu_Top_path).click();
-			mf.wait_element("xpath", iData_ENG.NetworkMenu_System_path).click();
-			mf.wait_element("xpath", iData_ENG.NetworkMenu_Interfaces_path).click();
-			mf.wait_element("xpath", iData_ENG.NetworkMenu_Interfaces_title_path);
-		}
-		if (topMenu.equals("OBJECT")) {
-			mf.wait_element("xpath", iData_ENG.ObjectMenu_Top_path).click();
-			mf.wait_element("xpath", iData_ENG.ObjectMenu_MatchObjects_path).click();
-			mf.wait_element("xpath", iData_ENG.ObjectMenu_Zones_path).click();
-			mf.wait_element("xpath", iData_ENG.ObjectMenu_Zones_title_path);
-		}
-		if (topMenu.equals("POLICY")) {
-			mf.wait_element("xpath", iData_ENG.PolicyMenu_Top_path).click();
-			mf.wait_element("xpath", iData_ENG.PolicyMenu_RulesPolicies_path).click();
-			mf.wait_element("xpath", iData_ENG.PolicyMenu_AccessRules_path).click();
-			mf.wait_element("xpath", iData_ENG.PolicyMenu_AccessRules_title_path);
-		}
+
+		// [A]Expand page
+		mf.wait_element("xpath", iData_ENG.DarkMenu_LeftPane_path);
+		List<WebElement> Menu_darks = mf.find_elements("xpath", iData_ENG.DarkMenu_LeftPane_path);
+		for (WebElement Menu_dark : Menu_darks)
+			mf.js_click(Menu_dark);
+		mf.wait_element("xpath", iData_ENG.SubMenu_nested);
+		List<WebElement> Menu_alls = mf.find_elements("xpath", iData_ENG.LeftPane_path);
+		actual_data.addAll(mf.expand_menu(Menu_alls, top_menu));
+		return actual_data;
 	}
 
 	@Test
 	public void test_Step01_Login_ENG() throws Exception {
-		// [A]Enter "Username"
+		// [A]Enter Username
 		mf.wait_element("xpath", iData_ENG.userName_path).sendKeys(iData_ENG.login_name);
-		// [A]Enter "Password"
+		// [A]Enter Password
 		mf.wait_element("xpath", iData_ENG.password_path).sendKeys(iData_ENG.login_pass);
-		// [A]Click "ログイン"
-		mf.wait_element("xpath", iData_ENG.login_path).click();
-		// [L]Log
-		mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Login to main page...");
+		// [A]Click LOGIN
+		mf.js_click(mf.wait_element("xpath", iData_ENG.login_path));
+		mf.log_message(this.getClass().getName(), "Login to main page...");
 		// [A]Preempt
 		if (mf.wait_element_short("xpath", iData_ENG.preempt_path) != null) {
-			mf.wait_element("xpath", iData_ENG.preempt_path).click();
-			mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Preempt the box...");
+			mf.js_click(mf.wait_element("xpath", iData_ENG.preempt_path));
+			mf.log_message(this.getClass().getName(), "Preempt the box...");
 			Preempt = 1;
 		}
 	}
 
 	@Test
 	public void test_Step02_MenuTop_ENG() throws Exception {
+		List<String> actualData;
 		String[] topMenus = { "HOME", "MONITOR", "DEVICE", "NETWORK", "OBJECT", "POLICY" };
 		// [A]Switch to "Non-Config" mode
 		if (Preempt == 0) {
-			mf.wait_element("xpath", iData_ENG.Config_path).click();
-			mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Switch to 'Non-Config' mode...");
+			mf.js_click(mf.wait_element("xpath", iData_ENG.Config_path));
+			mf.log_message(this.getClass().getName(), "Switch to 'Non-Config' mode...");
 		}
-		// [A]Run all top menu
-		for (int i = 0; i < topMenus.length; i++) {
-			// [A]Click e.g. ("HOME" > "Main menu" > "Sub menu")
-			top_menu_click(topMenus[i]);
-			// [A]Special for "HOME" menu
-			if (topMenus[i].equals("HOME")) {
-				// [A]Get info
-				String Device_Name_ENG = mf.wait_element("xpath", iData_ENG.Box_Name_path).getText();
-				String Serial_Number_ENG = mf.wait_element("xpath", iData_ENG.Serial_Number_path).getText();
-				String Firmware_Version_ENG = mf.wait_element("xpath", iData_ENG.Firmware_Version_path).getText();
-				List<String> info_ENGs = new ArrayList<String>();
-				info_ENGs.add(Device_Name_ENG);
-				info_ENGs.add(Serial_Number_ENG);
-				info_ENGs.add(Firmware_Version_ENG);
-				// [M]Create info >> Excel
-				mf.create_info();
-				// [L]Log
-				mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Got info for [ENG]!");
-				// [M]Update info >> Excel
-				mf.update_info(info_ENGs, 0);
-				// [M]Get compare data
-				actualData = actual_data(topMenus[i]);
-				// [M]Create data >> Excel
-				mf.create_data();
-				// [L]Log
-				mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data created!");
-			} else {
-				// [M]Get compare data
-				actualData = actual_data(topMenus[i]);
-			}
 
-			// [M]Update data >> Excel
+		// [D]Create data >> Excel
+		mf.create_data();
+		mf.log_message(this.getClass().getName(), "Data created for [ENG]!");
+
+		// [A]Access top menu
+		for (int i = 0; i < topMenus.length; i++) {
+			// [A]Click (e.g. "HOME")
+			actualData = actual_data(topMenus[i]);
+			// [D]Update data >> Excel
 			mf.update_data(actualData, i);
-			// [L]Log
-			mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(), "Data updated!");
-			// [L]Log
-			mf.log_message(Thread.currentThread().getStackTrace()[1].getMethodName(),
-					"Top menu " + "'" + topMenus[i] + "'" + " is done!");
+			mf.log_message(this.getClass().getName(), "Data updated for [ENG]!");
+			mf.log_message(this.getClass().getName(), "Top menu " + "'" + topMenus[i] + "'" + " is done!");
 		}
+		// [A]Get Box info
+		box_info();
 	}
 
 	@AfterMethod
