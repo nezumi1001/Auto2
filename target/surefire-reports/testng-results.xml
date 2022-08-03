@@ -2,10 +2,10 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Before Navigate To...https://10.103.50.133[JPN]]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.162.154[ENG]]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.162.154[ENG]]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Before Navigate To...https://10.8.162.159[JPN]]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]>
@@ -14,19 +14,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Login to main page...]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test_Step01_Login_JPN > [Pass]Take screenshot...]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Switch to 'Non-Config' mode...]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Data created for [JPN]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data created for [ENG]!]]>
@@ -215,10 +215,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: SD-WAN 接続 >> SD-WAN Connections]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ログ >> Logs]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: システム ログ >> System Logs]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Licenses]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 監査ログ >> Auditing Logs]]>
@@ -227,13 +233,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ツールと監視 >> Tools & Monitors]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Administration]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: パケット監視 >> Packet Monitor]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Time]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 接続 >> Connections]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: コア 0 プロセス >> Core 0 Processes]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Certificates]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: パケット再生 >> Packet Replay]]>
@@ -252,21 +267,6 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Top menu 'MONITOR' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Licenses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Administration]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Time]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Certificates]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: SNMP]]>
@@ -503,30 +503,6 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 再起動 >> Restart]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 内部無線 >> Internal Wireless]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: セキュリティ >> Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 詳細 >> Advanced]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: MAC フィルタ リスト >> MAC Filter List]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: IDS >> IDS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 仮想アクセス ポイント >> Virtual Access Point]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 高可用性 >> High Availability]]>
     </line>
     <line>
@@ -549,6 +525,9 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パーティション >> Partitions]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ローカル ユーザとグループ >> Local Users & Groups]]>
@@ -671,13 +650,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 高度な IDP >> Advanced IDP]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パケット キャプチャ >> Packet Capture]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 仮想アクセス ポイント >> Virtual Access Point]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF 監視 >> RF Monitoring]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF 解析 >> RF Analysis]]>
@@ -686,19 +674,31 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF スペクトラム >> RF Spectrum]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: FairNet >> FairNet]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Wi-Fi マルチメディア >> Wi-Fi Multimedia]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: ARP]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 3G/4G/LTE WWAN >> 3G/4G/LTE WWAN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Bluetooth LE >> Bluetooth LE]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 無線管理 >> Radio Management]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: WWAN >> WWAN]]>
@@ -713,37 +713,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 76]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 69]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Top menu 'DEVICE' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: ARP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PoE Settings]]>
@@ -881,6 +860,78 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'NETWORK' is done!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Zones]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Services]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Schedules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Endpoint Security]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: AWS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 19]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'OBJECT' is done!]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: システム >> System]]>
     </line>
     <line>
@@ -968,6 +1019,21 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS セキュリティ >> DNS Security]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: スイッチング >> Switching]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN トランク >> VLAN Trunking]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: L2 発見 >> L2 Discovery]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: リンク統合 >> Link Aggregation]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ポート ミラーリング >> Port Mirroring]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SDWAN >> SDWAN]]>
     </line>
     <line>
@@ -1028,157 +1094,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 47]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 52]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Top menu 'NETWORK' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Zones]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Addresses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Services]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Schedules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Endpoint Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: AWS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 19]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'OBJECT' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: ゾーン >> Zones]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: アドレス >> Addresses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: サービス >> Services]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: URI リスト >> URI Lists]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: スケジュール >> Schedules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 動的グループ >> Dynamic Group]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 電子メール アドレス >> Email Addresses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: プロファイル オブジェクト >> Profile Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: エンドポイント セキュリティ >> Endpoint Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 帯域幅 >> Bandwidth]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: QoS 級割 >> QoS Marking]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタ >> Content Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: DHCP オプション >> DHCP Option]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: AWS >> AWS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 動作オブジェクト >> Action Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: アプリケーション ルールの動作 >> App Rule Actions]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタの動作 >> Content Filter Actions]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 19]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Top menu 'OBJECT' is done!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Rules and Policies]]>
@@ -1278,6 +1200,78 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: ゾーン >> Zones]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: アドレス >> Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: サービス >> Services]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: URI リスト >> URI Lists]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: スケジュール >> Schedules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 動的グループ >> Dynamic Group]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 電子メール アドレス >> Email Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: プロファイル オブジェクト >> Profile Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: エンドポイント セキュリティ >> Endpoint Security]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 帯域幅 >> Bandwidth]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: QoS 級割 >> QoS Marking]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタ >> Content Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: DHCP オプション >> DHCP Option]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: AWS >> AWS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 動作オブジェクト >> Action Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: アプリケーション ルールの動作 >> App Rule Actions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタの動作 >> Content Filter Actions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 19]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Top menu 'OBJECT' is done!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ルールとポリシー >> Rules and Policies]]>
@@ -1409,13 +1403,13 @@
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 270W]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> NSA 2700]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDA98900]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED8279E0]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5065-R2799-j3116]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5079-P3152-j3280]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
@@ -1433,57 +1427,51 @@
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Advanced]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > MAC Filter List]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > IDS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Virtual Access Point]]>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Users > Partitions]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > System > PoE Settings]]>
     </line>
+    <line>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > VLAN Trunking]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > L2 Discovery]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Link Aggregation]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Port Mirroring]]>
+    </line>
   </reporter-output>
-  <suite started-at="2022-08-03T15:37:11 CST" name="SonicWall TestSuite" finished-at="2022-08-03T15:37:55 CST" duration-ms="44055">
+  <suite started-at="2022-08-03T16:47:56 CST" name="SonicWall TestSuite" finished-at="2022-08-03T16:48:44 CST" duration-ms="48764">
     <groups>
     </groups>
-    <test started-at="2022-08-03T15:37:11 CST" name="Menu Test JPN/ENG" finished-at="2022-08-03T15:37:55 CST" duration-ms="43990">
+    <test started-at="2022-08-03T16:47:56 CST" name="Menu Test JPN/ENG" finished-at="2022-08-03T16:48:44 CST" duration-ms="48681">
       <class name="test.Test_NavData_ENG">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-08-03T15:37:11 CST" name="beforeClass" finished-at="2022-08-03T15:37:12 CST" duration-ms="1875" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-08-03T16:47:56 CST" name="beforeClass" finished-at="2022-08-03T16:47:58 CST" duration-ms="2083" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.162.154[ENG]]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-08-03T15:37:12 CST" name="test_Step01_Login_ENG" finished-at="2022-08-03T15:37:28 CST" duration-ms="15622" status="PASS">
+        <test-method signature="test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-08-03T16:47:58 CST" name="test_Step01_Login_ENG" finished-at="2022-08-03T16:48:13 CST" duration-ms="15534" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_Step01_Login_ENG -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-08-03T15:37:28 CST" name="afterMethod" finished-at="2022-08-03T15:37:28 CST" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-08-03T16:48:13 CST" name="afterMethod" finished-at="2022-08-03T16:48:13 CST" duration-ms="233" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba] output=[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]]>
+                <![CDATA[[TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b] output=[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]]>
               </value>
             </param>
           </params>
@@ -1493,7 +1481,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-08-03T15:37:28 CST" name="test_Step02_MenuTop_ENG" finished-at="2022-08-03T15:37:48 CST" duration-ms="20212" status="PASS">
+        <test-method signature="test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-08-03T16:48:13 CST" name="test_Step02_MenuTop_ENG" finished-at="2022-08-03T16:48:35 CST" duration-ms="21688" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]>
@@ -2172,11 +2160,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- test_Step02_MenuTop_ENG -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-08-03T15:37:49 CST" name="afterMethod" finished-at="2022-08-03T15:37:49 CST" duration-ms="188" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-08-03T16:48:35 CST" name="afterMethod" finished-at="2022-08-03T16:48:35 CST" duration-ms="303" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step02_MenuTop_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba] output=[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]]>
+                <![CDATA[[TestResult name=test_Step02_MenuTop_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b] output=[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]]>
               </value>
             </param>
           </params>
@@ -2186,31 +2174,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-08-03T15:37:49 CST" name="afterClass" finished-at="2022-08-03T15:37:52 CST" duration-ms="3293" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-08-03T16:48:35 CST" name="afterClass" finished-at="2022-08-03T16:48:39 CST" duration-ms="3347" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Test_NavData_ENG -->
       <class name="test.Test_NavData_JPN">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_JPN@37858383]" started-at="2022-08-03T15:37:11 CST" name="beforeClass" finished-at="2022-08-03T15:37:12 CST" duration-ms="1875" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-08-03T16:47:56 CST" name="beforeClass" finished-at="2022-08-03T16:47:58 CST" duration-ms="2083" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Before Navigate To...https://10.103.50.133[JPN]]]>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Before Navigate To...https://10.8.162.159[JPN]]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@37858383]" started-at="2022-08-03T15:37:12 CST" name="test_Step01_Login_JPN" finished-at="2022-08-03T15:37:28 CST" duration-ms="15623" status="PASS">
+        <test-method signature="test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-08-03T16:47:58 CST" name="test_Step01_Login_JPN" finished-at="2022-08-03T16:48:13 CST" duration-ms="15426" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Login to main page...]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_Step01_Login_JPN -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@37858383]" started-at="2022-08-03T15:37:28 CST" name="afterMethod" finished-at="2022-08-03T15:37:28 CST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-08-03T16:48:13 CST" name="afterMethod" finished-at="2022-08-03T16:48:13 CST" duration-ms="192" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step01_Login_JPN status=SUCCESS method=Test_NavData_JPN.test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@37858383] output=[S]ReportLog >> test.Test_NavData_JPN > Login to main page...]]]>
+                <![CDATA[[TestResult name=test_Step01_Login_JPN status=SUCCESS method=Test_NavData_JPN.test_Step01_Login_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659] output=[S]ReportLog >> test.Test_NavData_JPN > Login to main page...]]]>
               </value>
             </param>
           </params>
@@ -2220,7 +2208,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test_Step02_MenuTop_JPN()[pri:0, instance:test.Test_NavData_JPN@37858383]" started-at="2022-08-03T15:37:28 CST" name="test_Step02_MenuTop_JPN" finished-at="2022-08-03T15:37:51 CST" duration-ms="22949" status="PASS">
+        <test-method signature="test_Step02_MenuTop_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-08-03T16:48:13 CST" name="test_Step02_MenuTop_JPN" finished-at="2022-08-03T16:48:41 CST" duration-ms="27581" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Switch to 'Non-Config' mode...]]>
@@ -2367,30 +2355,6 @@
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 再起動 >> Restart]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 内部無線 >> Internal Wireless]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: セキュリティ >> Security]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 詳細 >> Advanced]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: MAC フィルタ リスト >> MAC Filter List]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: IDS >> IDS]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 仮想アクセス ポイント >> Virtual Access Point]]>
-            </line>
-            <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 高可用性 >> High Availability]]>
             </line>
             <line>
@@ -2413,6 +2377,9 @@
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パーティション >> Partitions]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ローカル ユーザとグループ >> Local Users & Groups]]>
@@ -2577,7 +2544,7 @@
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 76]]>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 69]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!]]>
@@ -2673,6 +2640,21 @@
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS セキュリティ >> DNS Security]]>
             </line>
             <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: スイッチング >> Switching]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN トランク >> VLAN Trunking]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: L2 発見 >> L2 Discovery]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: リンク統合 >> Link Aggregation]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ポート ミラーリング >> Port Mirroring]]>
+            </line>
+            <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SDWAN >> SDWAN]]>
             </line>
             <line>
@@ -2733,7 +2715,7 @@
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ========================================================================]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 47]]>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 52]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!]]>
@@ -2920,11 +2902,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- test_Step02_MenuTop_JPN -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@37858383]" started-at="2022-08-03T15:37:51 CST" name="afterMethod" finished-at="2022-08-03T15:37:51 CST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-08-03T16:48:41 CST" name="afterMethod" finished-at="2022-08-03T16:48:41 CST" duration-ms="169" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step02_MenuTop_JPN status=SUCCESS method=Test_NavData_JPN.test_Step02_MenuTop_JPN()[pri:0, instance:test.Test_NavData_JPN@37858383] output=[S]ReportLog >> test.Test_NavData_JPN > Switch to 'Non-Config' mode...]]]>
+                <![CDATA[[TestResult name=test_Step02_MenuTop_JPN status=SUCCESS method=Test_NavData_JPN.test_Step02_MenuTop_JPN()[pri:0, instance:test.Test_NavData_JPN@4ef37659] output=[S]ReportLog >> test.Test_NavData_JPN > Switch to 'Non-Config' mode...]]]>
               </value>
             </param>
           </params>
@@ -2934,15 +2916,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_JPN@37858383]" started-at="2022-08-03T15:37:51 CST" name="afterClass" finished-at="2022-08-03T15:37:55 CST" duration-ms="3152" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_JPN@4ef37659]" started-at="2022-08-03T16:48:41 CST" name="afterClass" finished-at="2022-08-03T16:48:44 CST" duration-ms="3203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Test_NavData_JPN -->
     </test> <!-- Menu Test JPN/ENG -->
-    <test started-at="2022-08-03T15:37:55 CST" name="Menu Compare JPN/ENG" finished-at="2022-08-03T15:37:55 CST" duration-ms="43">
+    <test started-at="2022-08-03T16:48:44 CST" name="Menu Compare JPN/ENG" finished-at="2022-08-03T16:48:44 CST" duration-ms="57">
       <class name="test.Test_vsDATA">
-        <test-method signature="test_dataCompare()[pri:0, instance:test.Test_vsDATA@6821ea29]" started-at="2022-08-03T15:37:55 CST" name="test_dataCompare" finished-at="2022-08-03T15:37:55 CST" duration-ms="42" status="PASS">
+        <test-method signature="test_dataCompare()[pri:0, instance:test.Test_vsDATA@1f2f9244]" started-at="2022-08-03T16:48:44 CST" name="test_dataCompare" finished-at="2022-08-03T16:48:44 CST" duration-ms="54" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> box_JPN > Got data!]]>
@@ -2957,13 +2939,13 @@
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 270W]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> NSA 2700]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDA98900]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED8279E0]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5065-R2799-j3116]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5079-P3152-j3280]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
@@ -2981,31 +2963,25 @@
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Status]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Settings]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Security]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Advanced]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > MAC Filter List]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > IDS]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Internal Wireless > Virtual Access Point]]>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Users > Partitions]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > System > PoE Settings]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > VLAN Trunking]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > L2 Discovery]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Link Aggregation]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Port Mirroring]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_dataCompare -->

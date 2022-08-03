@@ -4,8 +4,8 @@ import java.io.File;
 
 public class iData_JPN {
 	// Box info
-	public static String baseUrl = "https://10.103.50.133"; // TZ 270W
-//	public static String baseUrl = "https://10.8.162.159"; // NSa 2700
+//	public static String baseUrl = "https://10.103.50.133"; // TZ 270W
+	public static String baseUrl = "https://10.8.162.159"; // NSa 2700
 //	public static String baseUrl = "https://10.8.162.169"; // TZ 570P
 
 	// ChromeDriver Settings
@@ -54,8 +54,8 @@ public class iData_JPN {
 	// ===================================================================================================================================================================================
 	// HOME
 	public static String[][] leftPane_HOME = { { "ダッシュボード", "Dashboard" }, { "システム", "System" },
-			{ "アクセス ポイント", "Access Points" }, { "キャプチャ ATP", "Capture ATP" }, { "Policy Overview", "Policy Overview" },
-			{ "トポロジ", "Topology" }, { "法的情報", "Legal Information" }, { "API", "API" } };
+			{ "アクセス ポイント", "Access Points" }, { "キャプチャ ATP", "Capture ATP" }, { "トポロジ", "Topology" },
+			{ "法的情報", "Legal Information" }, { "API", "API" } };
 
 	// MONITOR
 	public static String[][] leftPane_MONITOR = { { "リアルタイム グラフ", "Real-Time Charts" }, { "システム監視", "System Monitor" },

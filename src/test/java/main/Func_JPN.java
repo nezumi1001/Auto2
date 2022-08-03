@@ -315,58 +315,24 @@ public class Func_JPN {
 	// VS menu
 	public String switch_menu(String text_JPN, String top_menu) throws InterruptedException {
 		String text_ENG = null;
-		// --- Add menu JPN >> ENG ---
-		// HOME
-		if (top_menu.equals("HOME")) {
-			for (int i = 0; i < iData_JPN.leftPane_HOME.length; i++) {
-				if (iData_JPN.leftPane_HOME[i][0].equals(text_JPN)) {
-					text_ENG = iData_JPN.leftPane_HOME[i][1];
-				}
-			}
-		}
+		String leftPane[][] = null;
 
-		// MONITOR
-		if (top_menu.equals("MONITOR")) {
-			for (int i = 0; i < iData_JPN.leftPane_MONITOR.length; i++) {
-				if (iData_JPN.leftPane_MONITOR[i][0].equals(text_JPN)) {
-					text_ENG = iData_JPN.leftPane_MONITOR[i][1];
-				}
-			}
-		}
+		if (top_menu.equals("HOME"))
+			leftPane = iData_JPN.leftPane_HOME;
+		if (top_menu.equals("MONITOR"))
+			leftPane = iData_JPN.leftPane_MONITOR;
+		if (top_menu.equals("DEVICE"))
+			leftPane = iData_JPN.leftPane_DEVICE;
+		if (top_menu.equals("NETWORK"))
+			leftPane = iData_JPN.leftPane_NETWORK;
+		if (top_menu.equals("OBJECT"))
+			leftPane = iData_JPN.leftPane_OBJECT;
+		if (top_menu.equals("POLICY"))
+			leftPane = iData_JPN.leftPane_POLICY;
 
-		// DEVICE
-		if (top_menu.equals("DEVICE")) {
-			for (int i = 0; i < iData_JPN.leftPane_DEVICE.length; i++) {
-				if (iData_JPN.leftPane_DEVICE[i][0].equals(text_JPN)) {
-					text_ENG = iData_JPN.leftPane_DEVICE[i][1];
-				}
-			}
-		}
-
-		// NETWORK
-		if (top_menu.equals("NETWORK")) {
-			for (int i = 0; i < iData_JPN.leftPane_NETWORK.length; i++) {
-				if (iData_JPN.leftPane_NETWORK[i][0].equals(text_JPN)) {
-					text_ENG = iData_JPN.leftPane_NETWORK[i][1];
-				}
-			}
-		}
-
-		// OBJECT
-		if (top_menu.equals("OBJECT")) {
-			for (int i = 0; i < iData_JPN.leftPane_OBJECT.length; i++) {
-				if (iData_JPN.leftPane_OBJECT[i][0].equals(text_JPN)) {
-					text_ENG = iData_JPN.leftPane_OBJECT[i][1];
-				}
-			}
-		}
-
-		// POLICY
-		if (top_menu.equals("POLICY")) {
-			for (int i = 0; i < iData_JPN.leftPane_POLICY.length; i++) {
-				if (iData_JPN.leftPane_POLICY[i][0].equals(text_JPN)) {
-					text_ENG = iData_JPN.leftPane_POLICY[i][1];
-				}
+		for (int i = 0; i < leftPane.length; i++) {
+			if (leftPane[i][0].equals(text_JPN)) {
+				text_ENG = leftPane[i][1];
 			}
 		}
 
