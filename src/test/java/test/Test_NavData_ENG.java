@@ -30,7 +30,8 @@ public class Test_NavData_ENG {
 		chromOptions.addArguments(iData_ENG.Chrome_userData);
 		chromOptions.addArguments("--lang=en-US", "--incognito", "--ignore-certificate-errors");
 //		chromOptions.addArguments("window-size=1920, 1080");
-		chromOptions.addArguments("window-size=1920, 1500");
+		chromOptions.addArguments("window-size=1920, 3000");
+		
 		chromOptions.addArguments("--headless");
 		driver = new ChromeDriver(chromOptions);
 		driver.get(iData_ENG.baseUrl);

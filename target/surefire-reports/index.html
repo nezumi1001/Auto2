@@ -51,12 +51,12 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-SonicWall_TestSuite" class="navigator-link ">
-                    <span>C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Box2.xml</span>
+                    <span>C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Box.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" panel-name="testlist-SonicWall_TestSuite" class="navigator-link ">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,27 +104,12 @@
                     <div class="method-list-content passed suite-SonicWall_TestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_NavData_ENG" class="method navigator-link" hash-for-method="test_Step01_Login_ENG">test_Step01_Login_ENG</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_NavData_JPN" class="method navigator-link" hash-for-method="test_Step01_Login_JPN">test_Step01_Login_JPN</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_NavData_ENG" class="method navigator-link" hash-for-method="test_Step02_MenuTop_ENG">test_Step02_MenuTop_ENG</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_NavData_JPN" class="method navigator-link" hash-for-method="test_Step02_MenuTop_JPN">test_Step02_MenuTop_JPN</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_vsDATA" class="method navigator-link" hash-for-method="test_dataCompare">test_dataCompare</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SonicWall_TestSuite -->
@@ -161,64 +146,21 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-SonicWall_TestSuite-class-passed -->
-          <div class="suite-SonicWall_TestSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.Test_NavData_ENG</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Step01_Login_ENG">
-                  </a> <!-- test_Step01_Login_ENG -->
-                  <span class="method-name">test_Step01_Login_ENG</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Step02_MenuTop_ENG">
-                  </a> <!-- test_Step02_MenuTop_ENG -->
-                  <span class="method-name">test_Step02_MenuTop_ENG</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SonicWall_TestSuite-class-passed -->
-          <div class="suite-SonicWall_TestSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.Test_vsDATA</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_dataCompare">
-                  </a> <!-- test_dataCompare -->
-                  <span class="method-name">test_dataCompare</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SonicWall_TestSuite-class-passed -->
         </div> <!-- panel SonicWall_TestSuite -->
         <div panel-name="test-xml-SonicWall_TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Box2.xml</span>
+            <span class="header-content">C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Box.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;SonicWall TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Menu Test JPN/ENG&quot; verbose=&quot;0&quot;&gt;
+&lt;suite name=&quot;SonicWall TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Menu Test JPN&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.Test_NavData_ENG&quot;/&gt;
       &lt;class name=&quot;test.Test_NavData_JPN&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Menu Test JPN/ENG --&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Menu Compare JPN/ENG&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;test.Test_vsDATA&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Menu Compare JPN/ENG --&gt;
+  &lt;/test&gt; &lt;!-- Menu Test JPN --&gt;
 &lt;/suite&gt; &lt;!-- SonicWall TestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -230,10 +172,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Menu Test JPN/ENG (2 classes)</span>
-              </li>
-              <li>
-                <span class="test-name">Menu Compare JPN/ENG (1 class)</span>
+                <span class="test-name">Menu Test JPN (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -259,32 +198,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_Step02_MenuTop_JPN')
 data.setCell(0, 2, 'test.Test_NavData_JPN')
-data.setCell(0, 3, 27581);
+data.setCell(0, 3, 24985);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_Step02_MenuTop_ENG')
-data.setCell(1, 2, 'test.Test_NavData_ENG')
-data.setCell(1, 3, 21688);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'test_Step01_Login_ENG')
-data.setCell(2, 2, 'test.Test_NavData_ENG')
-data.setCell(2, 3, 15534);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'test_Step01_Login_JPN')
-data.setCell(3, 2, 'test.Test_NavData_JPN')
-data.setCell(3, 3, 15426);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'test_dataCompare')
-data.setCell(4, 2, 'test.Test_vsDATA')
-data.setCell(4, 3, 54);
+data.setCell(1, 1, 'test_Step01_Login_JPN')
+data.setCell(1, 2, 'test.Test_NavData_JPN')
+data.setCell(1, 3, 15731);
 window.suiteTableData['SonicWall_TestSuite']= { tableData: data, tableDiv: 'times-div-SonicWall_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 40 seconds</span>
               <div id="times-div-SonicWall_TestSuite">
               </div> <!-- times-div-SonicWall_TestSuite -->
             </div> <!-- times-div -->
@@ -295,248 +222,6 @@ return data;
             <span class="header-content">Reporter output for SonicWall TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Step02_MenuTop_ENG</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data created for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Dashboard</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: System</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Access Points</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Capture ATP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Topology</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Legal Information</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: API</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 7</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'HOME' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Real-Time Charts</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: System Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Protocol Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: User Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: BWM Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Report</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: CTA Report</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SD-WAN Connections</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Logs</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: System Logs</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Auditing Logs</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Tools & Monitors</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Packet Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Connections</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Core 0 Processes</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Packet Replay</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 20</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'MONITOR' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Licenses</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Administration</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Time</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Certificates</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: SNMP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware and Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Storage</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Restart</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: High Availability</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Monitoring</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Users</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Local Users & Groups</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Services</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Accounts</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Flow Reporting</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow Agent</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Log</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Syslog</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Automation</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Name Resolution</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reports</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AWS</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Diagnostics</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Tech Support Report</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Check Network Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: DNS Name Lookup</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Network Path</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Ping</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Trace Route</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Real-Time Blacklist</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reverse Name Lookup</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Connection TopX</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Geo and Botnet</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: MX and Banner</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: GRID Check</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: URL Rating Request</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: PMTU Discovery</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Diagnostics</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Network</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Overview</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switches</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Access Points</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware Management</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Floor Plan View</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Station Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: IDS</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced IDP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Packet Capture</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Virtual Access Point</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Monitoring</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Analysis</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Spectrum</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: FairNet</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Wi-Fi Multimedia</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: 3G/4G/LTE WWAN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Bluetooth LE</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Radio Management</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: WWAN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings >> Settings (TOP)</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 68</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'DEVICE' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: ARP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PoE Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Translation</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IP Helper</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic Routing</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP Server</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Multicast</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Network Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS Configuration</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Firewall</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Flood Protection</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL Control</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Cipher Control</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: RBL Filter</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VoIP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Call Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic DNS</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Proxy</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Security</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SDWAN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Groups</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Probes</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Class Objects</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Path Selection Profiles</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IPSec VPN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules and Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP over VPN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2TP Server</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS VPN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL VPN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Server Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Client Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Portal Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Virtual Office</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 48</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'NETWORK' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Zones</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Addresses</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Services</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Schedules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Endpoint Security</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: AWS</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 19</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'OBJECT' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Rules and Policies</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Access Rules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: NAT Rules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Routing Rules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter Rules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Rules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Rules</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSL</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Client SSL</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Server SSL</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSH</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Security Services</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Summary</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Gateway Anti-Virus</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spyware</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Intrusion Prevention</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Geo-IP Filter</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Botnet Filter</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Control</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spam</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Capture ATP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Scanning History</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Security</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 28</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Info created for [ENG]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Info updated for [ENG]!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Step01_Login_JPN</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Login to main page...</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Step01_Login_ENG</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Login to main page...</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">test_Step02_MenuTop_JPN</span>
               <div class="reporter-method-output-div">
@@ -596,7 +281,6 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ユーザ >> Users</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パーティション >> Partitions</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ローカル ユーザとグループ >> Local Users & Groups</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト サービス >> Guest Services</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト アカウント >> Guest Accounts</span>
@@ -651,7 +335,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Settings >> Settings (TOP)</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 69</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 68</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Top menu 'DEVICE' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: システム >> System</span>
@@ -662,6 +346,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: MAC IP アンチスプーフ >> MAC IP Anti-Spoof</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ウェブ プロキシ >> Web Proxy</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: PortShield グループ >> PortShield Groups</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: PoE 設定 >> PoE Settings</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN 変換 >> VLAN Translation</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: IP ヘルパー >> IP Helper</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 動的ルーティング >> Dynamic Routing</span>
@@ -683,11 +368,6 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 動的 DNS >> Dynamic DNS</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS プロキシ >> DNS Proxy</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS セキュリティ >> DNS Security</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: スイッチング >> Switching</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN トランク >> VLAN Trunking</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: L2 発見 >> L2 Discovery</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: リンク統合 >> Link Aggregation</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ポート ミラーリング >> Port Mirroring</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SDWAN >> SDWAN</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: グループ >> Groups</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SLA プローブ >> SLA Probes</span>
@@ -708,7 +388,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 仮想オフィス >> Virtual Office</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 52</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 48</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Top menu 'NETWORK' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects</span>
@@ -773,27 +453,9 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">test_dataCompare</span>
+              <span class="reporter-method-name">test_Step01_Login_JPN</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> box_JPN > Got data!</span>
-                <span class="reporter-method-output">[S]ReportLog >> box_ENG > Got data!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > Ready to start...</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> NSA 2700</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED8279E0</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5079-P3152-j3280</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> TZ 570P</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED694D58</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5079-P3151</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Users > Partitions</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > System > PoE Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > VLAN Trunking</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > L2 Discovery</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Link Aggregation</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Port Mirroring</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Login to main page...</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -816,81 +478,26 @@ return data;
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_Step01_Login_JPN</span>
-                <span class="method-start">2092 ms</span>
+                <span class="method-start">1842 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test_Step01_Login_ENG</span>
-                <span class="method-start">2092 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step01_Login_JPN status=SUCCESS method=Test_NavData_JPN.test_Step01_Login_JPN(...)</span>
-                <span class="method-start">17520 ms</span>
+                <span class="method-start">17577 ms</span>
               </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG(...)</span>
-                <span class="method-start">17627 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_Step02_MenuTop_JPN</span>
-                <span class="method-start">17713 ms</span>
+                <span class="method-start">18085 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test_Step02_MenuTop_ENG</span>
-                <span class="method-start">17860 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=test_Step02_MenuTop_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_MenuTop_...)</span>
-                <span class="method-start">39548 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">39852 ms</span>
-              </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step02_MenuTop_JPN status=SUCCESS method=Test_NavData_JPN.test_Step02_MenuTop_...)</span>
-                <span class="method-start">45294 ms</span>
+                <span class="method-start">43070 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">45463 ms</span>
+                <span class="method-start">43621 ms</span>
               </div> <!-- configuration-class after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_vsDATA</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test_dataCompare</span>
-                <span class="method-start">48694 ms</span>
-              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

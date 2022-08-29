@@ -165,12 +165,16 @@ public class Func_JPN {
 		try {
 			if (type.equals("id")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(path)));
+//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(path)));
 			} else if (type.equals("name")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(path)));
+//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.name(path)));
 			} else if (type.equals("class")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(path)));
+//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.className(path)));
 			} else if (type.equals("xpath")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(path)));
+//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
 			}
 		} catch (Exception e) {
 			log_message(class_name, "Element Not Found!");
@@ -206,6 +210,11 @@ public class Func_JPN {
 	public List<String> expand_menu(List<WebElement> expand_Menus, String top_menu) throws InterruptedException {
 		List<String> actual_data = new ArrayList<String>();
 
+		// Show All Menu
+//		for (WebElement expand_Menu : expand_Menus) {
+//			log_message(this.getClass().getName(), "***ALL MENU*** " + expand_Menu.getText());
+//		}
+		
 		// Switch menu JPN > ENG
 		for (WebElement expand_Menu_text : expand_Menus) {
 			actual_data.add(switch_menu(expand_Menu_text.getText(), top_menu));

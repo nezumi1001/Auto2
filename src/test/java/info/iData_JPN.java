@@ -4,9 +4,9 @@ import java.io.File;
 
 public class iData_JPN {
 	// Box info
-//	public static String baseUrl = "https://10.103.50.133"; // TZ 270W
-	public static String baseUrl = "https://10.8.162.159"; // NSa 2700
-//	public static String baseUrl = "https://10.8.162.169"; // TZ 570P
+//	public static String baseUrl = "https://10.103.50.117"; // TZ 270W
+//	public static String baseUrl = "https://10.8.162.159"; // NSa 2700
+	public static String baseUrl = "https://10.8.162.177"; // TZ 570P
 
 	// ChromeDriver Settings
 	public static File my_path = new File(System.getProperty("user.dir"));
@@ -23,7 +23,7 @@ public class iData_JPN {
 	public static String password_path = "//input[contains(@placeholder,'パスワードを入力')]";
 	public static String login_pass = "sonicwall";
 	// LOGIN button
-	public static String login_path = "//div[contains(text(),'ログイン')]";
+	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'ログイン')]";
 
 	// Config mode
 	public static String Config_path = "//div[@class='sw-toggle sw-toggle--left sw-toggle--regular sw-toggle--light']";

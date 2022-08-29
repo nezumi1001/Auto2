@@ -1,0 +1,61 @@
+# Created at 2022-08-24T15:40:55.941
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-08-24T15:41:10.732
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Element Not Found!
+
+
+# Created at 2022-08-24T15:41:10.769
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2022-08-24T15:41:10.771
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2022-08-24T15:41:10.771
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 0
+
+
+# Created at 2022-08-24T15:41:10.787
+Unexpected IOException: 8,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),null,null,null,null,Test_NavData_JPN.test_Step02_MenuTop_JPN:122 \00BB NullPointer,java.lang.NullPointerException\000A\0009at test.Test_NavData_JPN.test_Step02_MenuTop_JPN(Test_NavData_JPN.java:122)\000A
+
+
+# Created at 2022-08-24T15:41:11.565
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > [Fail]Take screenshot...
+
+
+# Created at 2022-08-24T15:41:14.836
+Unexpected IOException: 5,1,test.Test_vsDATA,test_dataCompare(test.Test_vsDATA),test.Test_vsDATA,null,null
+
+
+# Created at 2022-08-24T15:41:14.849
+Unexpected IOException with stream: [S]ReportLog >> box_JPN > Got data!
+
+
+# Created at 2022-08-24T15:41:14.857
+Unexpected IOException with stream: [S]ReportLog >> box_ENG > Got data!
+
+
+# Created at 2022-08-24T15:41:14.859
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > Ready to start...
+
+
+# Created at 2022-08-24T15:41:14.859
+Unexpected IOException with stream: [S]ReportLog >> test_dataCompare > --------------------------------------------------------------------
+
+
+# Created at 2022-08-24T15:41:14.861
+Unexpected IOException: 8,1,test.Test_vsDATA,test_dataCompare(test.Test_vsDATA),null,C:\005CUsers\005Ckhuang\005Ceclipse-workspace\005CGen7_v2\005CData\005Cinfo\005Cinfo_JPN.xls (The system cannot find the file specified),null,C:\005CUsers\005Ckhuang\005Ceclipse-workspace\005CGen7_v2\005CData\005Cinfo\005Cinfo_JPN.xls (The system cannot find the file specified),Test_vsDATA.test_dataCompare:583->info_JPN:33 \00BB FileNotFound C:\005CUsers\005Ckhuang\005Ce...,java.io.FileNotFoundException: C:\005CUsers\005Ckhuang\005Ceclipse-workspace\005CGen7_v2\005CData\005Cinfo\005Cinfo_JPN.xls (The system cannot find the file specified)\000A\0009at test.Test_vsDATA.info_JPN(Test_vsDATA.java:33)\000A\0009at test.Test_vsDATA.test_dataCompare(Test_vsDATA.java:583)\000A
+
+
+# Created at 2022-08-24T15:41:15.070
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

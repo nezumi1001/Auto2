@@ -4,10 +4,10 @@ import java.io.File;
 
 public class iData_ENG {
 	// Box info
-	public static String baseUrl = "https://10.8.162.154"; // TZ 570P
+//	public static String baseUrl = "https://10.8.162.154"; // TZ 570P
 //	public static String baseUrl = "https://10.103.50.154"; // TZ 370W
-//	public static String baseUrl = "https://10.8.163.166"; // NSa 2700
-//	public static String baseUrl = "https://10.8.164.161"; // NSa 5700
+	public static String baseUrl = "https://10.8.162.173"; // NSa 2700
+//	public static String baseUrl = "https://10.8.56.168"; // NSa 5700
 
 	// ChromeDriver Settings
 	public static File my_path = new File(System.getProperty("user.dir"));
@@ -24,7 +24,7 @@ public class iData_ENG {
 	public static String password_path = "//input[contains(@placeholder,'Enter your password')]";
 	public static String login_pass = "pwdpwdpwd";
 	// LOGIN button
-	public static String login_path = "//div[contains(text(),'LOG')]";
+	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'LOG')]";
 
 	// Config mode
 	public static String Config_path = "//div[@class='sw-toggle sw-toggle--left sw-toggle--regular sw-toggle--light']";
