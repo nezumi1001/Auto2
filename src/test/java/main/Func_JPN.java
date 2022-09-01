@@ -14,6 +14,9 @@ import java.util.Set;
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.apache.poi.hssf.usermodel.HSSFCell;
+import org.apache.poi.hssf.usermodel.HSSFCellStyle;
+import org.apache.poi.hssf.usermodel.HSSFFont;
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -36,6 +39,7 @@ import info.iData_JPN;
 import test.Test_NavData_JPN;
 
 public class Func_JPN {
+	public int newMenu_JPN = 0;
 	private WebDriver driver;
 	private WebElement we;
 	private List<WebElement> ges;
@@ -207,14 +211,15 @@ public class Func_JPN {
 	}
 
 	// Expand menu
-	public List<String> expand_menu(List<WebElement> expand_Menus, String top_menu) throws InterruptedException {
+	public List<String> expand_menu(List<WebElement> expand_Menus, String top_menu)
+			throws InterruptedException, IOException {
 		List<String> actual_data = new ArrayList<String>();
 
 		// Show All Menu
 //		for (WebElement expand_Menu : expand_Menus) {
 //			log_message(this.getClass().getName(), "***ALL MENU*** " + expand_Menu.getText());
 //		}
-		
+
 		// Switch menu JPN > ENG
 		for (WebElement expand_Menu_text : expand_Menus) {
 			actual_data.add(switch_menu(expand_Menu_text.getText(), top_menu));
@@ -304,12 +309,25 @@ public class Func_JPN {
 		FileInputStream fs = new FileInputStream(my_path + "\\Data\\compare\\Box_JPN.xls");
 		HSSFWorkbook workbook = new HSSFWorkbook(fs);
 		HSSFSheet sheet = workbook.getSheet("JPN");
+		HSSFCellStyle titleStyle = workbook.createCellStyle();
+		HSSFFont font = workbook.createFont();
 		HSSFRow row = null;
+		HSSFCell cell = null;
+
 		// Input data
 		for (int i = 0; i < MENU_list.size(); i++) {
 			row = sheet.getRow(i);
-			row.createCell(menu_column).setCellValue(MENU_list.get(i));
+			cell = row.createCell(menu_column);
+
+			// Set (NEW) menus in RED color
+			if (MENU_list.get(i).contains("NEW")) {
+				font.setColor((short) 2);
+				titleStyle.setFont(font);
+				cell.setCellStyle(titleStyle);
+			}
+			cell.setCellValue(MENU_list.get(i));
 		}
+
 		// Auto column
 		for (int auto_column = 0; auto_column < row.getLastCellNum(); auto_column++) {
 			sheet.autoSizeColumn(auto_column);
@@ -322,8 +340,8 @@ public class Func_JPN {
 	}
 
 	// VS menu
-	public String switch_menu(String text_JPN, String top_menu) throws InterruptedException {
-		String text_ENG = null;
+	public String switch_menu(String text_JPN, String top_menu) throws InterruptedException, IOException {
+		String text_update = null;
 		String leftPane[][] = null;
 
 		if (top_menu.equals("HOME"))
@@ -339,14 +357,35 @@ public class Func_JPN {
 		if (top_menu.equals("POLICY"))
 			leftPane = iData_JPN.leftPane_POLICY;
 
-		for (int i = 0; i < leftPane.length; i++) {
-			if (leftPane[i][0].equals(text_JPN)) {
-				text_ENG = leftPane[i][1];
+		// Check list for JPN > JPN
+		if (iData_JPN.check_list == 1) {
+			int i = 0;
+			for (i = 0; i < leftPane.length; i++) {
+				if (leftPane[i][0].equals(text_JPN)) {
+					text_update = text_JPN;
+					break;
+				}
 			}
+
+			if (i >= leftPane.length) {
+				text_update = "(NEW) " + text_JPN;
+				newMenu_JPN += 1;
+			}
+			log_message(class_name, "'" + top_menu + "'" + " Menu: " + text_update);
 		}
 
-		log_message(class_name, "'" + top_menu + "'" + " Menu: " + text_JPN + " >> " + text_ENG);
-		return text_ENG;
+		// Check list for JPN > ENG
+		if (iData_JPN.check_list == 0) {
+			for (int i = 0; i < leftPane.length; i++) {
+				if (leftPane[i][0].equals(text_JPN)) {
+					text_update = leftPane[i][1];
+					break;
+				}
+			}
+			log_message(class_name, "'" + top_menu + "'" + " Menu: " + text_JPN + " >> " + text_update);
+		}
+
+		return text_update;
 	}
 
 }

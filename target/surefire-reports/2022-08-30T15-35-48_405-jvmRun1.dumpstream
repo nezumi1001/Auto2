@@ -1,0 +1,41 @@
+# Created at 2022-08-30T15:37:09.571
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-08-30T15:37:11.582
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Element Not Found!
+
+
+# Created at 2022-08-30T15:37:41.629
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Element Not Found!
+
+
+# Created at 2022-08-30T15:37:41.654
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2022-08-30T15:37:41.654
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2022-08-30T15:37:41.655
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 0
+
+
+# Created at 2022-08-30T15:37:41.706
+Unexpected IOException: 8,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),null,null,null,null,Test_NavData_JPN.test_Step02_MenuTop_JPN:123 \00BB NullPointer,java.lang.NullPointerException\000A\0009at test.Test_NavData_JPN.test_Step02_MenuTop_JPN(Test_NavData_JPN.java:123)\000A
+
+
+# Created at 2022-08-30T15:37:42.136
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > [Fail]Take screenshot...
+
+
+# Created at 2022-08-30T15:37:45.450
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

@@ -31,7 +31,6 @@ public class Test_NavData_JPN {
 		chromOptions.addArguments("--lang=ja-JP", "--incognito", "--ignore-certificate-errors");
 //		chromOptions.addArguments("window-size=1920, 1080");
 		chromOptions.addArguments("window-size=1920, 3000");
-
 		chromOptions.addArguments("--headless");
 		driver = new ChromeDriver(chromOptions);
 		driver.get(iData_JPN.baseUrl);
@@ -126,6 +125,16 @@ public class Test_NavData_JPN {
 		}
 		// [A]Get Box info
 		box_info();
+
+		// [A]Get self-check (JJ check) info
+		if (iData_JPN.check_list == 1) {
+			if (mf.newMenu_JPN == 0) {
+				mf.log_message(this.getClass().getName(), "********** All matched! **********");
+			} else {
+				mf.log_message(this.getClass().getName(),
+						"********** Found new data: " + mf.newMenu_JPN + " **********");
+			}
+		}
 	}
 
 	@AfterMethod

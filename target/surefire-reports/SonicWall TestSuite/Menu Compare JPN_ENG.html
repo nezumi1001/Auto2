@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Menu Compare JPN/ENG</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Aug 24 15:41:14 CST 2022</td>
+<td>Started on:</td><td>Thu Sep 01 17:08:30 CST 2022</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (28 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (364 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,52 +76,37 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='test.Test_vsDATA.test_dataCompare()'><b>test_dataCompare</b><br>Test class: test.Test_vsDATA<br/>
-<a href="#Output-1872827456" onClick='toggleBox("Output-1872827456", this, "Show output", "Hide output");'>Show output</a>
+<a href="#Output-244577237" onClick='toggleBox("Output-244577237", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1872827456" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1872827456">
+<a href="#Output-244577237" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-244577237">
 [S]ReportLog >> box_JPN > Got data!<br/>
 [S]ReportLog >> box_ENG > Got data!<br/>
 [S]ReportLog >> test_dataCompare > Ready to start...<br/>
 [S]ReportLog >> test_dataCompare > --------------------------------------------------------------------<br/>
+[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> NSa 5700<br/>
+[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDA2B70F<br/>
+[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5080-D3249-j5078<br/>
+[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------<br/>
+[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> NSA 2700<br/>
+[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED8279E0<br/>
+[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5080-P3250<br/>
+[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Relay Domains<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Junk Box Messages<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Junk Box Settings<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Junk Box Summary<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > User View Setup<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Address Books<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Manage Users<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > LDAP Configuration<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Advanced<br/>
+[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Downloads<br/>
 </div>
 </td>
-<td><div><pre>java.io.FileNotFoundException: C:\Users\khuang\eclipse-workspace\Gen7_v2\Data\info\info_JPN.xls (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:112)
-	at test.Test_vsDATA.info_JPN(Test_vsDATA.java:33)
-	at test.Test_vsDATA.test_dataCompare(Test_vsDATA.java:583)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-... Removed 12 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1872827456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1872827456'><pre>java.io.FileNotFoundException: C:\Users\khuang\eclipse-workspace\Gen7_v2\Data\info\info_JPN.xls (The system cannot find the file specified)
-	at java.base/java.io.FileInputStream.open0(Native Method)
-	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
-	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:112)
-	at test.Test_vsDATA.info_JPN(Test_vsDATA.java:33)
-	at test.Test_vsDATA.test_dataCompare(Test_vsDATA.java:583)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-</pre></div></td>
+<td></td>
 <td>0</td>
-<td>test.Test_vsDATA@6821ea29</td></tr>
+<td>test.Test_vsDATA@aeab9a1</td></tr>
 </table><p>
 </body>
 </html>

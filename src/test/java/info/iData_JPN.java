@@ -4,9 +4,12 @@ import java.io.File;
 
 public class iData_JPN {
 	// Box info
-//	public static String baseUrl = "https://10.103.50.117"; // TZ 270W
-//	public static String baseUrl = "https://10.8.162.159"; // NSa 2700
-	public static String baseUrl = "https://10.8.162.177"; // TZ 570P
+//	public static String baseUrl = "https://10.103.50.78"; // TZ 270W
+	public static String baseUrl = "https://10.8.162.180"; // TZ 570P
+//	public static String baseUrl = "https://10.8.56.201"; // NSa 5700
+
+	// Check list
+	public static int check_list = 1;
 
 	// ChromeDriver Settings
 	public static File my_path = new File(System.getProperty("user.dir"));
@@ -21,7 +24,11 @@ public class iData_JPN {
 	public static String login_name = "admin";
 	// Password field
 	public static String password_path = "//input[contains(@placeholder,'パスワードを入力')]";
+
+//	public static String login_pass = "password";
 	public static String login_pass = "sonicwall";
+//	public static String login_pass = "pwdpwdpwd";
+
 	// LOGIN button
 	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'ログイン')]";
 
@@ -130,7 +137,11 @@ public class iData_JPN {
 			{ "セキュリティ サービス", "Security Services" }, { "サマリ", "Summary" }, { "ゲートウェイ アンチウイルス", "Gateway Anti-Virus" },
 			{ "アンチスパイウェア", "Anti-Spyware" }, { "侵入防御", "Intrusion Prevention" }, { "地域 IP フィルタ", "Geo-IP Filter" },
 			{ "ボットネット フィルタ", "Botnet Filter" }, { "アプリケーション制御", "App Control" }, { "コンテンツ フィルタ", "Content Filter" },
-			{ "アンチスパム", "Anti-Spam" }, { "状況", "Status" }, { "キャプチャ ATP", "Capture ATP" },
-			{ "スキャン履歴", "Scanning History" }, { "エンドポイント セキュリティ", "Endpoint Security" } };
+			{ "アンチスパム", "Anti-Spam" }, { "状況", "Status" }, { "リレー ドメイン", "Relay Domains" },
+			{ "ジャンク ボックス メッセージ", "Junk Box Messages" }, { "ジャンク ボックス設定", "Junk Box Settings" },
+			{ "ジャンク ボックス サマリ", "Junk Box Summary" }, { "ユーザ表示セットアップ", "User View Setup" }, { "アドレス帳", "Address Books" },
+			{ "ユーザ管理", "Manage Users" }, { "LDAP 構成", "LDAP Configuration" }, { "詳細", "Advanced" },
+			{ "ダウンロード", "Downloads" }, { "キャプチャ ATP", "Capture ATP" }, { "スキャン履歴", "Scanning History" },
+			{ "エンドポイント セキュリティ", "Endpoint Security" } };
 
 }

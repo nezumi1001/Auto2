@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-SonicWall_TestSuite" class="navigator-link">
-              <span class="suite-name border-failed">SonicWall TestSuite</span>
+              <span class="suite-name border-passed">SonicWall TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-SonicWall_TestSuite" class="navigator-link ">
-                    <span>C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Box.xml</span>
+                    <span>C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Delete.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-SonicWall_TestSuite" class="hide-methods failed suite-SonicWall_TestSuite"> (hide)</a> <!-- hide-methods failed suite-SonicWall_TestSuite -->
-                      <a href="#" panel-name="suite-SonicWall_TestSuite" class="show-methods failed suite-SonicWall_TestSuite"> (show)</a> <!-- show-methods failed suite-SonicWall_TestSuite -->
-                    </span>
-                    <div class="method-list-content failed suite-SonicWall_TestSuite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_NavData_JPN" class="method navigator-link" hash-for-method="test_Step02_MenuTop_JPN">test_Step02_MenuTop_JPN</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-SonicWall_TestSuite -->
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -118,7 +104,7 @@
                     <div class="method-list-content passed suite-SonicWall_TestSuite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_NavData_JPN" class="method navigator-link" hash-for-method="test_Step01_Login_JPN">test_Step01_Login_JPN</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="main.Func_Delete" class="method navigator-link" hash-for-method="test_delete_file">test_delete_file</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SonicWall_TestSuite -->
@@ -133,39 +119,17 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SonicWall_TestSuite" class="panel SonicWall_TestSuite">
-          <div class="suite-SonicWall_TestSuite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">test.Test_NavData_JPN</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Step02_MenuTop_JPN">
-                  </a> <!-- test_Step02_MenuTop_JPN -->
-                  <span class="method-name">test_Step02_MenuTop_JPN</span>
-                  <div class="stack-trace">java.lang.NullPointerException
-	at main.Func_JPN.expand_menu(Func_JPN.java:227)
-	at test.Test_NavData_JPN.actual_data(Test_NavData_JPN.java:82)
-	at test.Test_NavData_JPN.test_Step02_MenuTop_JPN(Test_NavData_JPN.java:120)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-... Removed 27 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SonicWall_TestSuite-class-failed -->
           <div class="suite-SonicWall_TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.Test_NavData_JPN</span>
+              <span class="class-name">main.Func_Delete</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_Step01_Login_JPN">
-                  </a> <!-- test_Step01_Login_JPN -->
-                  <span class="method-name">test_Step01_Login_JPN</span>
+                  <a name="test_delete_file">
+                  </a> <!-- test_delete_file -->
+                  <span class="method-name">test_delete_file</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,18 +137,18 @@
         </div> <!-- panel SonicWall_TestSuite -->
         <div panel-name="test-xml-SonicWall_TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Box.xml</span>
+            <span class="header-content">C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Delete.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;SonicWall TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Menu Test JPN&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Menu Compare JPN/ENG&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.Test_NavData_JPN&quot;/&gt;
+      &lt;class name=&quot;main.Func_Delete&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Menu Test JPN --&gt;
+  &lt;/test&gt; &lt;!-- Menu Compare JPN/ENG --&gt;
 &lt;/suite&gt; &lt;!-- SonicWall TestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,7 +160,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Menu Test JPN (1 class)</span>
+                <span class="test-name">Menu Compare JPN/ENG (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -222,20 +186,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_Step01_Login_JPN')
-data.setCell(0, 2, 'test.Test_NavData_JPN')
-data.setCell(0, 3, 15402);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_Step02_MenuTop_JPN')
-data.setCell(1, 2, 'test.Test_NavData_JPN')
-data.setCell(1, 3, 6661);
+data.setCell(0, 1, 'test_delete_file')
+data.setCell(0, 2, 'main.Func_Delete')
+data.setCell(0, 3, 31);
 window.suiteTableData['SonicWall_TestSuite']= { tableData: data, tableDiv: 'times-div-SonicWall_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 22 seconds</span>
+              <span class="suite-total-time">Total running time: 31 ms</span>
               <div id="times-div-SonicWall_TestSuite">
               </div> <!-- times-div-SonicWall_TestSuite -->
             </div> <!-- times-div -->
@@ -246,126 +206,6 @@ return data;
             <span class="header-content">Reporter output for SonicWall TestSuite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Step01_Login_JPN</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Login to main page...</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Step02_MenuTop_JPN</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Switch to 'Non-Config' mode...</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data created for [JPN]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: ダッシュボード >> Dashboard</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: システム >> System</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: アクセス ポイント >> Access Points</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: キャプチャ ATP >> Capture ATP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: トポロジ >> Topology</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: 法的情報 >> Legal Information</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: API >> API</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 7</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Top menu 'HOME' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: リアルタイム グラフ >> Real-Time Charts</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: システム監視 >> System Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: プロトコル監視 >> Protocol Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ユーザ監視 >> User Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 帯域幅管理監視 >> BWM Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow >> AppFlow</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow 報告 >> AppFlow Report</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow 監視 >> AppFlow Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: CTA レポート >> CTA Report</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: SDWAN >> SDWAN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: SDWAN 監視 >> SDWAN Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: SD-WAN 接続 >> SD-WAN Connections</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ログ >> Logs</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: システム ログ >> System Logs</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 監査ログ >> Auditing Logs</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ツールと監視 >> Tools & Monitors</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: パケット監視 >> Packet Monitor</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 接続 >> Connections</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: コア 0 プロセス >> Core 0 Processes</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: パケット再生 >> Packet Replay</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 20</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Top menu 'MONITOR' is done!</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ライセンス >> Licenses</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 管理 >> Administration</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 時間 >> Time</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 証明書 >> Certificates</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: SNMP >> SNMP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ファームウェアと設定 >> Firmware and Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 記憶装置 >> Storage</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 再起動 >> Restart</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 高可用性 >> High Availability</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 詳細 >> Advanced</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 監視 >> Monitoring</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ユーザ >> Users</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ローカル ユーザとグループ >> Local Users & Groups</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト サービス >> Guest Services</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト アカウント >> Guest Accounts</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト状況 >> Guest Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: AppFlow >> AppFlow</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: フロー報告 >> Flow Reporting</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: AppFlow エージェント >> AppFlow Agent</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ログ >> Log</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Syslog >> Syslog</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 自動化 >> Automation</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 名前解決 >> Name Resolution</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: レポート >> Reports</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: AWS >> AWS</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 診断 >> Diagnostics</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: テクニカル サポート レポート >> Tech Support Report</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ネットワーク設定の確認 >> Check Network Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: DNS 名の調査 >> DNS Name Lookup</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ネットワーク パス >> Network Path</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Ping >> Ping</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ルート追跡 >> Trace Route</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: リアルタイム ブラックリスト >> Real-Time Blacklist</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 逆引き名前調査 >> Reverse Name Lookup</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 上位接続 >> Connection TopX</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 地域とボットネット >> Geo and Botnet</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: MX とバナー >> MX and Banner</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: グリッド確認 >> GRID Check</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: URL 格付け要求 >> URL Rating Request</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: PMTU 検出 >> PMTU Discovery</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ診断 >> Switch Diagnostics</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ ネットワーク >> Switch Network</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 概要 >> Overview</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ >> Switches</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: アクセス ポイント >> Access Points</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu:  >> null</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ファームウェア管理 >> Firmware Management</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: フロア プランの表示 >> Floor Plan View</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ステーション状況 >> Station Status</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: IDS >> IDS</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 高度な IDP >> Advanced IDP</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パケット キャプチャ >> Packet Capture</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 仮想アクセス ポイント >> Virtual Access Point</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF 監視 >> RF Monitoring</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF 解析 >> RF Analysis</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF スペクトラム >> RF Spectrum</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: FairNet >> FairNet</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Wi-Fi マルチメディア >> Wi-Fi Multimedia</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 3G/4G/LTE WWAN >> 3G/4G/LTE WWAN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Bluetooth LE >> Bluetooth LE</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 無線管理 >> Radio Management</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: WWAN >> WWAN</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Settings >> Settings (TOP)</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="ignored-methods-SonicWall_TestSuite" class="panel">
@@ -381,33 +221,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
+              <div class="chronological-class-name">main.Func_Delete</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_delete_file</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">test_Step01_Login_JPN</span>
-                <span class="method-start">1832 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=test_Step01_Login_JPN status=SUCCESS method=Test_NavData_JPN.test_Step01_Login_JPN(...)</span>
-                <span class="method-start">17237 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">test_Step02_MenuTop_JPN</span>
-                <span class="method-start">17418 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=test_Step02_MenuTop_JPN status=FAILURE method=Test_NavData_JPN.test_Step02_MenuTop_...)</span>
-                <span class="method-start">24081 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-class after">
-                <span class="method-name">afterClass</span>
-                <span class="method-start">24240 ms</span>
-              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
