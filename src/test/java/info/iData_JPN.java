@@ -9,7 +9,7 @@ public class iData_JPN {
 //	public static String baseUrl = "https://10.8.56.201"; // NSa 5700
 
 	// Check list
-	public static int check_list = 1;
+	public static int check_list = 0;
 
 	// ChromeDriver Settings
 	public static File my_path = new File(System.getProperty("user.dir"));

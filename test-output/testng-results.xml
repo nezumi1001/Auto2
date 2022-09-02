@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-31T15:35:42 CST" name="SonicWall TestSuite" finished-at="2022-08-31T15:35:42 CST" duration-ms="56">
+  <suite started-at="2022-09-02T16:29:41 CST" name="SonicWall TestSuite" finished-at="2022-09-02T16:29:41 CST" duration-ms="51">
     <groups>
     </groups>
-    <test started-at="2022-08-31T15:35:42 CST" name="Menu Compare JPN/ENG" finished-at="2022-08-31T15:35:42 CST" duration-ms="56">
+    <test started-at="2022-09-02T16:29:41 CST" name="Menu Compare JPN/ENG" finished-at="2022-09-02T16:29:41 CST" duration-ms="51">
       <class name="main.Func_Delete">
-        <test-method signature="test_delete_file()[pri:0, instance:main.Func_Delete@59af0466]" started-at="2022-08-31T15:35:42 CST" name="test_delete_file" finished-at="2022-08-31T15:35:42 CST" duration-ms="31" status="PASS">
+        <test-method signature="test_delete_file()[pri:0, instance:main.Func_Delete@59af0466]" started-at="2022-09-02T16:29:41 CST" name="test_delete_file" finished-at="2022-09-02T16:29:41 CST" duration-ms="18" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_delete_file -->

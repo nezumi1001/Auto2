@@ -129,10 +129,17 @@ public class Test_NavData_JPN {
 		// [A]Get self-check (JJ check) info
 		if (iData_JPN.check_list == 1) {
 			if (mf.newMenu_JPN == 0) {
-				mf.log_message(this.getClass().getName(), "********** All matched! **********");
+				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+				mf.log_message(this.getClass().getName(), "^          All Matched!          ^");
+				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 			} else {
-				mf.log_message(this.getClass().getName(),
-						"********** Found new data: " + mf.newMenu_JPN + " **********");
+				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+				mf.log_message(this.getClass().getName(), "New data: " + mf.newMenu_JPN);
+
+				for (int i = 0; i < mf.menuInfo_JPN.size(); i++) {
+					mf.log_message(this.getClass().getName(), mf.menuInfo_JPN.get(i));
+				}
+				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 			}
 		}
 	}

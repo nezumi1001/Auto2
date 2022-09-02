@@ -605,7 +605,9 @@ public class Test_vsDATA {
 		}
 		// Completely Match!
 		if (match == 0) {
-			log_message(testName, "********** All matched! **********");
+			log_message(testName, "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+			log_message(testName, "^          All Matched!          ^");
+			log_message(testName, "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 //			System.out.println("********** All matched! **********");
 		}
 
