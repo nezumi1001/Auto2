@@ -1,0 +1,889 @@
+# Created at 2022-09-05T17:36:34.366
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-09-05T17:36:49.719
+Unexpected IOException: 6,1,test.Test_NavData_ENG,test_Step01_Login_ENG(test.Test_NavData_ENG),null,null,null
+
+
+# Created at 2022-09-05T17:36:50.112
+Unexpected IOException: 6,1,test.Test_NavData_JPN,test_Step01_Login_JPN(test.Test_NavData_JPN),null,null,null
+
+
+# Created at 2022-09-05T17:36:50.327
+Unexpected IOException with stream: [S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...
+
+
+# Created at 2022-09-05T17:36:50.330
+Unexpected IOException: 5,1,test.Test_NavData_ENG,test_Step02_MenuTop_ENG(test.Test_NavData_ENG),test.Test_NavData_ENG,null,null
+
+
+# Created at 2022-09-05T17:36:50.441
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...
+
+
+# Created at 2022-09-05T17:36:50.605
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data created for [ENG]!
+
+
+# Created at 2022-09-05T17:36:50.627
+Unexpected IOException with stream: [S]ReportLog >> test_Step01_Login_JPN > [Pass]Take screenshot...
+
+
+# Created at 2022-09-05T17:36:50.628
+Unexpected IOException: 5,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),test.Test_NavData_JPN,null,null
+
+
+# Created at 2022-09-05T17:36:50.813
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Switch to 'Non-Config' mode...
+
+
+# Created at 2022-09-05T17:36:50.826
+Unexpected IOException: 8,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),null,C:\005CUsers\005Ckhuang\005Ceclipse-workspace\005CGen7_v2\005CData\005Ccompare\005CBox_JPN.xls (The process cannot access the file because it is being used by another process),null,C:\005CUsers\005Ckhuang\005Ceclipse-workspace\005CGen7_v2\005CData\005Ccompare\005CBox_JPN.xls (The process cannot access the file because it is being used by another process),Test_NavData_JPN.test_Step02_MenuTop_JPN:114 \00BB FileNotFound C:\005CUsers\005Ckhuang\005Cec...,java.io.FileNotFoundException: C:\005CUsers\005Ckhuang\005Ceclipse-workspace\005CGen7_v2\005CData\005Ccompare\005CBox_JPN.xls (The process cannot access the file because it is being used by another process)\000A\0009at test.Test_NavData_JPN.test_Step02_MenuTop_JPN(Test_NavData_JPN.java:114)\000A
+
+
+# Created at 2022-09-05T17:36:51.493
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > [Fail]Take screenshot...
+
+
+# Created at 2022-09-05T17:37:02.341
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Dashboard
+
+
+# Created at 2022-09-05T17:37:02.396
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: System
+
+
+# Created at 2022-09-05T17:37:02.440
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Access Points
+
+
+# Created at 2022-09-05T17:37:02.492
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Capture ATP
+
+
+# Created at 2022-09-05T17:37:02.527
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Topology
+
+
+# Created at 2022-09-05T17:37:02.565
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Legal Information
+
+
+# Created at 2022-09-05T17:37:02.601
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: API
+
+
+# Created at 2022-09-05T17:37:02.602
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:02.604
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-05T17:37:02.604
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:02.605
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 7
+
+
+# Created at 2022-09-05T17:37:02.932
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-09-05T17:37:02.935
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'HOME' is done!
+
+
+# Created at 2022-09-05T17:37:05.961
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Real-Time Charts
+
+
+# Created at 2022-09-05T17:37:05.995
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: System Monitor
+
+
+# Created at 2022-09-05T17:37:06.038
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Protocol Monitor
+
+
+# Created at 2022-09-05T17:37:06.078
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: User Monitor
+
+
+# Created at 2022-09-05T17:37:06.117
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: BWM Monitor
+
+
+# Created at 2022-09-05T17:37:06.155
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow
+
+
+# Created at 2022-09-05T17:37:06.189
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Report
+
+
+# Created at 2022-09-05T17:37:06.221
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Monitor
+
+
+# Created at 2022-09-05T17:37:06.254
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: CTA Report
+
+
+# Created at 2022-09-05T17:37:06.290
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN
+
+
+# Created at 2022-09-05T17:37:06.317
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN Monitor
+
+
+# Created at 2022-09-05T17:37:06.344
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SD-WAN Connections
+
+
+# Created at 2022-09-05T17:37:06.371
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Logs
+
+
+# Created at 2022-09-05T17:37:06.438
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: System Logs
+
+
+# Created at 2022-09-05T17:37:06.545
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Auditing Logs
+
+
+# Created at 2022-09-05T17:37:06.599
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Tools & Monitors
+
+
+# Created at 2022-09-05T17:37:06.633
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Packet Monitor
+
+
+# Created at 2022-09-05T17:37:06.666
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Connections
+
+
+# Created at 2022-09-05T17:37:06.712
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Core 0 Processes
+
+
+# Created at 2022-09-05T17:37:06.804
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Packet Replay
+
+
+# Created at 2022-09-05T17:37:06.805
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:06.805
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-05T17:37:06.806
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:06.807
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 20
+
+
+# Created at 2022-09-05T17:37:06.826
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-09-05T17:37:06.827
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'MONITOR' is done!
+
+
+# Created at 2022-09-05T17:37:09.120
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-09-05T17:37:09.153
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Licenses
+
+
+# Created at 2022-09-05T17:37:09.181
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Administration
+
+
+# Created at 2022-09-05T17:37:09.212
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Time
+
+
+# Created at 2022-09-05T17:37:09.235
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Certificates
+
+
+# Created at 2022-09-05T17:37:09.266
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: SNMP
+
+
+# Created at 2022-09-05T17:37:09.292
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware and Settings
+
+
+# Created at 2022-09-05T17:37:09.323
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Storage
+
+
+# Created at 2022-09-05T17:37:09.345
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Restart
+
+
+# Created at 2022-09-05T17:37:09.374
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: High Availability
+
+
+# Created at 2022-09-05T17:37:09.405
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status
+
+
+# Created at 2022-09-05T17:37:09.436
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-09-05T17:37:09.458
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced
+
+
+# Created at 2022-09-05T17:37:09.485
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Monitoring
+
+
+# Created at 2022-09-05T17:37:09.513
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Users
+
+
+# Created at 2022-09-05T17:37:09.541
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status
+
+
+# Created at 2022-09-05T17:37:09.567
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-09-05T17:37:09.598
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Partitions
+
+
+# Created at 2022-09-05T17:37:09.628
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Local Users & Groups
+
+
+# Created at 2022-09-05T17:37:09.656
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Services
+
+
+# Created at 2022-09-05T17:37:09.689
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Accounts
+
+
+# Created at 2022-09-05T17:37:09.716
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Status
+
+
+# Created at 2022-09-05T17:37:09.745
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow
+
+
+# Created at 2022-09-05T17:37:09.765
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Flow Reporting
+
+
+# Created at 2022-09-05T17:37:09.786
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow Agent
+
+
+# Created at 2022-09-05T17:37:09.808
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Log
+
+
+# Created at 2022-09-05T17:37:09.832
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-09-05T17:37:09.858
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Syslog
+
+
+# Created at 2022-09-05T17:37:09.879
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Automation
+
+
+# Created at 2022-09-05T17:37:09.900
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Name Resolution
+
+
+# Created at 2022-09-05T17:37:09.929
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reports
+
+
+# Created at 2022-09-05T17:37:09.950
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AWS
+
+
+# Created at 2022-09-05T17:37:09.973
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Diagnostics
+
+
+# Created at 2022-09-05T17:37:10.005
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Tech Support Report
+
+
+# Created at 2022-09-05T17:37:10.036
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Check Network Settings
+
+
+# Created at 2022-09-05T17:37:10.060
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: DNS Name Lookup
+
+
+# Created at 2022-09-05T17:37:10.088
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Network Path
+
+
+# Created at 2022-09-05T17:37:10.111
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Ping
+
+
+# Created at 2022-09-05T17:37:10.157
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Trace Route
+
+
+# Created at 2022-09-05T17:37:10.186
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Real-Time Blacklist
+
+
+# Created at 2022-09-05T17:37:10.218
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reverse Name Lookup
+
+
+# Created at 2022-09-05T17:37:10.243
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Connection TopX
+
+
+# Created at 2022-09-05T17:37:10.269
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Geo and Botnet
+
+
+# Created at 2022-09-05T17:37:10.300
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: MX and Banner
+
+
+# Created at 2022-09-05T17:37:10.332
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: GRID Check
+
+
+# Created at 2022-09-05T17:37:10.352
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: URL Rating Request
+
+
+# Created at 2022-09-05T17:37:10.383
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: PMTU Discovery
+
+
+# Created at 2022-09-05T17:37:10.411
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Diagnostics
+
+
+# Created at 2022-09-05T17:37:10.440
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Network
+
+
+# Created at 2022-09-05T17:37:10.470
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Overview
+
+
+# Created at 2022-09-05T17:37:10.496
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switches
+
+
+# Created at 2022-09-05T17:37:10.524
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Access Points
+
+
+# Created at 2022-09-05T17:37:10.547
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-09-05T17:37:10.607
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware Management
+
+
+# Created at 2022-09-05T17:37:10.653
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Floor Plan View
+
+
+# Created at 2022-09-05T17:37:10.674
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Station Status
+
+
+# Created at 2022-09-05T17:37:10.693
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: IDS
+
+
+# Created at 2022-09-05T17:37:10.710
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced IDP
+
+
+# Created at 2022-09-05T17:37:10.736
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Packet Capture
+
+
+# Created at 2022-09-05T17:37:10.766
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Virtual Access Point
+
+
+# Created at 2022-09-05T17:37:10.800
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Monitoring
+
+
+# Created at 2022-09-05T17:37:10.833
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Analysis
+
+
+# Created at 2022-09-05T17:37:10.867
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Spectrum
+
+
+# Created at 2022-09-05T17:37:10.893
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: FairNet
+
+
+# Created at 2022-09-05T17:37:10.923
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Wi-Fi Multimedia
+
+
+# Created at 2022-09-05T17:37:10.944
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: 3G/4G/LTE WWAN
+
+
+# Created at 2022-09-05T17:37:10.975
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Bluetooth LE
+
+
+# Created at 2022-09-05T17:37:10.999
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Radio Management
+
+
+# Created at 2022-09-05T17:37:11.022
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: WWAN
+
+
+# Created at 2022-09-05T17:37:11.023
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:11.024
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings >> Settings (TOP)
+
+
+# Created at 2022-09-05T17:37:11.025
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:11.027
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 69
+
+
+# Created at 2022-09-05T17:37:11.074
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-09-05T17:37:11.074
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'DEVICE' is done!
+
+
+# Created at 2022-09-05T17:37:14.290
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System
+
+
+# Created at 2022-09-05T17:37:14.331
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces
+
+
+# Created at 2022-09-05T17:37:14.365
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB
+
+
+# Created at 2022-09-05T17:37:14.396
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery
+
+
+# Created at 2022-09-05T17:37:14.429
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: ARP
+
+
+# Created at 2022-09-05T17:37:14.471
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof
+
+
+# Created at 2022-09-05T17:37:14.506
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy
+
+
+# Created at 2022-09-05T17:37:14.543
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups
+
+
+# Created at 2022-09-05T17:37:14.587
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Translation
+
+
+# Created at 2022-09-05T17:37:14.623
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IP Helper
+
+
+# Created at 2022-09-05T17:37:14.659
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic Routing
+
+
+# Created at 2022-09-05T17:37:14.697
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP Server
+
+
+# Created at 2022-09-05T17:37:14.735
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Multicast
+
+
+# Created at 2022-09-05T17:37:14.760
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Network Monitor
+
+
+# Created at 2022-09-05T17:37:14.795
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS Configuration
+
+
+# Created at 2022-09-05T17:37:14.831
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Firewall
+
+
+# Created at 2022-09-05T17:37:14.860
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced
+
+
+# Created at 2022-09-05T17:37:14.890
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Flood Protection
+
+
+# Created at 2022-09-05T17:37:14.927
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL Control
+
+
+# Created at 2022-09-05T17:37:14.956
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Cipher Control
+
+
+# Created at 2022-09-05T17:37:14.984
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: RBL Filter
+
+
+# Created at 2022-09-05T17:37:15.013
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VoIP
+
+
+# Created at 2022-09-05T17:37:15.039
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings
+
+
+# Created at 2022-09-05T17:37:15.077
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Call Status
+
+
+# Created at 2022-09-05T17:37:15.111
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS
+
+
+# Created at 2022-09-05T17:37:15.152
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings
+
+
+# Created at 2022-09-05T17:37:15.188
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic DNS
+
+
+# Created at 2022-09-05T17:37:15.223
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Proxy
+
+
+# Created at 2022-09-05T17:37:15.261
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Security
+
+
+# Created at 2022-09-05T17:37:15.293
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Switching
+
+
+# Created at 2022-09-05T17:37:15.324
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Trunking
+
+
+# Created at 2022-09-05T17:37:15.356
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2 Discovery
+
+
+# Created at 2022-09-05T17:37:15.388
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Link Aggregation
+
+
+# Created at 2022-09-05T17:37:15.411
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Port Mirroring
+
+
+# Created at 2022-09-05T17:37:15.438
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SDWAN
+
+
+# Created at 2022-09-05T17:37:15.464
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Groups
+
+
+# Created at 2022-09-05T17:37:15.492
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Probes
+
+
+# Created at 2022-09-05T17:37:15.510
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Class Objects
+
+
+# Created at 2022-09-05T17:37:15.538
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Path Selection Profiles
+
+
+# Created at 2022-09-05T17:37:15.572
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules
+
+
+# Created at 2022-09-05T17:37:15.604
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IPSec VPN
+
+
+# Created at 2022-09-05T17:37:15.634
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules and Settings
+
+
+# Created at 2022-09-05T17:37:15.666
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced
+
+
+# Created at 2022-09-05T17:37:15.700
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP over VPN
+
+
+# Created at 2022-09-05T17:37:15.731
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2TP Server
+
+
+# Created at 2022-09-05T17:37:15.760
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS VPN
+
+
+# Created at 2022-09-05T17:37:15.787
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL VPN
+
+
+# Created at 2022-09-05T17:37:15.809
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Status
+
+
+# Created at 2022-09-05T17:37:15.835
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Server Settings
+
+
+# Created at 2022-09-05T17:37:15.858
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Client Settings
+
+
+# Created at 2022-09-05T17:37:15.880
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Portal Settings
+
+
+# Created at 2022-09-05T17:37:15.907
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Virtual Office
+
+
+# Created at 2022-09-05T17:37:15.907
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:15.908
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-05T17:37:15.908
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:15.909
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 52
+
+
+# Created at 2022-09-05T17:37:15.940
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-09-05T17:37:15.941
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'NETWORK' is done!
+
+
+# Created at 2022-09-05T17:37:17.338
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects
+
+
+# Created at 2022-09-05T17:37:17.369
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Zones
+
+
+# Created at 2022-09-05T17:37:17.393
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Addresses
+
+
+# Created at 2022-09-05T17:37:17.421
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Services
+
+
+# Created at 2022-09-05T17:37:17.453
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists
+
+
+# Created at 2022-09-05T17:37:17.488
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects
+
+
+# Created at 2022-09-05T17:37:17.522
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Schedules
+
+
+# Created at 2022-09-05T17:37:17.562
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group
+
+
+# Created at 2022-09-05T17:37:17.594
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses
+
+
+# Created at 2022-09-05T17:37:17.638
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects
+
+
+# Created at 2022-09-05T17:37:17.671
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth
+
+
+# Created at 2022-09-05T17:37:17.703
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking
+
+
+# Created at 2022-09-05T17:37:17.737
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter
+
+
+# Created at 2022-09-05T17:37:17.770
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option
+
+
+# Created at 2022-09-05T17:37:17.796
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects
+
+
+# Created at 2022-09-05T17:37:17.826
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions
+
+
+# Created at 2022-09-05T17:37:17.856
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions
+
+
+# Created at 2022-09-05T17:37:17.857
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:17.858
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-05T17:37:17.859
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:17.860
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 17
+
+
+# Created at 2022-09-05T17:37:17.901
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-09-05T17:37:17.902
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'OBJECT' is done!
+
+
+# Created at 2022-09-05T17:37:19.457
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Rules and Policies
+
+
+# Created at 2022-09-05T17:37:19.504
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Access Rules
+
+
+# Created at 2022-09-05T17:37:19.540
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: NAT Rules
+
+
+# Created at 2022-09-05T17:37:19.584
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Routing Rules
+
+
+# Created at 2022-09-05T17:37:19.631
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter Rules
+
+
+# Created at 2022-09-05T17:37:19.656
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Rules
+
+
+# Created at 2022-09-05T17:37:19.690
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Security Services
+
+
+# Created at 2022-09-05T17:37:19.721
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Summary
+
+
+# Created at 2022-09-05T17:37:19.722
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:19.723
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-05T17:37:19.724
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-09-05T17:37:19.725
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 8
+
+
+# Created at 2022-09-05T17:37:19.757
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-09-05T17:37:19.758
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!
+
+
