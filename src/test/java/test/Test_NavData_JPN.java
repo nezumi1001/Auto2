@@ -133,13 +133,13 @@ public class Test_NavData_JPN {
 				mf.log_message(this.getClass().getName(), "^          All Matched!          ^");
 				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 			} else {
-				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 				mf.log_message(this.getClass().getName(), "New data: " + mf.newMenu_JPN);
 
 				for (int i = 0; i < mf.menuInfo_JPN.size(); i++) {
 					mf.log_message(this.getClass().getName(), mf.menuInfo_JPN.get(i));
 				}
-				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
+				mf.log_message(this.getClass().getName(), "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^");
 			}
 		}
 	}
