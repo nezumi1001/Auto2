@@ -227,19 +227,27 @@ public class Func_JPN {
 		}
 
 		// --- Reset each main menu >> xx (TOP) ---
-		log_message(class_name, "========================================================================");
-		int dupli_top = 0;
-		for (int j = 0; j < actual_data.size(); j++) {
-			// "DEVICE > Settings" >> "DEVICE > Settings (TOP)"
-			if (actual_data.get(j).equals("Settings") && actual_data.get(j + 1).equals("Licenses")) {
-				dupli_top += 1;
-				actual_data.set(j, "Settings (TOP)");
-				log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Settings >> Settings (TOP)");
+		if (iData_JPN.check_list == 0) {
+			log_message(class_name, "========================================================================");
+			int dupli_top = 0;
+			for (int j = 0; j < actual_data.size(); j++) {
+				// "DEVICE > Settings" >> "DEVICE > Settings (TOP)"
+				if (actual_data.get(j).equals("Settings") && actual_data.get(j + 1).equals("Licenses")) {
+					dupli_top += 1;
+					actual_data.set(j, "Settings (TOP)");
+					log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Settings >> Settings (TOP)");
+				}
+				// "Object > Match Objects" >> "Object > Match Objects (TOP)"
+				if (actual_data.get(j).equals("Match Objects") && actual_data.get(j + 1).equals("Zones")) {
+					dupli_top += 1;
+					actual_data.set(j, "Match Objects (TOP)");
+					log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Match Objects >> Match Objects (TOP)");
+				}
 			}
-		}
 
-		if (dupli_top == 0) {
-			log_message(class_name, "'" + top_menu + "'" + " Menu: " + "No duplicated data to the TOP");
+			if (dupli_top == 0) {
+				log_message(class_name, "'" + top_menu + "'" + " Menu: " + "No duplicated data to the TOP");
+			}
 		}
 
 		// [T] Sub menu text

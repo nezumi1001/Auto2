@@ -3,6 +3,7 @@
 	<test name="Menu Test JPN">
 		<classes>
 			<class name="test.Test_NavData_JPN"></class>
+			<!-- <class name="test.Test_NavData_ZHT"></class> -->
 		</classes>
 	</test>
 </suite>

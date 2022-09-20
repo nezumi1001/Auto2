@@ -4,9 +4,9 @@ import java.io.File;
 
 public class iData_JPN {
 	// Box info
-//	public static String baseUrl = "https://10.103.50.114"; // TZ 270W
-//	public static String baseUrl = "https://10.8.162.182"; // TZ 570P
-	public static String baseUrl = "https://10.8.56.212"; // NSa 5700
+//	public static String baseUrl = "https://10.103.50.199"; // TZ 270W
+	public static String baseUrl = "https://10.8.162.182"; // TZ 570P
+//	public static String baseUrl = "https://10.8.56.226"; // NSa 5700
 
 	// Check list
 	public static int check_list = 0;
@@ -90,9 +90,8 @@ public class iData_JPN {
 			{ "リアルタイム ブラックリスト", "Real-Time Blacklist" }, { "逆引き名前調査", "Reverse Name Lookup" },
 			{ "上位接続", "Connection TopX" }, { "地域とボットネット", "Geo and Botnet" }, { "MX とバナー", "MX and Banner" },
 			{ "グリッド確認", "GRID Check" }, { "URL 格付け要求", "URL Rating Request" }, { "PMTU 検出", "PMTU Discovery" },
-			{ "スイッチ診断", "Switch Diagnostics" }, { "Policy Lookup", "Policy Lookup" },
-			{ "スイッチ ネットワーク", "Switch Network" }, { "概要", "Overview" }, { "スイッチ", "Switches" },
-			{ "アクセス ポイント", "Access Points" }, { "ファームウェア管理", "Firmware Management" },
+			{ "スイッチ診断", "Switch Diagnostics" }, { "スイッチ ネットワーク", "Switch Network" }, { "概要", "Overview" },
+			{ "スイッチ", "Switches" }, { "アクセス ポイント", "Access Points" }, { "ファームウェア管理", "Firmware Management" },
 			{ "フロア プランの表示", "Floor Plan View" }, { "ステーション状況", "Station Status" }, { "IDS", "IDS" },
 			{ "高度な IDP", "Advanced IDP" }, { "パケット キャプチャ", "Packet Capture" },
 			{ "仮想アクセス ポイント", "Virtual Access Point" }, { "RF 監視", "RF Monitoring" }, { "RF 解析", "RF Analysis" },

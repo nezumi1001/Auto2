@@ -1,0 +1,41 @@
+# Created at 2022-09-16T16:35:34.817
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-09-16T16:35:51.081
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Element Not Found!
+
+
+# Created at 2022-09-16T16:35:51.121
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2022-09-16T16:35:51.123
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-16T16:35:51.123
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2022-09-16T16:35:51.124
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 0
+
+
+# Created at 2022-09-16T16:35:51.294
+Unexpected IOException: 8,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),null,null,null,null,Test_NavData_JPN.test_Step02_MenuTop_JPN:138 \00BB NullPointer,java.lang.NullPointerException\000A\0009at test.Test_NavData_JPN.test_Step02_MenuTop_JPN(Test_NavData_JPN.java:138)\000A
+
+
+# Created at 2022-09-16T16:35:52.502
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_JPN > [Fail]Take screenshot...
+
+
+# Created at 2022-09-16T16:35:56.231
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGXmlTestSuite,TestSuite,null,null,null
+
+

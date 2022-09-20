@@ -1,0 +1,957 @@
+# Created at 2022-09-20T09:17:52.658
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-09-20T09:17:53.822
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 儀表板 >> Dashboard
+
+
+# Created at 2022-09-20T09:17:53.846
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 系統 >> System
+
+
+# Created at 2022-09-20T09:17:53.868
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 存取點 >> Access Points
+
+
+# Created at 2022-09-20T09:17:53.890
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 擷取 ATP >> Capture ATP
+
+
+# Created at 2022-09-20T09:17:53.912
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 拓撲 >> Topology
+
+
+# Created at 2022-09-20T09:17:53.937
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 法律資訊 >> Legal Information
+
+
+# Created at 2022-09-20T09:17:53.961
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: API >> API
+
+
+# Created at 2022-09-20T09:17:53.962
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:17:53.965
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-20T09:17:53.966
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:17:53.968
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 7
+
+
+# Created at 2022-09-20T09:17:54.334
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-09-20T09:17:54.336
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'HOME' is done!
+
+
+# Created at 2022-09-20T09:17:57.489
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 即時圖表 >> Real-Time Charts
+
+
+# Created at 2022-09-20T09:17:57.523
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 系統監視器 >> System Monitor
+
+
+# Created at 2022-09-20T09:17:57.547
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 通訊協定監視 >> Protocol Monitor
+
+
+# Created at 2022-09-20T09:17:57.570
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 使用者監視器 >> User Monitor
+
+
+# Created at 2022-09-20T09:17:57.592
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: BWM 監視器 >> BWM Monitor
+
+
+# Created at 2022-09-20T09:17:57.616
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: AppFlow >> AppFlow
+
+
+# Created at 2022-09-20T09:17:57.637
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: AppFlow 報告 >> AppFlow Report
+
+
+# Created at 2022-09-20T09:17:57.665
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: AppFlow 監視器 >> AppFlow Monitor
+
+
+# Created at 2022-09-20T09:17:57.690
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: CTA 報告 >> CTA Report
+
+
+# Created at 2022-09-20T09:17:57.712
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: SDWAN >> SDWAN
+
+
+# Created at 2022-09-20T09:17:57.736
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: SDWAN 監視器 >> SDWAN Monitor
+
+
+# Created at 2022-09-20T09:17:57.777
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: SD-WAN 連線 >> SD-WAN Connections
+
+
+# Created at 2022-09-20T09:17:57.803
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 記錄 >> Logs
+
+
+# Created at 2022-09-20T09:17:57.825
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 系統記錄 >> System Logs
+
+
+# Created at 2022-09-20T09:17:57.849
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 稽核記錄 >> Auditing Logs
+
+
+# Created at 2022-09-20T09:17:57.872
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 工具與監視器 >> Tools & Monitors
+
+
+# Created at 2022-09-20T09:17:57.897
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 封包監視 >> Packet Monitor
+
+
+# Created at 2022-09-20T09:17:57.919
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 連線 >> Connections
+
+
+# Created at 2022-09-20T09:17:57.943
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 核心 0 處理序 >> Core 0 Processes
+
+
+# Created at 2022-09-20T09:17:57.966
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 封包重放 >> Packet Replay
+
+
+# Created at 2022-09-20T09:17:57.967
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:17:57.968
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-20T09:17:57.970
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:17:57.972
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 20
+
+
+# Created at 2022-09-20T09:17:58.009
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-09-20T09:17:58.010
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'MONITOR' is done!
+
+
+# Created at 2022-09-20T09:18:00.943
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:00.967
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 授權 >> Licenses
+
+
+# Created at 2022-09-20T09:18:00.999
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 管理 >> Administration
+
+
+# Created at 2022-09-20T09:18:01.024
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 時間 >> Time
+
+
+# Created at 2022-09-20T09:18:01.050
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 憑證 >> Certificates
+
+
+# Created at 2022-09-20T09:18:01.075
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: SNMP >> SNMP
+
+
+# Created at 2022-09-20T09:18:01.097
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 韌體與設定 >> Firmware and Settings
+
+
+# Created at 2022-09-20T09:18:01.119
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 儲存空間 >> Storage
+
+
+# Created at 2022-09-20T09:18:01.144
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 重新啟動 >> Restart
+
+
+# Created at 2022-09-20T09:18:01.167
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 內部無線 >> Internal Wireless
+
+
+# Created at 2022-09-20T09:18:01.189
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 狀態 >> Status
+
+
+# Created at 2022-09-20T09:18:01.213
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:01.239
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 安全性 >> Security
+
+
+# Created at 2022-09-20T09:18:01.263
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 進階 >> Advanced
+
+
+# Created at 2022-09-20T09:18:01.287
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: MAC 篩選器清單 >> MAC Filter List
+
+
+# Created at 2022-09-20T09:18:01.311
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: IDS >> IDS
+
+
+# Created at 2022-09-20T09:18:01.334
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 虛擬存取點 >> Virtual Access Point
+
+
+# Created at 2022-09-20T09:18:01.357
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 高可用性 >> High Availability
+
+
+# Created at 2022-09-20T09:18:01.380
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 狀態 >> Status
+
+
+# Created at 2022-09-20T09:18:01.403
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:01.426
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 進階 >> Advanced
+
+
+# Created at 2022-09-20T09:18:01.448
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 監視 >> Monitoring
+
+
+# Created at 2022-09-20T09:18:01.471
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 使用者 >> Users
+
+
+# Created at 2022-09-20T09:18:01.494
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 狀態 >> Status
+
+
+# Created at 2022-09-20T09:18:01.516
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:01.541
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 本機使用者與群組 >> Local Users & Groups
+
+
+# Created at 2022-09-20T09:18:01.563
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓服務 >> Guest Services
+
+
+# Created at 2022-09-20T09:18:01.586
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓帳戶 >> Guest Accounts
+
+
+# Created at 2022-09-20T09:18:01.607
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓狀態 >> Guest Status
+
+
+# Created at 2022-09-20T09:18:01.629
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AppFlow >> AppFlow
+
+
+# Created at 2022-09-20T09:18:01.656
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 流量報告 >> Flow Reporting
+
+
+# Created at 2022-09-20T09:18:01.679
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AppFlow Agent >> AppFlow Agent
+
+
+# Created at 2022-09-20T09:18:01.704
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 記錄 >> Log
+
+
+# Created at 2022-09-20T09:18:01.728
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:01.752
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Syslog >> Syslog
+
+
+# Created at 2022-09-20T09:18:01.776
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 自動化 >> Automation
+
+
+# Created at 2022-09-20T09:18:01.798
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 名稱解析 >> Name Resolution
+
+
+# Created at 2022-09-20T09:18:01.822
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 報告 >> Reports
+
+
+# Created at 2022-09-20T09:18:01.845
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AWS >> AWS
+
+
+# Created at 2022-09-20T09:18:01.869
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 診斷 >> Diagnostics
+
+
+# Created at 2022-09-20T09:18:01.890
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 技術支援報告 >> Tech Support Report
+
+
+# Created at 2022-09-20T09:18:01.916
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 檢查網路設定 >> Check Network Settings
+
+
+# Created at 2022-09-20T09:18:01.940
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: DNS 名稱查詢 >> DNS Name Lookup
+
+
+# Created at 2022-09-20T09:18:01.964
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 網路路徑 >> Network Path
+
+
+# Created at 2022-09-20T09:18:01.990
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 偵測 >> Ping
+
+
+# Created at 2022-09-20T09:18:02.015
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 追蹤路由 >> Trace Route
+
+
+# Created at 2022-09-20T09:18:02.038
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 即時封鎖清單 >> Real-Time Blacklist
+
+
+# Created at 2022-09-20T09:18:02.063
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 反向名稱查詢 >> Reverse Name Lookup
+
+
+# Created at 2022-09-20T09:18:02.089
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 連線 TopX >> Connection TopX
+
+
+# Created at 2022-09-20T09:18:02.112
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Geo 和 Botnet >> Geo and Botnet
+
+
+# Created at 2022-09-20T09:18:02.136
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: MX 和橫幅 >> MX and Banner
+
+
+# Created at 2022-09-20T09:18:02.159
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: GRID 檢查 >> GRID Check
+
+
+# Created at 2022-09-20T09:18:02.181
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: URL 評等要求 >> URL Rating Request
+
+
+# Created at 2022-09-20T09:18:02.264
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: PMTU 探索 >> PMTU Discovery
+
+
+# Created at 2022-09-20T09:18:02.331
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器診斷 >> Switch Diagnostics
+
+
+# Created at 2022-09-20T09:18:02.361
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器網路 >> Switch Network
+
+
+# Created at 2022-09-20T09:18:02.387
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 概觀 >> Overview
+
+
+# Created at 2022-09-20T09:18:02.413
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器 >> Switches
+
+
+# Created at 2022-09-20T09:18:02.440
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 存取點 >> Access Points
+
+
+# Created at 2022-09-20T09:18:02.467
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:02.494
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 韌體管理 >> Firmware Management
+
+
+# Created at 2022-09-20T09:18:02.519
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 平面設計圖檢視 >> Floor Plan View
+
+
+# Created at 2022-09-20T09:18:02.547
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 站台狀態 >> Station Status
+
+
+# Created at 2022-09-20T09:18:02.574
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: IDS >> IDS
+
+
+# Created at 2022-09-20T09:18:02.606
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 進階 IDP >> Advanced IDP
+
+
+# Created at 2022-09-20T09:18:02.636
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 封包擷取 >> Packet Capture
+
+
+# Created at 2022-09-20T09:18:02.664
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 虛擬存取點 >> Virtual Access Point
+
+
+# Created at 2022-09-20T09:18:02.690
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: RF 監視 >> RF Monitoring
+
+
+# Created at 2022-09-20T09:18:02.715
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: RF 分析 >> RF Analysis
+
+
+# Created at 2022-09-20T09:18:02.740
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: RF 頻譜 >> RF Spectrum
+
+
+# Created at 2022-09-20T09:18:02.764
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: FairNet >> FairNet
+
+
+# Created at 2022-09-20T09:18:02.787
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Wi-Fi 多媒體 >> Wi-Fi Multimedia
+
+
+# Created at 2022-09-20T09:18:02.813
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 3G/4G/LTE WWAN >> 3G/4G/LTE WWAN
+
+
+# Created at 2022-09-20T09:18:02.839
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 藍牙 LE >> Bluetooth LE
+
+
+# Created at 2022-09-20T09:18:02.862
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 無線電管理 >> Radio Management
+
+
+# Created at 2022-09-20T09:18:02.886
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 無線廣域網路 (WWAN) >> WWAN
+
+
+# Created at 2022-09-20T09:18:02.887
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:02.888
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Settings >> Settings (TOP)
+
+
+# Created at 2022-09-20T09:18:02.889
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:02.891
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 76
+
+
+# Created at 2022-09-20T09:18:02.944
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-09-20T09:18:02.945
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'DEVICE' is done!
+
+
+# Created at 2022-09-20T09:18:06.221
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 系統 >> System
+
+
+# Created at 2022-09-20T09:18:06.248
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 介面 >> Interfaces
+
+
+# Created at 2022-09-20T09:18:06.272
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 容錯移轉和負載平衡 >> Failover & LB
+
+
+# Created at 2022-09-20T09:18:06.297
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 探索芳鄰 >> Neighbor Discovery
+
+
+# Created at 2022-09-20T09:18:06.321
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: ARP >> ARP
+
+
+# Created at 2022-09-20T09:18:06.346
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: MAC-IP 反詐騙 >> MAC IP Anti-Spoof
+
+
+# Created at 2022-09-20T09:18:06.371
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: Web 代理 >> Web Proxy
+
+
+# Created at 2022-09-20T09:18:06.406
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: PortShield 群組 >> PortShield Groups
+
+
+# Created at 2022-09-20T09:18:06.435
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: VLAN 轉譯 >> VLAN Translation
+
+
+# Created at 2022-09-20T09:18:06.460
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: IP 協助程式 >> IP Helper
+
+
+# Created at 2022-09-20T09:18:06.485
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 動態路由 >> Dynamic Routing
+
+
+# Created at 2022-09-20T09:18:06.508
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DHCP 伺服器 >> DHCP Server
+
+
+# Created at 2022-09-20T09:18:06.530
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 多點傳送 >> Multicast
+
+
+# Created at 2022-09-20T09:18:06.555
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 網路監視器 >> Network Monitor
+
+
+# Created at 2022-09-20T09:18:06.578
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: AWS 設定 >> AWS Configuration
+
+
+# Created at 2022-09-20T09:18:06.603
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 防火牆 >> Firewall
+
+
+# Created at 2022-09-20T09:18:06.631
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 進階 >> Advanced
+
+
+# Created at 2022-09-20T09:18:06.654
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 洪水攻擊防護 >> Flood Protection
+
+
+# Created at 2022-09-20T09:18:06.679
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SSL 控制 >> SSL Control
+
+
+# Created at 2022-09-20T09:18:06.702
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 加密控制 >> Cipher Control
+
+
+# Created at 2022-09-20T09:18:06.725
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: RBL 篩選條件 >> RBL Filter
+
+
+# Created at 2022-09-20T09:18:06.748
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: VoIP >> VoIP
+
+
+# Created at 2022-09-20T09:18:06.771
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:06.795
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 呼叫狀態 >> Call Status
+
+
+# Created at 2022-09-20T09:18:06.820
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS >> DNS
+
+
+# Created at 2022-09-20T09:18:06.844
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:06.864
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 動態 DNS >> Dynamic DNS
+
+
+# Created at 2022-09-20T09:18:06.888
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS 代理 >> DNS Proxy
+
+
+# Created at 2022-09-20T09:18:06.911
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS 安全性 >> DNS Security
+
+
+# Created at 2022-09-20T09:18:06.939
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SDWAN >> SDWAN
+
+
+# Created at 2022-09-20T09:18:06.965
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 群組 >> Groups
+
+
+# Created at 2022-09-20T09:18:06.992
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SLA 探查 >> SLA Probes
+
+
+# Created at 2022-09-20T09:18:07.019
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SLA 類別物件 >> SLA Class Objects
+
+
+# Created at 2022-09-20T09:18:07.042
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 路徑選取設定檔 >> Path Selection Profiles
+
+
+# Created at 2022-09-20T09:18:07.065
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 規則 >> Rules
+
+
+# Created at 2022-09-20T09:18:07.089
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: IPsec VPN >> IPSec VPN
+
+
+# Created at 2022-09-20T09:18:07.114
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 規則與設定 >> Rules and Settings
+
+
+# Created at 2022-09-20T09:18:07.137
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 進階 >> Advanced
+
+
+# Created at 2022-09-20T09:18:07.161
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 透過 VPN 的 DHCP >> DHCP over VPN
+
+
+# Created at 2022-09-20T09:18:07.184
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: L2TP 伺服器 >> L2TP Server
+
+
+# Created at 2022-09-20T09:18:07.207
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: AWS VPN >> AWS VPN
+
+
+# Created at 2022-09-20T09:18:07.232
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SSL VPN >> SSL VPN
+
+
+# Created at 2022-09-20T09:18:07.258
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 狀態 >> Status
+
+
+# Created at 2022-09-20T09:18:07.287
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 伺服器設定 >> Server Settings
+
+
+# Created at 2022-09-20T09:18:07.318
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 用戶端設定 >> Client Settings
+
+
+# Created at 2022-09-20T09:18:07.345
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 入口網站設定 >> Portal Settings
+
+
+# Created at 2022-09-20T09:18:07.371
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 虛擬辦公室 >> Virtual Office
+
+
+# Created at 2022-09-20T09:18:07.372
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:07.373
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-20T09:18:07.374
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:07.375
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 47
+
+
+# Created at 2022-09-20T09:18:07.445
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-09-20T09:18:07.446
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'NETWORK' is done!
+
+
+# Created at 2022-09-20T09:18:10.836
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 比對物件 >> Match Objects
+
+
+# Created at 2022-09-20T09:18:10.863
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 區域 >> Zones
+
+
+# Created at 2022-09-20T09:18:10.889
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 位址 >> Addresses
+
+
+# Created at 2022-09-20T09:18:10.913
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 服務 >> Services
+
+
+# Created at 2022-09-20T09:18:10.938
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: URI 清單 >> URI Lists
+
+
+# Created at 2022-09-20T09:18:10.966
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 比對物件 >> Match Objects
+
+
+# Created at 2022-09-20T09:18:10.993
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 排程 >> Schedules
+
+
+# Created at 2022-09-20T09:18:11.018
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 動態群組 >> Dynamic Group
+
+
+# Created at 2022-09-20T09:18:11.043
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 電子郵件地址 >> Email Addresses
+
+
+# Created at 2022-09-20T09:18:11.068
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 設定檔物件 >> Profile Objects
+
+
+# Created at 2022-09-20T09:18:11.096
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 端點安全性 >> Endpoint Security
+
+
+# Created at 2022-09-20T09:18:11.122
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 頻寬 >> Bandwidth
+
+
+# Created at 2022-09-20T09:18:11.147
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 服務品質 (QoS) 標記 >> QoS Marking
+
+
+# Created at 2022-09-20T09:18:11.173
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 內容篩選 >> Content Filter
+
+
+# Created at 2022-09-20T09:18:11.202
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: DHCP 選項 >> DHCP Option
+
+
+# Created at 2022-09-20T09:18:11.226
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: AWS >> AWS
+
+
+# Created at 2022-09-20T09:18:11.251
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 動作物件 >> Action Objects
+
+
+# Created at 2022-09-20T09:18:11.280
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 應用程式規則執行 >> App Rule Actions
+
+
+# Created at 2022-09-20T09:18:11.304
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 內容篩選器執行 >> Content Filter Actions
+
+
+# Created at 2022-09-20T09:18:11.305
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:11.306
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-20T09:18:11.307
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:11.308
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 19
+
+
+# Created at 2022-09-20T09:18:11.366
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-09-20T09:18:11.367
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'OBJECT' is done!
+
+
+# Created at 2022-09-20T09:18:16.100
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 規則與原則 >> Rules and Policies
+
+
+# Created at 2022-09-20T09:18:16.128
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 存取規則 >> Access Rules
+
+
+# Created at 2022-09-20T09:18:16.156
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: NAT 規則 >> NAT Rules
+
+
+# Created at 2022-09-20T09:18:16.185
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 路由規則 >> Routing Rules
+
+
+# Created at 2022-09-20T09:18:16.216
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 內容篩選規則 >> Content Filter Rules
+
+
+# Created at 2022-09-20T09:18:16.244
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 應用程式規則 >> App Rules
+
+
+# Created at 2022-09-20T09:18:16.272
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 端點規則 >> Endpoint Rules
+
+
+# Created at 2022-09-20T09:18:16.298
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: DPI-SSL >> DPI-SSL
+
+
+# Created at 2022-09-20T09:18:16.323
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 用戶端 SSL >> Client SSL
+
+
+# Created at 2022-09-20T09:18:16.348
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 伺服器 SSL >> Server SSL
+
+
+# Created at 2022-09-20T09:18:16.375
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: DPI-SSH >> DPI-SSH
+
+
+# Created at 2022-09-20T09:18:16.403
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:16.435
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 安全性服務 >> Security Services
+
+
+# Created at 2022-09-20T09:18:16.461
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 摘要 >> Summary
+
+
+# Created at 2022-09-20T09:18:16.488
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 閘道防病毒 >> Gateway Anti-Virus
+
+
+# Created at 2022-09-20T09:18:16.514
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 防間諜軟體 >> Anti-Spyware
+
+
+# Created at 2022-09-20T09:18:16.539
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 入侵防護 >> Intrusion Prevention
+
+
+# Created at 2022-09-20T09:18:16.565
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: Geo-IP 篩選條件 >> Geo-IP Filter
+
+
+# Created at 2022-09-20T09:18:16.593
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: Botnet 篩選器 >> Botnet Filter
+
+
+# Created at 2022-09-20T09:18:16.625
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 應用程式控制 >> App Control
+
+
+# Created at 2022-09-20T09:18:16.656
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 內容篩選 >> Content Filter
+
+
+# Created at 2022-09-20T09:18:16.682
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 反垃圾郵件 >> Anti-Spam
+
+
+# Created at 2022-09-20T09:18:16.709
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 狀態 >> Status
+
+
+# Created at 2022-09-20T09:18:16.737
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:16.764
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 擷取 ATP >> Capture ATP
+
+
+# Created at 2022-09-20T09:18:16.794
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 設定 >> Settings
+
+
+# Created at 2022-09-20T09:18:16.819
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 掃描歷程記錄 >> Scanning History
+
+
+# Created at 2022-09-20T09:18:16.844
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 端點安全性 >> Endpoint Security
+
+
+# Created at 2022-09-20T09:18:16.846
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:16.847
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-09-20T09:18:16.848
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-09-20T09:18:16.848
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 28
+
+
+# Created at 2022-09-20T09:18:16.900
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-09-20T09:18:16.901
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'POLICY' is done!
+
+
+# Created at 2022-09-20T09:18:25.650
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Info created for [ZHT]!
+
+
+# Created at 2022-09-20T09:18:25.660
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Info updated for [ZHT]!
+
+
+# Created at 2022-09-20T09:18:25.661
+Unexpected IOException: 6,1,test.Test_NavData_ZHT,test_Step02_MenuTop_ZHT(test.Test_NavData_ZHT),null,null,null
+
+
+# Created at 2022-09-20T09:18:26.404
+Unexpected IOException with stream: [S]ReportLog >> test_Step02_MenuTop_ZHT > [Pass]Take screenshot...
+
+

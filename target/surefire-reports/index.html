@@ -124,7 +124,7 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_vsDATA" class="method navigator-link" hash-for-method="test_dataCompare">test_dataCompare</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_vsDATA_JE" class="method navigator-link" hash-for-method="test_dataCompare">test_dataCompare</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-SonicWall_TestSuite -->
@@ -164,7 +164,7 @@
           <div class="suite-SonicWall_TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">test.Test_vsDATA</span>
+              <span class="class-name">test.Test_vsDATA_JE</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
@@ -208,17 +208,17 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;SonicWall TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Menu Test JPN/ENG&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Menu Test JPN/ZHT/ENG&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;test.Test_NavData_ENG&quot;/&gt;
       &lt;class name=&quot;test.Test_NavData_JPN&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Menu Test JPN/ENG --&gt;
-  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Menu Compare JPN/ENG&quot; verbose=&quot;0&quot;&gt;
+  &lt;/test&gt; &lt;!-- Menu Test JPN/ZHT/ENG --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Menu Compare JPN/ZHT/ENG&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;test.Test_vsDATA&quot;/&gt;
+      &lt;class name=&quot;test.Test_vsDATA_JE&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Menu Compare JPN/ENG --&gt;
+  &lt;/test&gt; &lt;!-- Menu Compare JPN/ZHT/ENG --&gt;
 &lt;/suite&gt; &lt;!-- SonicWall TestSuite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -230,10 +230,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Menu Test JPN/ENG (2 classes)</span>
+                <span class="test-name">Menu Test JPN/ZHT/ENG (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">Menu Compare JPN/ENG (1 class)</span>
+                <span class="test-name">Menu Compare JPN/ZHT/ENG (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -263,28 +263,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'test_Step02_MenuTop_ENG')
 data.setCell(0, 2, 'test.Test_NavData_ENG')
-data.setCell(0, 3, 47967);
+data.setCell(0, 3, 52285);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'test_Step02_MenuTop_JPN')
 data.setCell(1, 2, 'test.Test_NavData_JPN')
-data.setCell(1, 3, 19862);
+data.setCell(1, 3, 40420);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test_Step01_Login_JPN')
 data.setCell(2, 2, 'test.Test_NavData_JPN')
-data.setCell(2, 3, 15500);
+data.setCell(2, 3, 15435);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'test_Step01_Login_ENG')
 data.setCell(3, 2, 'test.Test_NavData_ENG')
-data.setCell(3, 3, 15500);
+data.setCell(3, 3, 15404);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test_dataCompare')
-data.setCell(4, 2, 'test.Test_vsDATA')
-data.setCell(4, 3, 29);
+data.setCell(4, 2, 'test.Test_vsDATA_JE')
+data.setCell(4, 3, 92);
 window.suiteTableData['SonicWall_TestSuite']= { tableData: data, tableDiv: 'times-div-SonicWall_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-SonicWall_TestSuite">
               </div> <!-- times-div-SonicWall_TestSuite -->
             </div> <!-- times-div -->
@@ -356,7 +356,6 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ユーザ >> Users</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パーティション >> Partitions</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ローカル ユーザとグループ >> Local Users & Groups</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト サービス >> Guest Services</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト アカウント >> Guest Accounts</span>
@@ -411,7 +410,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Settings >> Settings (TOP)</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 69</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 68</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Top menu 'DEVICE' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: システム >> System</span>
@@ -422,6 +421,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: MAC IP アンチスプーフ >> MAC IP Anti-Spoof</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ウェブ プロキシ >> Web Proxy</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: PortShield グループ >> PortShield Groups</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: PoE 設定 >> PoE Settings</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN 変換 >> VLAN Translation</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: IP ヘルパー >> IP Helper</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 動的ルーティング >> Dynamic Routing</span>
@@ -443,11 +443,6 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 動的 DNS >> Dynamic DNS</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS プロキシ >> DNS Proxy</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS セキュリティ >> DNS Security</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: スイッチング >> Switching</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN トランク >> VLAN Trunking</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: L2 発見 >> L2 Discovery</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: リンク統合 >> Link Aggregation</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ポート ミラーリング >> Port Mirroring</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SDWAN >> SDWAN</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: グループ >> Groups</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SLA プローブ >> SLA Probes</span>
@@ -469,7 +464,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: No duplicated data to the TOP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 52</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 48</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Top menu 'NETWORK' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects</span>
@@ -492,7 +487,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: アプリケーション ルールの動作 >> App Rule Actions</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタの動作 >> Content Filter Actions</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: No duplicated data to the TOP</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: Match Objects >> Match Objects (TOP)</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 19</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
@@ -521,6 +516,16 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: アンチスパム >> Anti-Spam</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 状況 >> Status</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 設定 >> Settings</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: リレー ドメイン >> Relay Domains</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ジャンク ボックス メッセージ >> Junk Box Messages</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ジャンク ボックス設定 >> Junk Box Settings</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ジャンク ボックス サマリ >> Junk Box Summary</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ユーザ表示セットアップ >> User View Setup</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: アドレス帳 >> Address Books</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ユーザ管理 >> Manage Users</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: LDAP 構成 >> LDAP Configuration</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 詳細 >> Advanced</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ダウンロード >> Downloads</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: キャプチャ ATP >> Capture ATP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 設定 >> Settings</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: スキャン履歴 >> Scanning History</span>
@@ -528,7 +533,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: No duplicated data to the TOP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 28</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 38</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Top menu 'POLICY' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Info created for [JPN]!</span>
@@ -536,15 +541,15 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Step01_Login_JPN</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Login to main page...</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
               <span class="reporter-method-name">test_Step01_Login_ENG</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Login to main page...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test_Step01_Login_JPN</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_JPN > Login to main page...</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -744,7 +749,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: No duplicated data to the TOP</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects >> Match Objects (TOP)</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 19</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
@@ -773,16 +778,6 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spam</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Status</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Relay Domains</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Junk Box Messages</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Junk Box Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Junk Box Summary</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: User View Setup</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Address Books</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Manage Users</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: LDAP Configuration</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Advanced</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Downloads</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Capture ATP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Scanning History</span>
@@ -790,7 +785,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: No duplicated data to the TOP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 38</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 28</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Info created for [ENG]!</span>
@@ -804,24 +799,31 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> box_ENG > Got data!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > Ready to start...</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> NSa 5700</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDA2B70F</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5080-D3249-j5129</span>
+                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Device Name -----> TZ 570P</span>
+                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Serial Number ---> 2CB8ED694D58</span>
+                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5080-P3248-j3408</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> NSA 2700</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED8279E0</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5080-P3250</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Relay Domains</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Junk Box Messages</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Junk Box Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Junk Box Summary</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > User View Setup</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Address Books</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Manage Users</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > LDAP Configuration</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Advanced</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: POLICY > Anti-Spam > Downloads</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: DEVICE > Users > Partitions</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > Switching</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > Switching > VLAN Trunking</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > Switching > L2 Discovery</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > Switching > Link Aggregation</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [JPN] version missing: NETWORK > Switching > Port Mirroring</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > System > PoE Settings</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Relay Domains</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Junk Box Messages</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Junk Box Settings</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Junk Box Summary</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > User View Setup</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Address Books</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Manage Users</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > LDAP Configuration</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Advanced</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Downloads</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -851,67 +853,73 @@ return data;
                 <span class="method-name">beforeClass</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
-              <div class="test-method">
-                <span class="method-name">test_Step01_Login_JPN</span>
-                <span class="method-start">3985 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_Step01_Login_ENG</span>
-                <span class="method-start">3985 ms</span>
+                <span class="method-start">1795 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Step01_Login_JPN</span>
+                <span class="method-start">1795 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG(...)</span>
-                <span class="method-start">19486 ms</span>
+                <span class="method-start">17204 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step01_Login_JPN status=SUCCESS method=Test_NavData_JPN.test_Step01_Login_JPN(...)</span>
-                <span class="method-start">19486 ms</span>
+                <span class="method-start">17230 ms</span>
               </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">test_Step02_MenuTop_JPN</span>
-                <span class="method-start">19754 ms</span>
-              </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_Step02_MenuTop_ENG</span>
-                <span class="method-start">19760 ms</span>
+                <span class="method-start">18198 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_JPN</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Step02_MenuTop_JPN</span>
+                <span class="method-start">18199 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step02_MenuTop_JPN status=SUCCESS method=Test_NavData_JPN.test_Step02_MenuTop_...)</span>
-                <span class="method-start">39616 ms</span>
+                <span class="method-start">58620 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">39938 ms</span>
+                <span class="method-start">59341 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step02_MenuTop_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_MenuTop_...)</span>
-                <span class="method-start">67728 ms</span>
+                <span class="method-start">70483 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">68000 ms</span>
+                <span class="method-start">71185 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">test.Test_vsDATA</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.Test_vsDATA_JE</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_dataCompare</span>
-                <span class="method-start">71151 ms</span>
+                <span class="method-start">74453 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

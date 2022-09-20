@@ -221,6 +221,12 @@ public class Func_ENG {
 				actual_data.set(j, "Settings (TOP)");
 				log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Settings >> Settings (TOP)");
 			}
+			// "Object > Match Objects" >> "Object > Match Objects (TOP)"
+			if (actual_data.get(j).equals("Match Objects") && actual_data.get(j + 1).equals("Zones")) {
+				dupli_top += 1;
+				actual_data.set(j, "Match Objects (TOP)");
+				log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Match Objects >> Match Objects (TOP)");
+			}
 		}
 
 		if (dupli_top == 0) {

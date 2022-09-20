@@ -22,6 +22,8 @@
 2022-09-01: [I]Added red color highlighted in Box_JPN.xls for new changes.
 2022-09-02: [I]Added message "No duplicated data to the TOP".
 2022-09-02: [I]Upgraded to Locali_Auto2 (Gen7).
+2022-09-19: [I]Added self-check (ZZ check) for Traditional Chinese version.
+2022-09-20: [I]Integrated ZZ & ZE check on SonicWall_Box2.xml in test process.
 
 <TO DO>
 # Keep on searching any new issues.
