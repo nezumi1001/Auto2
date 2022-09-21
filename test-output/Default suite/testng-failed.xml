@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.Test_NavData_JPN">
+      <class name="test.Test_vsDATA_ZE">
         <methods>
-          <include name="afterClass"/>
-          <include name="test_Step01_Login_JPN"/>
-          <include name="beforeClass"/>
-          <include name="test_Step02_MenuTop_JPN"/>
-          <include name="afterMethod"/>
+          <include name="test_dataCompare"/>
         </methods>
-      </class> <!-- test.Test_NavData_JPN -->
+      </class> <!-- test.Test_vsDATA_ZE -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

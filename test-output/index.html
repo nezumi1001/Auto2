@@ -26,7 +26,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -40,7 +40,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-SonicWall_TestSuite" class="navigator-link">
-              <span class="suite-name border-passed">SonicWall TestSuite</span>
+              <span class="suite-name border-failed">SonicWall TestSuite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-SonicWall_TestSuite" class="navigator-link ">
-                    <span>C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Delete.xml</span>
+                    <span>C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_vsDATA.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,21 +93,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">1 method, 1 failed,   </span>
                   </li>
                   <li>
-                    <span class="method-list-title passed">Passed methods</span>
-                    <span class="show-or-hide-methods passed">
-                      <a href="#" panel-name="suite-SonicWall_TestSuite" class="hide-methods passed suite-SonicWall_TestSuite"> (hide)</a> <!-- hide-methods passed suite-SonicWall_TestSuite -->
-                      <a href="#" panel-name="suite-SonicWall_TestSuite" class="show-methods passed suite-SonicWall_TestSuite"> (show)</a> <!-- show-methods passed suite-SonicWall_TestSuite -->
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-SonicWall_TestSuite" class="hide-methods failed suite-SonicWall_TestSuite"> (hide)</a> <!-- hide-methods failed suite-SonicWall_TestSuite -->
+                      <a href="#" panel-name="suite-SonicWall_TestSuite" class="show-methods failed suite-SonicWall_TestSuite"> (show)</a> <!-- show-methods failed suite-SonicWall_TestSuite -->
                     </span>
-                    <div class="method-list-content passed suite-SonicWall_TestSuite">
+                    <div class="method-list-content failed suite-SonicWall_TestSuite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="main.Func_Delete" class="method navigator-link" hash-for-method="test_delete_file">test_delete_file</a> <!-- method navigator-link -->
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SonicWall_TestSuite" title="test.Test_vsDATA_ZE" class="method navigator-link" hash-for-method="test_dataCompare">test_dataCompare</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                    </div> <!-- method-list-content passed suite-SonicWall_TestSuite -->
+                    </div> <!-- method-list-content failed suite-SonicWall_TestSuite -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -119,25 +119,31 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-SonicWall_TestSuite" class="panel SonicWall_TestSuite">
-          <div class="suite-SonicWall_TestSuite-class-passed">
+          <div class="suite-SonicWall_TestSuite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">main.Func_Delete</span>
+              <img src="failed.png"/>
+              <span class="class-name">test.Test_vsDATA_ZE</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="test_delete_file">
-                  </a> <!-- test_delete_file -->
-                  <span class="method-name">test_delete_file</span>
+                  <a name="test_dataCompare">
+                  </a> <!-- test_dataCompare -->
+                  <span class="method-name">test_dataCompare</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at test.Test_vsDATA_ZE.Box_ZHT(Test_vsDATA_ZE.java:82)
+	at test.Test_vsDATA_ZE.test_dataCompare(Test_vsDATA_ZE.java:645)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SonicWall_TestSuite-class-passed -->
+          </div> <!-- suite-SonicWall_TestSuite-class-failed -->
         </div> <!-- panel SonicWall_TestSuite -->
         <div panel-name="test-xml-SonicWall_TestSuite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_Delete.xml</span>
+            <span class="header-content">C:\Users\khuang\eclipse-workspace\Gen7_v2\SonicWall_vsDATA.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -146,7 +152,7 @@
 &lt;suite name=&quot;SonicWall TestSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Menu Compare JPN/ENG&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;main.Func_Delete&quot;/&gt;
+      &lt;class name=&quot;test.Test_vsDATA_ZE&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Menu Compare JPN/ENG --&gt;
 &lt;/suite&gt; &lt;!-- SonicWall TestSuite --&gt;
@@ -188,14 +194,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_delete_file')
-data.setCell(0, 2, 'main.Func_Delete')
-data.setCell(0, 3, 32);
+data.setCell(0, 1, 'test_dataCompare')
+data.setCell(0, 2, 'test.Test_vsDATA_ZE')
+data.setCell(0, 3, 309);
 window.suiteTableData['SonicWall_TestSuite']= { tableData: data, tableDiv: 'times-div-SonicWall_TestSuite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 309 ms</span>
               <div id="times-div-SonicWall_TestSuite">
               </div> <!-- times-div-SonicWall_TestSuite -->
             </div> <!-- times-div -->
@@ -221,9 +227,11 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">main.Func_Delete</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">test.Test_vsDATA_ZE</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">test_delete_file</span>
+                <img src="failed.png">
+                </img>
+                <span class="method-name">test_dataCompare</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->

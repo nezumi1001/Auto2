@@ -208,217 +208,56 @@ public class Test_vsDATA_ZE {
 		List<String> OBJECT_MenusENGs = new ArrayList<String>();
 		List<String> POLICY_MenusENGs = new ArrayList<String>();
 		// HOME ENG
-		String[] HOME_Menus_ENG = { "Dashboard", "Legal Information", "API" };
+		String[] HOME_Menus_ENG = HOME_Menus_ZHT;
 		// MONITOR ENG
-		String[] MONITOR_Menus_ENG = { "Real-Time Charts", "AppFlow", "SDWAN", "Logs", "Tools & Monitors" };
+		String[] MONITOR_Menus_ENG = MONITOR_Menus_ZHT;
 		// DEVICE ENG
-		String[] DEVICE_Menus_ENG = { "Settings (TOP)", "Internal Wireless", "High Availability", "Users", "AppFlow",
-				"Network Access Control", "Log", "Diagnostics", "Switch Network", "Access Points", "WWAN" };
+		String[] DEVICE_Menus_ENG = DEVICE_Menus_ZHT;
 		// NETWORK ENG
-		String[] NETWORK_Menus_ENG = { "System", "Firewall", "VoIP", "DNS", "Switching", "SDWAN", "IPSec VPN",
-				"SSL VPN" };
+		String[] NETWORK_Menus_ENG = NETWORK_Menus_ZHT;
 		// OBJECT ENG
-		String[] OBJECT_Menus_ENG = { "Match Objects (TOP)", "Profile Objects", "Action Objects", "Signatures" };
+		String[] OBJECT_Menus_ENG = OBJECT_Menus_ZHT;
 		// POLICY ENG
-		String[] POLICY_Menus_ENG = { "Rules and Policies", "DPI-SSL", "DPI-SSH", "Security Services", "Anti-Spam",
-				"Capture ATP", "Endpoint Security" };
+		String[] POLICY_Menus_ENG = POLICY_Menus_ZHT;
 
 		// --- Make new menu ---
 		main_menu = column_name[column_no];
+
 		// Mark ">" ZHT
+		List<String> MenusZHTs_temp = new ArrayList<String>();
 		for (int i = 0; i < MenusZHTs.size(); i++) {
-			// HOME ZHT
-			if (main_menu.equals("HOME")) {
-				String MenusZHT_temp = MenusZHTs.get(i);
-				int iTemp = i;
+			String[] MenusZHT_box = null;
+			String MenusZHT_temp = MenusZHTs.get(i);
+			int iTemp = i;
+			int iMenu = 0;
+			if (main_menu.equals("HOME"))
+				MenusZHT_box = HOME_Menus_ZHT;
+			if (main_menu.equals("MONITOR"))
+				MenusZHT_box = MONITOR_Menus_ZHT;
+			if (main_menu.equals("DEVICE"))
+				MenusZHT_box = DEVICE_Menus_ZHT;
+			if (main_menu.equals("NETWORK"))
+				MenusZHT_box = NETWORK_Menus_ZHT;
+			if (main_menu.equals("OBJECT"))
+				MenusZHT_box = OBJECT_Menus_ZHT;
+			if (main_menu.equals("POLICY"))
+				MenusZHT_box = POLICY_Menus_ZHT;
 
-//				while (!MenusZHT_temp.equals("Dashboard") && !MenusZHT_temp.equals("Legal Information")
-//						&& !MenusZHT_temp.equals("API")) {
-//					iTemp = iTemp - 1;
-//					MenusZHT_temp = MenusZHTs.get(iTemp);
-//				}
-
-				int iMenu = 0;
-				while (iMenu == 0) {
-					for (int j = 0; j < HOME_Menus_ZHT.length; j++) {
-						if (MenusZHT_temp.equals(HOME_Menus_ZHT[j]))
-							iMenu = 1;
-					}
-					if (iMenu == 0)
-						MenusZHT_temp = MenusZHTs.get(iTemp = iTemp - 1);
+			while (iMenu == 0) {
+				for (int j = 0; j < MenusZHT_box.length; j++) {
+					if (MenusZHT_temp.equals(MenusZHT_box[j]))
+						iMenu = 1;
 				}
-
-				for (int k = 0; k < HOME_Menus_ZHT.length; k++) {
-					if (MenusZHT_temp.equals(HOME_Menus_ZHT[k])) {
-						if (iTemp == i) {
-							HOME_MenusZHTs.add(HOME_Menus_ZHT[k]);
-						} else {
-							HOME_MenusZHTs.add(HOME_Menus_ZHT[k] + " > " + MenusZHTs.get(i));
-						}
-					}
-				}
+				if (iMenu == 0)
+					MenusZHT_temp = MenusZHTs.get(iTemp = iTemp - 1);
 			}
 
-			// MONITOR ZHT
-			if (main_menu.equals("MONITOR")) {
-				String MenusZHT_temp = MenusZHTs.get(i);
-				int iTemp = i;
-//				while (!MenusZHT_temp.equals("Real-Time Charts") && !MenusZHT_temp.equals("AppFlow")
-//						&& !MenusZHT_temp.equals("SDWAN") && !MenusZHT_temp.equals("Logs")
-//						&& !MenusZHT_temp.equals("Tools & Monitors")) {
-//					iTemp = iTemp - 1;
-//					MenusZHT_temp = MenusZHTs.get(iTemp);
-//				}
-
-				int iMenu = 0;
-				while (iMenu == 0) {
-					for (int j = 0; j < MONITOR_Menus_ZHT.length; j++) {
-						if (MenusZHT_temp.equals(MONITOR_Menus_ZHT[j]))
-							iMenu = 1;
-					}
-					if (iMenu == 0)
-						MenusZHT_temp = MenusZHTs.get(iTemp = iTemp - 1);
-				}
-
-				for (int k = 0; k < MONITOR_Menus_ZHT.length; k++) {
-					if (MenusZHT_temp.equals(MONITOR_Menus_ZHT[k])) {
-						if (iTemp == i) {
-							MONITOR_MenusZHTs.add(MONITOR_Menus_ZHT[k]);
-						} else {
-							MONITOR_MenusZHTs.add(MONITOR_Menus_ZHT[k] + " > " + MenusZHTs.get(i));
-						}
-					}
-				}
-			}
-
-			// DEVICE ZHT
-			if (main_menu.equals("DEVICE")) {
-				String MenusZHT_temp = MenusZHTs.get(i);
-				int iTemp = i;
-//				while (!MenusZHT_temp.equals("Settings (TOP)") && !MenusZHT_temp.equals("Internal Wireless")
-//						&& !MenusZHT_temp.equals("High Availability") && !MenusZHT_temp.equals("Users")
-//						&& !MenusZHT_temp.equals("AppFlow") && !MenusZHT_temp.equals("Network Access Control")
-//						&& !MenusZHT_temp.equals("Log") && !MenusZHT_temp.equals("Diagnostics")
-//						&& !MenusZHT_temp.equals("Switch Network") && !MenusZHT_temp.equals("Access Points")
-//						&& !MenusZHT_temp.equals("WWAN")) {
-//					iTemp = iTemp - 1;
-//					MenusZHT_temp = MenusZHTs.get(iTemp);
-//				}
-
-				int iMenu = 0;
-				while (iMenu == 0) {
-					for (int j = 0; j < DEVICE_Menus_ZHT.length; j++) {
-						if (MenusZHT_temp.equals(DEVICE_Menus_ZHT[j]))
-							iMenu = 1;
-					}
-					if (iMenu == 0)
-						MenusZHT_temp = MenusZHTs.get(iTemp = iTemp - 1);
-				}
-
-				for (int k = 0; k < DEVICE_Menus_ZHT.length; k++) {
-					if (MenusZHT_temp.equals(DEVICE_Menus_ZHT[k])) {
-						if (iTemp == i) {
-							DEVICE_MenusZHTs.add(DEVICE_Menus_ZHT[k]);
-						} else {
-							DEVICE_MenusZHTs.add(DEVICE_Menus_ZHT[k] + " > " + MenusZHTs.get(i));
-						}
-					}
-				}
-			}
-
-			// NETWORK ZHT
-			if (main_menu.equals("NETWORK")) {
-				String MenusZHT_temp = MenusZHTs.get(i);
-				int iTemp = i;
-//				while (!MenusZHT_temp.equals("System") && !MenusZHT_temp.equals("Firewall")
-//						&& !MenusZHT_temp.equals("VoIP") && !MenusZHT_temp.equals("DNS")
-//						&& !MenusZHT_temp.equals("Switching") && !MenusZHT_temp.equals("SDWAN")
-//						&& !MenusZHT_temp.equals("IPSec VPN") && !MenusZHT_temp.equals("SSL VPN")) {
-//					iTemp = iTemp - 1;
-//					MenusZHT_temp = MenusZHTs.get(iTemp);
-//				}
-
-				int iMenu = 0;
-				while (iMenu == 0) {
-					for (int j = 0; j < NETWORK_Menus_ZHT.length; j++) {
-						if (MenusZHT_temp.equals(NETWORK_Menus_ZHT[j]))
-							iMenu = 1;
-					}
-					if (iMenu == 0)
-						MenusZHT_temp = MenusZHTs.get(iTemp = iTemp - 1);
-				}
-
-				for (int k = 0; k < NETWORK_Menus_ZHT.length; k++) {
-					if (MenusZHT_temp.equals(NETWORK_Menus_ZHT[k])) {
-						if (iTemp == i) {
-							NETWORK_MenusZHTs.add(NETWORK_Menus_ZHT[k]);
-						} else {
-							NETWORK_MenusZHTs.add(NETWORK_Menus_ZHT[k] + " > " + MenusZHTs.get(i));
-						}
-					}
-				}
-			}
-
-			// OBJECT ZHT
-			if (main_menu.equals("OBJECT")) {
-				String MenusZHT_temp = MenusZHTs.get(i);
-				int iTemp = i;
-//				while (!MenusZHT_temp.equals("Match Objects") && !MenusZHT_temp.equals("Profile Objects")
-//						&& !MenusZHT_temp.equals("Action Objects") && !MenusZHT_temp.equals("Signatures")) {
-//					iTemp = iTemp - 1;
-//					MenusZHT_temp = MenusZHTs.get(iTemp);
-//				}
-
-				int iMenu = 0;
-				while (iMenu == 0) {
-					for (int j = 0; j < OBJECT_Menus_ZHT.length; j++) {
-						if (MenusZHT_temp.equals(OBJECT_Menus_ZHT[j]))
-							iMenu = 1;
-					}
-					if (iMenu == 0)
-						MenusZHT_temp = MenusZHTs.get(iTemp = iTemp - 1);
-				}
-
-				for (int k = 0; k < OBJECT_Menus_ZHT.length; k++) {
-					if (MenusZHT_temp.equals(OBJECT_Menus_ZHT[k])) {
-						if (iTemp == i) {
-							OBJECT_MenusZHTs.add(OBJECT_Menus_ZHT[k]);
-						} else {
-							OBJECT_MenusZHTs.add(OBJECT_Menus_ZHT[k] + " > " + MenusZHTs.get(i));
-						}
-					}
-				}
-			}
-
-			// POLICY ZHT
-			if (main_menu.equals("POLICY")) {
-				String MenusZHT_temp = MenusZHTs.get(i);
-				int iTemp = i;
-//				while (!MenusZHT_temp.equals("Rules and Policies") && !MenusZHT_temp.equals("DPI-SSL")
-//						&& !MenusZHT_temp.equals("DPI-SSH") && !MenusZHT_temp.equals("Security Services")
-//						&& !MenusZHT_temp.equals("Anti-Spam") && !MenusZHT_temp.equals("Capture ATP")
-//						&& !MenusZHT_temp.equals("Endpoint Security")) {
-//					iTemp = iTemp - 1;
-//					MenusZHT_temp = MenusZHTs.get(iTemp);
-//				}
-
-				int iMenu = 0;
-				while (iMenu == 0) {
-					for (int j = 0; j < POLICY_Menus_ZHT.length; j++) {
-						if (MenusZHT_temp.equals(POLICY_Menus_ZHT[j]))
-							iMenu = 1;
-					}
-					if (iMenu == 0)
-						MenusZHT_temp = MenusZHTs.get(iTemp = iTemp - 1);
-				}
-
-				for (int k = 0; k < POLICY_Menus_ZHT.length; k++) {
-					if (MenusZHT_temp.equals(POLICY_Menus_ZHT[k])) {
-						if (iTemp == i) {
-							POLICY_MenusZHTs.add(POLICY_Menus_ZHT[k]);
-						} else {
-							POLICY_MenusZHTs.add(POLICY_Menus_ZHT[k] + " > " + MenusZHTs.get(i));
-						}
+			for (int k = 0; k < MenusZHT_box.length; k++) {
+				if (MenusZHT_temp.equals(MenusZHT_box[k])) {
+					if (iTemp == i) {
+						MenusZHTs_temp.add(MenusZHT_box[k]);
+					} else {
+						MenusZHTs_temp.add(MenusZHT_box[k] + " > " + MenusZHTs.get(i));
 					}
 				}
 			}
@@ -426,136 +265,69 @@ public class Test_vsDATA_ZE {
 		}
 
 		// Mark ">" ENG
+		List<String> MenusENGs_temp = new ArrayList<String>();
 		for (int i = 0; i < MenusENGs.size(); i++) {
-			// HOME ENG
-			if (main_menu.equals("HOME")) {
-				String MenusENG_temp = MenusENGs.get(i);
-				int iTemp = i;
-				while (!MenusENG_temp.equals("Dashboard") && !MenusENG_temp.equals("Legal Information")
-						&& !MenusENG_temp.equals("API")) {
-					iTemp = iTemp - 1;
-					MenusENG_temp = MenusENGs.get(iTemp);
+			String[] MenusENG_box = null;
+			String MenusENG_temp = MenusENGs.get(i);
+			int iTemp = i;
+			int iMenu = 0;
+			if (main_menu.equals("HOME"))
+				MenusENG_box = HOME_Menus_ENG;
+			if (main_menu.equals("MONITOR"))
+				MenusENG_box = MONITOR_Menus_ENG;
+			if (main_menu.equals("DEVICE"))
+				MenusENG_box = DEVICE_Menus_ENG;
+			if (main_menu.equals("NETWORK"))
+				MenusENG_box = NETWORK_Menus_ENG;
+			if (main_menu.equals("OBJECT"))
+				MenusENG_box = OBJECT_Menus_ENG;
+			if (main_menu.equals("POLICY"))
+				MenusENG_box = POLICY_Menus_ENG;
+
+			while (iMenu == 0) {
+				for (int j = 0; j < MenusENG_box.length; j++) {
+					if (MenusENG_temp.equals(MenusENG_box[j]))
+						iMenu = 1;
 				}
-				for (int k = 0; k < HOME_Menus_ENG.length; k++) {
-					if (MenusENG_temp.equals(HOME_Menus_ENG[k])) {
-						if (iTemp == i) {
-							HOME_MenusENGs.add(HOME_Menus_ENG[k]);
-						} else {
-							HOME_MenusENGs.add(HOME_Menus_ENG[k] + " > " + MenusENGs.get(i));
-						}
+				if (iMenu == 0)
+					MenusENG_temp = MenusENGs.get(iTemp = iTemp - 1);
+			}
+
+			for (int k = 0; k < MenusENG_box.length; k++) {
+				if (MenusENG_temp.equals(MenusENG_box[k])) {
+					if (iTemp == i) {
+						MenusENGs_temp.add(MenusENG_box[k]);
+					} else {
+						MenusENGs_temp.add(MenusENG_box[k] + " > " + MenusENGs.get(i));
 					}
 				}
 			}
 
-			// MONITOR ENG
-			if (main_menu.equals("MONITOR")) {
-				String MenusENG_temp = MenusENGs.get(i);
-				int iTemp = i;
-				while (!MenusENG_temp.equals("Real-Time Charts") && !MenusENG_temp.equals("AppFlow")
-						&& !MenusENG_temp.equals("SDWAN") && !MenusENG_temp.equals("Logs")
-						&& !MenusENG_temp.equals("Tools & Monitors")) {
-					iTemp = iTemp - 1;
-					MenusENG_temp = MenusENGs.get(iTemp);
-				}
-				for (int k = 0; k < MONITOR_Menus_ENG.length; k++) {
-					if (MenusENG_temp.equals(MONITOR_Menus_ENG[k])) {
-						if (iTemp == i) {
-							MONITOR_MenusENGs.add(MONITOR_Menus_ENG[k]);
-						} else {
-							MONITOR_MenusENGs.add(MONITOR_Menus_ENG[k] + " > " + MenusENGs.get(i));
-						}
-					}
-				}
-			}
+		}
 
-			// DEVICE ENG
-			if (main_menu.equals("DEVICE")) {
-				String MenusENG_temp = MenusENGs.get(i);
-				int iTemp = i;
-				while (!MenusENG_temp.equals("Settings (TOP)") && !MenusENG_temp.equals("Internal Wireless")
-						&& !MenusENG_temp.equals("High Availability") && !MenusENG_temp.equals("Users")
-						&& !MenusENG_temp.equals("AppFlow") && !MenusENG_temp.equals("Network Access Control")
-						&& !MenusENG_temp.equals("Log") && !MenusENG_temp.equals("Diagnostics")
-						&& !MenusENG_temp.equals("Switch Network") && !MenusENG_temp.equals("Access Points")
-						&& !MenusENG_temp.equals("WWAN")) {
-					iTemp = iTemp - 1;
-					MenusENG_temp = MenusENGs.get(iTemp);
-				}
-				for (int k = 0; k < DEVICE_Menus_ENG.length; k++) {
-					if (MenusENG_temp.equals(DEVICE_Menus_ENG[k])) {
-						if (iTemp == i) {
-							DEVICE_MenusENGs.add(DEVICE_Menus_ENG[k]);
-						} else {
-							DEVICE_MenusENGs.add(DEVICE_Menus_ENG[k] + " > " + MenusENGs.get(i));
-						}
-					}
-				}
-			}
-
-			// NETWORK ENG
-			if (main_menu.equals("NETWORK")) {
-				String MenusENG_temp = MenusENGs.get(i);
-				int iTemp = i;
-				while (!MenusENG_temp.equals("System") && !MenusENG_temp.equals("Firewall")
-						&& !MenusENG_temp.equals("VoIP") && !MenusENG_temp.equals("DNS")
-						&& !MenusENG_temp.equals("Switching") && !MenusENG_temp.equals("SDWAN")
-						&& !MenusENG_temp.equals("IPSec VPN") && !MenusENG_temp.equals("SSL VPN")) {
-					iTemp = iTemp - 1;
-					MenusENG_temp = MenusENGs.get(iTemp);
-				}
-				for (int k = 0; k < NETWORK_Menus_ENG.length; k++) {
-					if (MenusENG_temp.equals(NETWORK_Menus_ENG[k])) {
-						if (iTemp == i) {
-							NETWORK_MenusENGs.add(NETWORK_Menus_ENG[k]);
-						} else {
-							NETWORK_MenusENGs.add(NETWORK_Menus_ENG[k] + " > " + MenusENGs.get(i));
-						}
-					}
-				}
-			}
-
-			// OBJECT ENG
-			if (main_menu.equals("OBJECT")) {
-				String MenusENG_temp = MenusENGs.get(i);
-				int iTemp = i;
-				while (!MenusENG_temp.equals("Match Objects (TOP)") && !MenusENG_temp.equals("Profile Objects")
-						&& !MenusENG_temp.equals("Action Objects") && !MenusENG_temp.equals("Signatures")) {
-					iTemp = iTemp - 1;
-					MenusENG_temp = MenusENGs.get(iTemp);
-				}
-				for (int k = 0; k < OBJECT_Menus_ENG.length; k++) {
-					if (MenusENG_temp.equals(OBJECT_Menus_ENG[k])) {
-						if (iTemp == i) {
-							OBJECT_MenusENGs.add(OBJECT_Menus_ENG[k]);
-						} else {
-							OBJECT_MenusENGs.add(OBJECT_Menus_ENG[k] + " > " + MenusENGs.get(i));
-						}
-					}
-				}
-			}
-
-			// POLICY ENG
-			if (main_menu.equals("POLICY")) {
-				String MenusENG_temp = MenusENGs.get(i);
-				int iTemp = i;
-				while (!MenusENG_temp.equals("Rules and Policies") && !MenusENG_temp.equals("DPI-SSL")
-						&& !MenusENG_temp.equals("DPI-SSH") && !MenusENG_temp.equals("Security Services")
-						&& !MenusENG_temp.equals("Anti-Spam") && !MenusENG_temp.equals("Capture ATP")
-						&& !MenusENG_temp.equals("Endpoint Security")) {
-					iTemp = iTemp - 1;
-					MenusENG_temp = MenusENGs.get(iTemp);
-				}
-				for (int k = 0; k < POLICY_Menus_ENG.length; k++) {
-					if (MenusENG_temp.equals(POLICY_Menus_ENG[k])) {
-						if (iTemp == i) {
-							POLICY_MenusENGs.add(POLICY_Menus_ENG[k]);
-						} else {
-							POLICY_MenusENGs.add(POLICY_Menus_ENG[k] + " > " + MenusENGs.get(i));
-						}
-					}
-				}
-			}
-
+		if (main_menu.equals("HOME")) {
+			HOME_MenusZHTs = MenusZHTs_temp;
+			HOME_MenusENGs = MenusENGs_temp;
+		}
+		if (main_menu.equals("MONITOR")) {
+			MONITOR_MenusZHTs = MenusZHTs_temp;
+			MONITOR_MenusENGs = MenusENGs_temp;
+		}
+		if (main_menu.equals("DEVICE")) {
+			DEVICE_MenusZHTs = MenusZHTs_temp;
+			DEVICE_MenusENGs = MenusENGs_temp;
+		}
+		if (main_menu.equals("NETWORK")) {
+			NETWORK_MenusZHTs = MenusZHTs_temp;
+			NETWORK_MenusENGs = MenusENGs_temp;
+		}
+		if (main_menu.equals("OBJECT")) {
+			OBJECT_MenusZHTs = MenusZHTs_temp;
+			OBJECT_MenusENGs = MenusENGs_temp;
+		}
+		if (main_menu.equals("POLICY")) {
+			POLICY_MenusZHTs = MenusZHTs_temp;
+			POLICY_MenusENGs = MenusENGs_temp;
 		}
 
 		// --- Final VS ---
