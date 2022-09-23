@@ -64,7 +64,6 @@ public class Test_NavData_ZHT {
 	// Actual data
 	public List<String> actual_data(String top_menu) throws InterruptedException, IOException {
 		List<String> actual_data = new ArrayList<String>();
-
 		// [A]Page redirect
 		for (int i = 0; i < iData_ZHT.Menu_url.length; i++) {
 			if (iData_ZHT.Menu_url[i][0].equals(top_menu)) {

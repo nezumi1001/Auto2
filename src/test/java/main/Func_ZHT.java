@@ -216,36 +216,29 @@ public class Func_ZHT {
 			throws InterruptedException, IOException {
 		List<String> actual_data = new ArrayList<String>();
 
-		// Show All Menu
-//		for (WebElement expand_Menu : expand_Menus) {
-//			log_message(this.getClass().getName(), "***ALL MENU*** " + expand_Menu.getText());
-//		}
-
 		// Switch menu ZHT > ENG
 		for (WebElement expand_Menu_text : expand_Menus) {
 			actual_data.add(switch_menu(expand_Menu_text.getText(), top_menu));
 		}
 
-		// --- Reset each main menu >> xx (TOP) ---
+		// --- Change duplicated menu >> xx (TOP) ---
 		if (iData_ZHT.check_list == 0) {
 			log_message(class_name, "========================================================================");
-			int dupli_top = 0;
-			for (int j = 0; j < actual_data.size(); j++) {
-				// "DEVICE > Settings" >> "DEVICE > Settings (TOP)"
-				if (actual_data.get(j).equals("Settings") && actual_data.get(j + 1).equals("Licenses")) {
-					dupli_top += 1;
-					actual_data.set(j, "Settings (TOP)");
-					log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Settings >> Settings (TOP)");
+			if (top_menu.equals("DEVICE") || top_menu.equals("OBJECT")) {
+				for (int j = 0; j < actual_data.size(); j++) {
+					// "DEVICE > Settings" >> "DEVICE > Settings (TOP)"
+					if (actual_data.get(j).equals("Settings") && actual_data.get(j + 1).equals("Licenses")) {
+						actual_data.set(j, "Settings (TOP)");
+						log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Settings >> Settings (TOP)");
+					}
+					// "Object > Match Objects" >> "Object > Match Objects (TOP)"
+					if (actual_data.get(j).equals("Match Objects") && actual_data.get(j + 1).equals("Zones")) {
+						actual_data.set(j, "Match Objects (TOP)");
+						log_message(class_name,
+								"'" + top_menu + "'" + " Menu: " + "Match Objects >> Match Objects (TOP)");
+					}
 				}
-				// "Object > Match Objects" >> "Object > Match Objects (TOP)"
-				if (actual_data.get(j).equals("Match Objects") && actual_data.get(j + 1).equals("Zones")) {
-					dupli_top += 1;
-					actual_data.set(j, "Match Objects (TOP)");
-					log_message(class_name, "'" + top_menu + "'" + " Menu: " + "Match Objects >> Match Objects (TOP)");
-				}
-			}
-
-			if (dupli_top == 0) {
+			} else {
 				log_message(class_name, "'" + top_menu + "'" + " Menu: " + "No duplicated data to the TOP");
 			}
 		}

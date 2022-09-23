@@ -2,10 +2,10 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.178.176[ENG]]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Before Navigate To...https://10.8.56.226[ZHT]]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Before Navigate To...https://10.8.56.226[ZHT]]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.162.173[ENG]]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]>
@@ -14,10 +14,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Login to main page...]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Preempt the box...]]>
+      <![CDATA[[S]ReportLog >> test_Step01_Login_ZHT > [Pass]Take screenshot...]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Switch to 'Non-Config' mode...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Data created for [ZHT]!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data created for [ENG]!]]>
@@ -30,6 +39,9 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Access Points]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Capture ATP]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Topology]]>
@@ -50,13 +62,52 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 6]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 7]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'HOME' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 儀表板 >> Dashboard]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 系統 >> System]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 存取點 >> Access Points]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 擷取 ATP >> Capture ATP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 拓撲 >> Topology]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 法律資訊 >> Legal Information]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: API >> API]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: No duplicated data to the TOP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 7]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Top menu 'HOME' is done!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Real-Time Charts]]>
@@ -137,627 +188,6 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'MONITOR' is done!]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Licenses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Administration]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Time]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Certificates]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: SNMP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware and Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Storage]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Restart]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: High Availability]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Monitoring]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Users]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Partitions]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Local Users & Groups]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Services]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Accounts]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Flow Reporting]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow Agent]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Log]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Syslog]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Automation]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Name Resolution]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reports]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AWS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Diagnostics]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Tech Support Report]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Check Network Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: DNS Name Lookup]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Network Path]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Ping]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Trace Route]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Real-Time Blacklist]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reverse Name Lookup]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Connection TopX]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Geo and Botnet]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: MX and Banner]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: GRID Check]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: URL Rating Request]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: PMTU Discovery]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Diagnostics]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Network]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Overview]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switches]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Access Points]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware Management]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Floor Plan View]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Station Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: IDS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced IDP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Packet Capture]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Virtual Access Point]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Monitoring]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Analysis]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Spectrum]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: FairNet]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Wi-Fi Multimedia]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: 3G/4G/LTE WWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Bluetooth LE]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Radio Management]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: WWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings >> Settings (TOP)]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 69]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'DEVICE' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: ARP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Translation]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IP Helper]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic Routing]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP Server]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Multicast]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Network Monitor]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS Configuration]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Firewall]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Flood Protection]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL Control]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Cipher Control]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: RBL Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VoIP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Call Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic DNS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Proxy]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Switching]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Trunking]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2 Discovery]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Link Aggregation]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Port Mirroring]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SDWAN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Groups]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Probes]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Class Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Path Selection Profiles]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IPSec VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules and Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP over VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2TP Server]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL VPN]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Server Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Client Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Portal Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Virtual Office]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: No duplicated data to the TOP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 52]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'NETWORK' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Zones]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Addresses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Services]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Schedules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Endpoint Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test_Step01_Login_ZHT > [Pass]Take screenshot...]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Switch to 'Non-Config' mode...]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Data created for [ZHT]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: AWS]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects >> Match Objects (TOP)]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 19]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'OBJECT' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 儀表板 >> Dashboard]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 系統 >> System]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 存取點 >> Access Points]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 擷取 ATP >> Capture ATP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 拓撲 >> Topology]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 法律資訊 >> Legal Information]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: API >> API]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: No duplicated data to the TOP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 7]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Top menu 'HOME' is done!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Rules and Policies]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Access Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: NAT Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Routing Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Rules]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSL]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Client SSL]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Server SSL]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSH]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Security Services]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Summary]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Gateway Anti-Virus]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spyware]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Intrusion Prevention]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Geo-IP Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Botnet Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Control]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spam]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Status]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Capture ATP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Security]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: No duplicated data to the TOP]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 27]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!]]>
-    </line>
-    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 即時圖表 >> Real-Time Charts]]>
     </line>
     <line>
@@ -836,7 +266,82 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Top menu 'MONITOR' is done!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Licenses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Administration]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Time]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Certificates]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: SNMP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware and Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Storage]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Restart]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: High Availability]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Monitoring]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Users]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Partitions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Local Users & Groups]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Services]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Accounts]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Flow Reporting]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow Agent]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 授權 >> Licenses]]>
@@ -845,10 +350,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 管理 >> Administration]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Log]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 時間 >> Time]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 憑證 >> Certificates]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Syslog]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: SNMP >> SNMP]]>
@@ -857,7 +371,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 韌體與設定 >> Firmware and Settings]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Automation]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 儲存空間 >> Storage]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Name Resolution]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 重新啟動 >> Restart]]>
@@ -866,7 +386,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 高可用性 >> High Availability]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reports]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 狀態 >> Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AWS]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings]]>
@@ -875,7 +401,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 進階 >> Advanced]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Diagnostics]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 監視 >> Monitoring]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Tech Support Report]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 使用者 >> Users]]>
@@ -884,13 +416,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 狀態 >> Status]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Check Network Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Info created for [ENG]!]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Info updated for [ENG]!]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: DNS Name Lookup]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 分割區 >> Partitions]]>
@@ -899,7 +431,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 本機使用者與群組 >> Local Users & Groups]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Network Path]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓服務 >> Guest Services]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Ping]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓帳戶 >> Guest Accounts]]>
@@ -908,10 +446,16 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓狀態 >> Guest Status]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Trace Route]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AppFlow >> AppFlow]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 流量報告 >> Flow Reporting]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Real-Time Blacklist]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AppFlow Agent >> AppFlow Agent]]>
@@ -920,7 +464,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 記錄 >> Log]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reverse Name Lookup]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Connection TopX]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Syslog >> Syslog]]>
@@ -929,7 +479,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 自動化 >> Automation]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Geo and Botnet]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 名稱解析 >> Name Resolution]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: MX and Banner]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 報告 >> Reports]]>
@@ -938,10 +494,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AWS >> AWS]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: GRID Check]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 診斷 >> Diagnostics]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: URL Rating Request]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 技術支援報告 >> Tech Support Report]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: PMTU Discovery]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 檢查網路設定 >> Check Network Settings]]>
@@ -950,13 +515,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: DNS 名稱查詢 >> DNS Name Lookup]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Diagnostics]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 網路路徑 >> Network Path]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 偵測 >> Ping]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Network]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 追蹤路由 >> Trace Route]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Overview]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 即時封鎖清單 >> Real-Time Blacklist]]>
@@ -965,7 +539,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 反向名稱查詢 >> Reverse Name Lookup]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switches]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 連線 TopX >> Connection TopX]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Access Points]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Geo 和 Botnet >> Geo and Botnet]]>
@@ -974,7 +554,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: MX 和橫幅 >> MX and Banner]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: GRID 檢查 >> GRID Check]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware Management]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: URL 評等要求 >> URL Rating Request]]>
@@ -983,10 +569,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: PMTU 探索 >> PMTU Discovery]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Floor Plan View]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器診斷 >> Switch Diagnostics]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Station Status]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器網路 >> Switch Network]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: IDS]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 概觀 >> Overview]]>
@@ -995,10 +590,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器 >> Switches]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced IDP]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 存取點 >> Access Points]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > [Pass]Take screenshot...]]>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Packet Capture]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定 >> Settings]]>
@@ -1007,19 +605,31 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 韌體管理 >> Firmware Management]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Virtual Access Point]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 平面設計圖檢視 >> Floor Plan View]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 站台狀態 >> Station Status]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Monitoring]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: IDS >> IDS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Analysis]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 進階 IDP >> Advanced IDP]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 封包擷取 >> Packet Capture]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Spectrum]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 虛擬存取點 >> Virtual Access Point]]>
@@ -1031,7 +641,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: RF 分析 >> RF Analysis]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: FairNet]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: RF 頻譜 >> RF Spectrum]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Wi-Fi Multimedia]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: FairNet >> FairNet]]>
@@ -1040,13 +656,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Wi-Fi 多媒體 >> Wi-Fi Multimedia]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: 3G/4G/LTE WWAN]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 3G/4G/LTE WWAN >> 3G/4G/LTE WWAN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Bluetooth LE]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 藍牙 LE >> Bluetooth LE]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 無線電管理 >> Radio Management]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Radio Management]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 無線廣域網路 (WWAN) >> WWAN]]>
@@ -1064,13 +689,40 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 69]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: WWAN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings >> Settings (TOP)]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 69]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Top menu 'DEVICE' is done!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'DEVICE' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 系統 >> System]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 介面 >> Interfaces]]>
@@ -1079,7 +731,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 容錯移轉和負載平衡 >> Failover & LB]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 探索芳鄰 >> Neighbor Discovery]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: ARP >> ARP]]>
@@ -1088,7 +746,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: MAC-IP 反詐騙 >> MAC IP Anti-Spoof]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: ARP]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: Web 代理 >> Web Proxy]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: PortShield 群組 >> PortShield Groups]]>
@@ -1097,13 +761,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: VLAN 轉譯 >> VLAN Translation]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: IP 協助程式 >> IP Helper]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 動態路由 >> Dynamic Routing]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DHCP 伺服器 >> DHCP Server]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Translation]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 多點傳送 >> Multicast]]>
@@ -1115,6 +788,21 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: AWS 設定 >> AWS Configuration]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IP Helper]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic Routing]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP Server]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Multicast]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Network Monitor]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 防火牆 >> Firewall]]>
     </line>
     <line>
@@ -1124,13 +812,28 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 洪水攻擊防護 >> Flood Protection]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS Configuration]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SSL 控制 >> SSL Control]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Firewall]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 加密控制 >> Cipher Control]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Flood Protection]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: RBL 篩選條件 >> RBL Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL Control]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: VoIP >> VoIP]]>
@@ -1139,7 +842,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 設定 >> Settings]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Cipher Control]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 呼叫狀態 >> Call Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: RBL Filter]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS >> DNS]]>
@@ -1148,7 +857,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 設定 >> Settings]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VoIP]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 動態 DNS >> Dynamic DNS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS 代理 >> DNS Proxy]]>
@@ -1157,7 +872,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS 安全性 >> DNS Security]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Call Status]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 切換中 >> Switching]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: VLAN 主幹 >> VLAN Trunking]]>
@@ -1166,10 +887,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: L2 探索 >> L2 Discovery]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 連結彙總 >> Link Aggregation]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic DNS]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 連接埠鏡像 >> Port Mirroring]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Proxy]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SDWAN >> SDWAN]]>
@@ -1178,13 +908,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 群組 >> Groups]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Security]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SLA 探查 >> SLA Probes]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SLA 類別物件 >> SLA Class Objects]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Switching]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 路徑選取設定檔 >> Path Selection Profiles]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Trunking]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 規則 >> Rules]]>
@@ -1193,10 +932,19 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: IPsec VPN >> IPSec VPN]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2 Discovery]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 規則與設定 >> Rules and Settings]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Link Aggregation]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 進階 >> Advanced]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Port Mirroring]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 透過 VPN 的 DHCP >> DHCP over VPN]]>
@@ -1205,7 +953,13 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: L2TP 伺服器 >> L2TP Server]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SDWAN]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: AWS VPN >> AWS VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Groups]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SSL VPN >> SSL VPN]]>
@@ -1214,13 +968,22 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 狀態 >> Status]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Probes]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 伺服器設定 >> Server Settings]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 用戶端設定 >> Client Settings]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Class Objects]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 入口網站設定 >> Portal Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Path Selection Profiles]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 虛擬辦公室 >> Virtual Office]]>
@@ -1238,10 +1001,67 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 52]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Top menu 'NETWORK' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IPSec VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules and Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP over VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2TP Server]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: AWS VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL VPN]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Server Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Client Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Portal Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Virtual Office]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: No duplicated data to the TOP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 52]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'NETWORK' is done!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 比對物件 >> Match Objects]]>
@@ -1317,6 +1137,81 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Top menu 'OBJECT' is done!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Zones]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Services]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Schedules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Endpoint Security]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: AWS]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects >> Match Objects (TOP)]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 19]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'OBJECT' is done!]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 規則與原則 >> Rules and Policies]]>
@@ -1451,6 +1346,108 @@
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Top menu 'POLICY' is done!]]>
     </line>
     <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Rules and Policies]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Access Rules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: NAT Rules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Routing Rules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter Rules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Rules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Rules]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSL]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Client SSL]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Server SSL]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSH]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Security Services]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Summary]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Gateway Anti-Virus]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spyware]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Intrusion Prevention]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Geo-IP Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Botnet Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Control]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spam]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Status]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Capture ATP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Scanning History]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Security]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: No duplicated data to the TOP]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 28]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!]]>
+    </line>
+    <line>
       <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Info created for [ZHT]!]]>
     </line>
     <line>
@@ -1458,6 +1455,15 @@
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ZHT > [Pass]Take screenshot...]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Info created for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Info updated for [ENG]!]]>
+    </line>
+    <line>
+      <![CDATA[[S]ReportLog >> test_Step02_MenuTop_ENG > [Pass]Take screenshot...]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> Box_ZHT > Got data!]]>
@@ -1484,19 +1490,16 @@
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> NSa 4700]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> NSA 2700]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8EDA29E6E]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED8279E0]]>
     </line>
     <line>
-      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5091-R3471]]>
+      <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5080-P3250]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
-    </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: HOME > Dashboard > Capture ATP]]>
     </line>
     <line>
       <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Relay Domains]]>
@@ -1528,37 +1531,31 @@
     <line>
       <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Downloads]]>
     </line>
-    <line>
-      <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Capture ATP > Scanning History]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-09-21T13:58:08 CST" name="SonicWall TestSuite" finished-at="2022-09-21T13:58:51 CST" duration-ms="43436">
+  <suite started-at="2022-09-23T16:25:54 CST" name="SonicWall TestSuite" finished-at="2022-09-23T16:26:52 CST" duration-ms="58092">
     <groups>
     </groups>
-    <test started-at="2022-09-21T13:58:08 CST" name="Menu Test JPN/ZHT/ENG" finished-at="2022-09-21T13:58:51 CST" duration-ms="43335">
+    <test started-at="2022-09-23T16:25:54 CST" name="Menu Test ENG/JPN/ZHT" finished-at="2022-09-23T16:26:52 CST" duration-ms="58045">
       <class name="test.Test_NavData_ENG">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-09-21T13:58:08 CST" name="beforeClass" finished-at="2022-09-21T13:58:10 CST" duration-ms="1521" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-09-23T16:25:54 CST" name="beforeClass" finished-at="2022-09-23T16:25:55 CST" duration-ms="1581" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.178.176[ENG]]]>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.162.173[ENG]]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-09-21T13:58:10 CST" name="test_Step01_Login_ENG" finished-at="2022-09-21T13:58:11 CST" duration-ms="1369" status="PASS">
+        <test-method signature="test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-09-23T16:25:55 CST" name="test_Step01_Login_ENG" finished-at="2022-09-23T16:26:11 CST" duration-ms="15486" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]>
             </line>
-            <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Preempt the box...]]>
-            </line>
           </reporter-output>
         </test-method> <!-- test_Step01_Login_ENG -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-09-21T13:58:11 CST" name="afterMethod" finished-at="2022-09-21T13:58:11 CST" duration-ms="271" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-09-23T16:26:11 CST" name="afterMethod" finished-at="2022-09-23T16:26:11 CST" duration-ms="286" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba] output=[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]]>
+                <![CDATA[[TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b] output=[S]ReportLog >> test.Test_NavData_ENG > Login to main page...]]]>
               </value>
             </param>
           </params>
@@ -1568,8 +1565,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-09-21T13:58:11 CST" name="test_Step02_MenuTop_ENG" finished-at="2022-09-21T13:58:34 CST" duration-ms="22449" status="PASS">
+        <test-method signature="test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-09-23T16:26:11 CST" name="test_Step02_MenuTop_ENG" finished-at="2022-09-23T16:26:48 CST" duration-ms="37260" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]>
+            </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data created for [ENG]!]]>
             </line>
@@ -1581,6 +1581,9 @@
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Access Points]]>
+            </line>
+            <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Capture ATP]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Topology]]>
@@ -1601,7 +1604,7 @@
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 6]]>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 7]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
@@ -2240,6 +2243,9 @@
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings]]>
             </line>
             <line>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Scanning History]]>
+            </line>
+            <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Security]]>
             </line>
             <line>
@@ -2252,7 +2258,7 @@
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ========================================================================]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 27]]>
+              <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 28]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!]]>
@@ -2268,11 +2274,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- test_Step02_MenuTop_ENG -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-09-21T13:58:34 CST" name="afterMethod" finished-at="2022-09-21T13:58:34 CST" duration-ms="637" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-09-23T16:26:48 CST" name="afterMethod" finished-at="2022-09-23T16:26:49 CST" duration-ms="253" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step02_MenuTop_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba] output=[S]ReportLog >> test.Test_NavData_ENG > Data created for [ENG]!]]]>
+                <![CDATA[[TestResult name=test_Step02_MenuTop_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_MenuTop_ENG()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b] output=[S]ReportLog >> test.Test_NavData_ENG > Switch to 'Non-Config' mode...]]]>
               </value>
             </param>
           </params>
@@ -2282,31 +2288,31 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ENG@2e1d27ba]" started-at="2022-09-21T13:58:34 CST" name="afterClass" finished-at="2022-09-21T13:58:38 CST" duration-ms="3365" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ENG@2cdd0d4b]" started-at="2022-09-23T16:26:49 CST" name="afterClass" finished-at="2022-09-23T16:26:52 CST" duration-ms="3160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Test_NavData_ENG -->
       <class name="test.Test_NavData_ZHT">
-        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ZHT@37858383]" started-at="2022-09-21T13:58:08 CST" name="beforeClass" finished-at="2022-09-21T13:58:10 CST" duration-ms="1521" status="PASS">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:test.Test_NavData_ZHT@4ef37659]" started-at="2022-09-23T16:25:54 CST" name="beforeClass" finished-at="2022-09-23T16:25:55 CST" duration-ms="1581" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Before Navigate To...https://10.8.56.226[ZHT]]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method signature="test_Step01_Login_ZHT()[pri:0, instance:test.Test_NavData_ZHT@37858383]" started-at="2022-09-21T13:58:10 CST" name="test_Step01_Login_ZHT" finished-at="2022-09-21T13:58:25 CST" duration-ms="15555" status="PASS">
+        <test-method signature="test_Step01_Login_ZHT()[pri:0, instance:test.Test_NavData_ZHT@4ef37659]" started-at="2022-09-23T16:25:55 CST" name="test_Step01_Login_ZHT" finished-at="2022-09-23T16:26:11 CST" duration-ms="15454" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Login to main page...]]>
             </line>
           </reporter-output>
         </test-method> <!-- test_Step01_Login_ZHT -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ZHT@37858383]" started-at="2022-09-21T13:58:25 CST" name="afterMethod" finished-at="2022-09-21T13:58:26 CST" duration-ms="659" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ZHT@4ef37659]" started-at="2022-09-23T16:26:11 CST" name="afterMethod" finished-at="2022-09-23T16:26:11 CST" duration-ms="289" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step01_Login_ZHT status=SUCCESS method=Test_NavData_ZHT.test_Step01_Login_ZHT()[pri:0, instance:test.Test_NavData_ZHT@37858383] output=[S]ReportLog >> test.Test_NavData_ZHT > Login to main page...]]]>
+                <![CDATA[[TestResult name=test_Step01_Login_ZHT status=SUCCESS method=Test_NavData_ZHT.test_Step01_Login_ZHT()[pri:0, instance:test.Test_NavData_ZHT@4ef37659] output=[S]ReportLog >> test.Test_NavData_ZHT > Login to main page...]]]>
               </value>
             </param>
           </params>
@@ -2316,7 +2322,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="test_Step02_MenuTop_ZHT()[pri:0, instance:test.Test_NavData_ZHT@37858383]" started-at="2022-09-21T13:58:26 CST" name="test_Step02_MenuTop_ZHT" finished-at="2022-09-21T13:58:48 CST" duration-ms="21859" status="PASS">
+        <test-method signature="test_Step02_MenuTop_ZHT()[pri:0, instance:test.Test_NavData_ZHT@4ef37659]" started-at="2022-09-23T16:26:11 CST" name="test_Step02_MenuTop_ZHT" finished-at="2022-09-23T16:26:28 CST" duration-ms="16723" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> test.Test_NavData_ZHT > Switch to 'Non-Config' mode...]]>
@@ -3055,11 +3061,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- test_Step02_MenuTop_ZHT -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ZHT@37858383]" started-at="2022-09-21T13:58:48 CST" name="afterMethod" finished-at="2022-09-21T13:58:48 CST" duration-ms="524" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.Test_NavData_ZHT@4ef37659]" started-at="2022-09-23T16:26:28 CST" name="afterMethod" finished-at="2022-09-23T16:26:28 CST" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=test_Step02_MenuTop_ZHT status=SUCCESS method=Test_NavData_ZHT.test_Step02_MenuTop_ZHT()[pri:0, instance:test.Test_NavData_ZHT@37858383] output=[S]ReportLog >> test.Test_NavData_ZHT > Switch to 'Non-Config' mode...]]]>
+                <![CDATA[[TestResult name=test_Step02_MenuTop_ZHT status=SUCCESS method=Test_NavData_ZHT.test_Step02_MenuTop_ZHT()[pri:0, instance:test.Test_NavData_ZHT@4ef37659] output=[S]ReportLog >> test.Test_NavData_ZHT > Switch to 'Non-Config' mode...]]]>
               </value>
             </param>
           </params>
@@ -3069,15 +3075,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ZHT@37858383]" started-at="2022-09-21T13:58:48 CST" name="afterClass" finished-at="2022-09-21T13:58:51 CST" duration-ms="3195" status="PASS">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:test.Test_NavData_ZHT@4ef37659]" started-at="2022-09-23T16:26:28 CST" name="afterClass" finished-at="2022-09-23T16:26:31 CST" duration-ms="3279" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- test.Test_NavData_ZHT -->
-    </test> <!-- Menu Test JPN/ZHT/ENG -->
-    <test started-at="2022-09-21T13:58:51 CST" name="Menu Compare JPN/ZHT/ENG" finished-at="2022-09-21T13:58:51 CST" duration-ms="69">
+    </test> <!-- Menu Test ENG/JPN/ZHT -->
+    <test started-at="2022-09-23T16:26:52 CST" name="Menu Compare JE/ZE" finished-at="2022-09-23T16:26:52 CST" duration-ms="32">
       <class name="test.Test_vsDATA_ZE">
-        <test-method signature="test_dataCompare()[pri:0, instance:test.Test_vsDATA_ZE@6821ea29]" started-at="2022-09-21T13:58:51 CST" name="test_dataCompare" finished-at="2022-09-21T13:58:51 CST" duration-ms="67" status="PASS">
+        <test-method signature="test_dataCompare()[pri:0, instance:test.Test_vsDATA_ZE@1f2f9244]" started-at="2022-09-23T16:26:52 CST" name="test_dataCompare" finished-at="2022-09-23T16:26:52 CST" duration-ms="31" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[[S]ReportLog >> Box_ZHT > Got data!]]>
@@ -3104,19 +3110,16 @@
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> NSa 4700]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> NSA 2700]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8EDA29E6E]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED8279E0]]>
             </line>
             <line>
-              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5091-R3471]]>
+              <![CDATA[[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5080-P3250]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------]]>
-            </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: HOME > Dashboard > Capture ATP]]>
             </line>
             <line>
               <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Relay Domains]]>
@@ -3148,12 +3151,9 @@
             <line>
               <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Anti-Spam > Downloads]]>
             </line>
-            <line>
-              <![CDATA[[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Capture ATP > Scanning History]]>
-            </line>
           </reporter-output>
         </test-method> <!-- test_dataCompare -->
       </class> <!-- test.Test_vsDATA_ZE -->
-    </test> <!-- Menu Compare JPN/ZHT/ENG -->
+    </test> <!-- Menu Compare JE/ZE -->
   </suite> <!-- SonicWall TestSuite -->
 </testng-results>
