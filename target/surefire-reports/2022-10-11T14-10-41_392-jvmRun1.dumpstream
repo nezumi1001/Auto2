@@ -1,0 +1,2419 @@
+# Created at 2022-10-11T14:10:42.421
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2022-10-11T14:10:43.026
+Unexpected IOException with stream: S
+
+# Created at 2022-10-11T14:10:43.027
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.028
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.028
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.028
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.028
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.028
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.029
+Unexpected IOException with stream: g
+
+# Created at 2022-10-11T14:10:43.029
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.030
+Unexpected IOException with stream: C
+
+# Created at 2022-10-11T14:10:43.030
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.030
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.031
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.031
+Unexpected IOException with stream: m
+
+# Created at 2022-10-11T14:10:43.031
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.031
+Unexpected IOException with stream: D
+
+# Created at 2022-10-11T14:10:43.032
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.032
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.032
+Unexpected IOException with stream: v
+
+# Created at 2022-10-11T14:10:43.032
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.033
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.033
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.033
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-11T14:10:43.033
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-11T14:10:43.034
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-11T14:10:43.034
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.034
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-11T14:10:43.034
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.035
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.035
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-11T14:10:43.036
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-11T14:10:43.036
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-11T14:10:43.036
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.037
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-11T14:10:43.038
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-11T14:10:43.038
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.038
+Unexpected IOException with stream: (
+
+# Created at 2022-10-11T14:10:43.039
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.039
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-11T14:10:43.039
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-11T14:10:43.040
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-11T14:10:43.041
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.041
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.041
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-11T14:10:43.042
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.042
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.042
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-11T14:10:43.042
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-11T14:10:43.043
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-11T14:10:43.043
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-11T14:10:43.043
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.043
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.044
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.044
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.044
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-11T14:10:43.044
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.045
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-11T14:10:43.045
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-11T14:10:43.045
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-11T14:10:43.045
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-11T14:10:43.046
+Unexpected IOException with stream: 7
+
+# Created at 2022-10-11T14:10:43.046
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-11T14:10:43.046
+Unexpected IOException with stream: b
+
+# Created at 2022-10-11T14:10:43.047
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.047
+Unexpected IOException with stream: f
+
+# Created at 2022-10-11T14:10:43.047
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-11T14:10:43.048
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.048
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.048
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-11T14:10:43.049
+Unexpected IOException with stream: 8
+
+# Created at 2022-10-11T14:10:43.049
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-11T14:10:43.049
+Unexpected IOException with stream: 1
+
+# Created at 2022-10-11T14:10:43.050
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-11T14:10:43.050
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.050
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-11T14:10:43.050
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.050
+Unexpected IOException with stream: 0
+
+# Created at 2022-10-11T14:10:43.051
+Unexpected IOException with stream: -
+
+# Created at 2022-10-11T14:10:43.051
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.051
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.052
+Unexpected IOException with stream: f
+
+# Created at 2022-10-11T14:10:43.052
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.053
+Unexpected IOException with stream: /
+
+# Created at 2022-10-11T14:10:43.053
+Unexpected IOException with stream: b
+
+# Created at 2022-10-11T14:10:43.053
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.054
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.054
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.054
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.055
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.055
+Unexpected IOException with stream: -
+
+# Created at 2022-10-11T14:10:43.055
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.056
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.056
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.057
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.057
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.058
+Unexpected IOException with stream: /
+
+# Created at 2022-10-11T14:10:43.058
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.058
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-11T14:10:43.058
+Unexpected IOException with stream: 4
+
+# Created at 2022-10-11T14:10:43.058
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-11T14:10:43.059
+Unexpected IOException with stream: @
+
+# Created at 2022-10-11T14:10:43.059
+Unexpected IOException with stream: {
+
+# Created at 2022-10-11T14:10:43.059
+Unexpected IOException with stream: #
+
+# Created at 2022-10-11T14:10:43.059
+Unexpected IOException with stream: 5
+
+# Created at 2022-10-11T14:10:43.059
+Unexpected IOException with stream: 6
+
+# Created at 2022-10-11T14:10:43.060
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-11T14:10:43.060
+Unexpected IOException with stream: }
+
+# Created at 2022-10-11T14:10:43.060
+Unexpected IOException with stream: )
+
+# Created at 2022-10-11T14:10:43.060
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.060
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.061
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.061
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.061
+Unexpected IOException with stream: p
+
+# Created at 2022-10-11T14:10:43.062
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.062
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.062
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.063
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.064
+Unexpected IOException with stream: 2
+
+# Created at 2022-10-11T14:10:43.064
+Unexpected IOException with stream: 9
+
+# Created at 2022-10-11T14:10:43.064
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-11T14:10:43.065
+Unexpected IOException with stream: 3
+
+# Created at 2022-10-11T14:10:43.065
+Unexpected IOException with stream: 
+
+# Created at 2022-10-11T14:10:43.065
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-11T14:10:43.065
+Unexpected IOException with stream: O
+
+# Created at 2022-10-11T14:10:43.066
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.066
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.066
+Unexpected IOException with stream: y
+
+# Created at 2022-10-11T14:10:43.066
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.067
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.067
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.067
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.068
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.068
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.068
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.068
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.069
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.069
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.069
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.069
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.069
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.069
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.070
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.070
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.070
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.071
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.072
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.072
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.072
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.073
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.073
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.073
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.074
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.074
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.075
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.075
+Unexpected IOException with stream: w
+
+# Created at 2022-10-11T14:10:43.076
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.076
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.076
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.077
+Unexpected IOException with stream: 
+
+# Created at 2022-10-11T14:10:43.077
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-11T14:10:43.077
+Unexpected IOException with stream: P
+
+# Created at 2022-10-11T14:10:43.078
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.078
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.078
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.079
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.079
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.079
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.080
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.080
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.080
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.081
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.081
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.081
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.082
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.082
+Unexpected IOException with stream: p
+
+# Created at 2022-10-11T14:10:43.082
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.083
+Unexpected IOException with stream: :
+
+# Created at 2022-10-11T14:10:43.083
+Unexpected IOException with stream: /
+
+# Created at 2022-10-11T14:10:43.084
+Unexpected IOException with stream: /
+
+# Created at 2022-10-11T14:10:43.084
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.084
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.085
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.085
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.085
+Unexpected IOException with stream: m
+
+# Created at 2022-10-11T14:10:43.086
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.086
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.087
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.087
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.087
+Unexpected IOException with stream: v
+
+# Created at 2022-10-11T14:10:43.088
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.088
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.088
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.088
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.089
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.089
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.090
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.090
+Unexpected IOException with stream: m
+
+# Created at 2022-10-11T14:10:43.091
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.091
+Unexpected IOException with stream: u
+
+# Created at 2022-10-11T14:10:43.091
+Unexpected IOException with stream: m
+
+# Created at 2022-10-11T14:10:43.092
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.092
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.092
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.093
+Unexpected IOException with stream: g
+
+# Created at 2022-10-11T14:10:43.093
+Unexpected IOException with stream: /
+
+# Created at 2022-10-11T14:10:43.094
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.094
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.094
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.094
+Unexpected IOException with stream: u
+
+# Created at 2022-10-11T14:10:43.095
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.095
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.095
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.096
+Unexpected IOException with stream: y
+
+# Created at 2022-10-11T14:10:43.096
+Unexpected IOException with stream: -
+
+# Created at 2022-10-11T14:10:43.097
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.097
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.098
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.098
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.098
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.099
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.099
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.099
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.099
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.099
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.100
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.101
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.101
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.101
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.102
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.102
+Unexpected IOException with stream: f
+
+# Created at 2022-10-11T14:10:43.102
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.103
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.103
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.103
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.103
+Unexpected IOException with stream: u
+
+# Created at 2022-10-11T14:10:43.104
+Unexpected IOException with stream: g
+
+# Created at 2022-10-11T14:10:43.104
+Unexpected IOException with stream: g
+
+# Created at 2022-10-11T14:10:43.104
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.105
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.105
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.106
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.106
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.106
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.107
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.107
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.108
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.108
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.108
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.109
+Unexpected IOException with stream: k
+
+# Created at 2022-10-11T14:10:43.109
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.110
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.110
+Unexpected IOException with stream: p
+
+# Created at 2022-10-11T14:10:43.111
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.111
+Unexpected IOException with stream: n
+
+# Created at 2022-10-11T14:10:43.111
+Unexpected IOException with stream: g
+
+# Created at 2022-10-11T14:10:43.112
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.112
+Unexpected IOException with stream: C
+
+# Created at 2022-10-11T14:10:43.112
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.113
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.114
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.114
+Unexpected IOException with stream: m
+
+# Created at 2022-10-11T14:10:43.114
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.115
+Unexpected IOException with stream: D
+
+# Created at 2022-10-11T14:10:43.115
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.115
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.115
+Unexpected IOException with stream: v
+
+# Created at 2022-10-11T14:10:43.115
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.116
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.116
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.116
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.117
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.117
+Unexpected IOException with stream: f
+
+# Created at 2022-10-11T14:10:43.117
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.118
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.118
+Unexpected IOException with stream: 
+
+# Created at 2022-10-11T14:10:43.118
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-11T14:10:43.119
+Unexpected IOException with stream: C
+
+# Created at 2022-10-11T14:10:43.119
+Unexpected IOException with stream: h
+
+# Created at 2022-10-11T14:10:43.119
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.120
+Unexpected IOException with stream: o
+
+# Created at 2022-10-11T14:10:43.120
+Unexpected IOException with stream: m
+
+# Created at 2022-10-11T14:10:43.120
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.121
+Unexpected IOException with stream: D
+
+# Created at 2022-10-11T14:10:43.121
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.121
+Unexpected IOException with stream: i
+
+# Created at 2022-10-11T14:10:43.122
+Unexpected IOException with stream: v
+
+# Created at 2022-10-11T14:10:43.122
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.122
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.122
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.123
+Unexpected IOException with stream: w
+
+# Created at 2022-10-11T14:10:43.123
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.125
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.125
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.126
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.126
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.126
+Unexpected IOException with stream: a
+
+# Created at 2022-10-11T14:10:43.126
+Unexpected IOException with stream: r
+
+# Created at 2022-10-11T14:10:43.126
+Unexpected IOException with stream: t
+
+# Created at 2022-10-11T14:10:43.127
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.128
+Unexpected IOException with stream: d
+
+# Created at 2022-10-11T14:10:43.128
+Unexpected IOException with stream:  
+
+# Created at 2022-10-11T14:10:43.128
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.129
+Unexpected IOException with stream: u
+
+# Created at 2022-10-11T14:10:43.129
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.129
+Unexpected IOException with stream: c
+
+# Created at 2022-10-11T14:10:43.129
+Unexpected IOException with stream: e
+
+# Created at 2022-10-11T14:10:43.130
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.130
+Unexpected IOException with stream: s
+
+# Created at 2022-10-11T14:10:43.130
+Unexpected IOException with stream: f
+
+# Created at 2022-10-11T14:10:43.130
+Unexpected IOException with stream: u
+
+# Created at 2022-10-11T14:10:43.131
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.131
+Unexpected IOException with stream: l
+
+# Created at 2022-10-11T14:10:43.131
+Unexpected IOException with stream: y
+
+# Created at 2022-10-11T14:10:43.132
+Unexpected IOException with stream: .
+
+# Created at 2022-10-11T14:10:43.132
+Unexpected IOException with stream: 
+
+# Created at 2022-10-11T14:10:43.132
+Unexpected IOException with stream: 
+
+
+# Created at 2022-10-11T14:10:43.700
+Unexpected IOException with stream: Oct 11, 2022 2:10:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2022-10-11T14:10:43.702
+Unexpected IOException with stream: Oct 11, 2022 2:10:43 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2022-10-11T14:10:44.236
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Before Navigate To...https://10.8.178.176[ENG]
+
+
+# Created at 2022-10-11T14:10:44.236
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Before Navigate To...https://10.8.56.239[ZHT]
+
+
+# Created at 2022-10-11T14:10:44.243
+Unexpected IOException: 5,1,test.Test_NavData_ZHT,test_Step01_Login_ZHT(test.Test_NavData_ZHT),test.Test_NavData_ZHT,null,null
+
+
+# Created at 2022-10-11T14:10:44.243
+Unexpected IOException: 5,1,test.Test_NavData_ENG,test_Step01_Login_ENG(test.Test_NavData_ENG),test.Test_NavData_ENG,null,null
+
+
+# Created at 2022-10-11T14:10:44.451
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Login to main page...
+
+
+# Created at 2022-10-11T14:10:44.451
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Login to main page...
+
+
+# Created at 2022-10-11T14:10:46.650
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Preempt the box...
+
+
+# Created at 2022-10-11T14:10:46.653
+Unexpected IOException: 6,1,test.Test_NavData_ENG,test_Step01_Login_ENG(test.Test_NavData_ENG),null,null,null
+
+
+# Created at 2022-10-11T14:10:46.924
+Unexpected IOException with stream: [S]ReportLog >> test_Step01_Login_ENG > [Pass]Take screenshot...
+
+
+# Created at 2022-10-11T14:10:46.925
+Unexpected IOException: 5,1,test.Test_NavData_ENG,test_Step02_MenuTop_ENG(test.Test_NavData_ENG),test.Test_NavData_ENG,null,null
+
+
+# Created at 2022-10-11T14:10:47.031
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data created for [ENG]!
+
+
+# Created at 2022-10-11T14:10:50.031
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Dashboard
+
+
+# Created at 2022-10-11T14:10:50.063
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: System
+
+
+# Created at 2022-10-11T14:10:50.076
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Access Points
+
+
+# Created at 2022-10-11T14:10:50.092
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Topology
+
+
+# Created at 2022-10-11T14:10:50.106
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Legal Information
+
+
+# Created at 2022-10-11T14:10:50.138
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: API
+
+
+# Created at 2022-10-11T14:10:50.139
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:10:50.139
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-10-11T14:10:50.140
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:10:50.140
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 6
+
+
+# Created at 2022-10-11T14:10:50.248
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-10-11T14:10:50.249
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'HOME' is done!
+
+
+# Created at 2022-10-11T14:10:55.559
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Real-Time Charts
+
+
+# Created at 2022-10-11T14:10:55.895
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: System Monitor
+
+
+# Created at 2022-10-11T14:10:55.924
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Protocol Monitor
+
+
+# Created at 2022-10-11T14:10:55.941
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: User Monitor
+
+
+# Created at 2022-10-11T14:10:55.958
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: BWM Monitor
+
+
+# Created at 2022-10-11T14:10:55.975
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow
+
+
+# Created at 2022-10-11T14:10:55.989
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Report
+
+
+# Created at 2022-10-11T14:10:56.001
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Monitor
+
+
+# Created at 2022-10-11T14:10:56.017
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: CTA Report
+
+
+# Created at 2022-10-11T14:10:56.029
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN
+
+
+# Created at 2022-10-11T14:10:56.045
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN Monitor
+
+
+# Created at 2022-10-11T14:10:56.057
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: SD-WAN Connections
+
+
+# Created at 2022-10-11T14:10:56.069
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Logs
+
+
+# Created at 2022-10-11T14:10:56.081
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: System Logs
+
+
+# Created at 2022-10-11T14:10:56.095
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Auditing Logs
+
+
+# Created at 2022-10-11T14:10:56.166
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Tools & Monitors
+
+
+# Created at 2022-10-11T14:10:56.181
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Packet Monitor
+
+
+# Created at 2022-10-11T14:10:56.197
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Connections
+
+
+# Created at 2022-10-11T14:10:56.213
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Core 0 Processes
+
+
+# Created at 2022-10-11T14:10:56.230
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Packet Replay
+
+
+# Created at 2022-10-11T14:10:56.230
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:10:56.231
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-10-11T14:10:56.232
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:10:56.232
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 20
+
+
+# Created at 2022-10-11T14:10:56.242
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-10-11T14:10:56.243
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'MONITOR' is done!
+
+
+# Created at 2022-10-11T14:10:58.229
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-10-11T14:10:58.257
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Licenses
+
+
+# Created at 2022-10-11T14:10:58.285
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Administration
+
+
+# Created at 2022-10-11T14:10:58.302
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Time
+
+
+# Created at 2022-10-11T14:10:58.317
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Certificates
+
+
+# Created at 2022-10-11T14:10:58.332
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: SNMP
+
+
+# Created at 2022-10-11T14:10:58.346
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware and Settings
+
+
+# Created at 2022-10-11T14:10:58.360
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Storage
+
+
+# Created at 2022-10-11T14:10:58.373
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Restart
+
+
+# Created at 2022-10-11T14:10:58.386
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: High Availability
+
+
+# Created at 2022-10-11T14:10:58.399
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status
+
+
+# Created at 2022-10-11T14:10:58.414
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-10-11T14:10:58.428
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced
+
+
+# Created at 2022-10-11T14:10:58.442
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Monitoring
+
+
+# Created at 2022-10-11T14:10:58.458
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Users
+
+
+# Created at 2022-10-11T14:10:58.473
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status
+
+
+# Created at 2022-10-11T14:10:58.488
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-10-11T14:10:58.506
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Partitions
+
+
+# Created at 2022-10-11T14:10:58.526
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Local Users & Groups
+
+
+# Created at 2022-10-11T14:10:58.546
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Services
+
+
+# Created at 2022-10-11T14:10:58.562
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Accounts
+
+
+# Created at 2022-10-11T14:10:58.578
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Status
+
+
+# Created at 2022-10-11T14:10:58.596
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow
+
+
+# Created at 2022-10-11T14:10:58.611
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Flow Reporting
+
+
+# Created at 2022-10-11T14:10:58.627
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow Agent
+
+
+# Created at 2022-10-11T14:10:58.644
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Log
+
+
+# Created at 2022-10-11T14:10:58.660
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-10-11T14:10:58.683
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Syslog
+
+
+# Created at 2022-10-11T14:10:58.700
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Automation
+
+
+# Created at 2022-10-11T14:10:58.719
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Name Resolution
+
+
+# Created at 2022-10-11T14:10:58.733
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reports
+
+
+# Created at 2022-10-11T14:10:58.748
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: AWS
+
+
+# Created at 2022-10-11T14:10:58.765
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Diagnostics
+
+
+# Created at 2022-10-11T14:10:58.782
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Tech Support Report
+
+
+# Created at 2022-10-11T14:10:58.800
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Check Network Settings
+
+
+# Created at 2022-10-11T14:10:58.818
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: DNS Name Lookup
+
+
+# Created at 2022-10-11T14:10:58.835
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Network Path
+
+
+# Created at 2022-10-11T14:10:58.851
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Ping
+
+
+# Created at 2022-10-11T14:10:58.871
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Trace Route
+
+
+# Created at 2022-10-11T14:10:58.888
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Real-Time Blacklist
+
+
+# Created at 2022-10-11T14:10:58.921
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Reverse Name Lookup
+
+
+# Created at 2022-10-11T14:10:58.945
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Connection TopX
+
+
+# Created at 2022-10-11T14:10:58.966
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Geo and Botnet
+
+
+# Created at 2022-10-11T14:10:58.994
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: MX and Banner
+
+
+# Created at 2022-10-11T14:10:59.015
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: GRID Check
+
+
+# Created at 2022-10-11T14:10:59.030
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: URL Rating Request
+
+
+# Created at 2022-10-11T14:10:59.057
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: PMTU Discovery
+
+
+# Created at 2022-10-11T14:10:59.078
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Diagnostics
+
+
+# Created at 2022-10-11T14:10:59.096
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switch Network
+
+
+# Created at 2022-10-11T14:10:59.116
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Overview
+
+
+# Created at 2022-10-11T14:10:59.137
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Switches
+
+
+# Created at 2022-10-11T14:10:59.157
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Access Points
+
+
+# Created at 2022-10-11T14:10:59.172
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+
+
+# Created at 2022-10-11T14:10:59.190
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Firmware Management
+
+
+# Created at 2022-10-11T14:10:59.209
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Floor Plan View
+
+
+# Created at 2022-10-11T14:10:59.225
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Station Status
+
+
+# Created at 2022-10-11T14:10:59.241
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: IDS
+
+
+# Created at 2022-10-11T14:10:59.258
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Advanced IDP
+
+
+# Created at 2022-10-11T14:10:59.272
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Packet Capture
+
+
+# Created at 2022-10-11T14:10:59.288
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Virtual Access Point
+
+
+# Created at 2022-10-11T14:10:59.303
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Monitoring
+
+
+# Created at 2022-10-11T14:10:59.321
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Analysis
+
+
+# Created at 2022-10-11T14:10:59.340
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: RF Spectrum
+
+
+# Created at 2022-10-11T14:10:59.355
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: FairNet
+
+
+# Created at 2022-10-11T14:10:59.369
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Wi-Fi Multimedia
+
+
+# Created at 2022-10-11T14:10:59.393
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: 3G/4G/LTE WWAN
+
+
+# Created at 2022-10-11T14:10:59.407
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Bluetooth LE
+
+
+# Created at 2022-10-11T14:10:59.423
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Radio Management
+
+
+# Created at 2022-10-11T14:10:59.437
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: WWAN
+
+
+# Created at 2022-10-11T14:10:59.437
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:10:59.437
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings >> Settings (TOP)
+
+
+# Created at 2022-10-11T14:10:59.438
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:10:59.438
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 69
+
+
+# Created at 2022-10-11T14:10:59.454
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-10-11T14:10:59.454
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'DEVICE' is done!
+
+
+# Created at 2022-10-11T14:10:59.581
+Unexpected IOException: 6,1,test.Test_NavData_ZHT,test_Step01_Login_ZHT(test.Test_NavData_ZHT),null,null,null
+
+
+# Created at 2022-10-11T14:10:59.922
+Unexpected IOException with stream: [S]ReportLog >> test_Step01_Login_ZHT > [Pass]Take screenshot...
+
+
+# Created at 2022-10-11T14:10:59.923
+Unexpected IOException: 5,1,test.Test_NavData_ZHT,test_Step02_MenuTop_ZHT(test.Test_NavData_ZHT),test.Test_NavData_ZHT,null,null
+
+
+# Created at 2022-10-11T14:11:00.002
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Switch to 'Non-Config' mode...
+
+
+# Created at 2022-10-11T14:11:00.005
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data created for [ZHT]!
+
+
+# Created at 2022-10-11T14:11:01.305
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 儀表板
+
+
+# Created at 2022-10-11T14:11:01.313
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 系統
+
+
+# Created at 2022-10-11T14:11:01.326
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 拓撲
+
+
+# Created at 2022-10-11T14:11:01.334
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: 法律資訊
+
+
+# Created at 2022-10-11T14:11:01.352
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'HOME' Menu: API
+
+
+# Created at 2022-10-11T14:11:01.353
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-10-11T14:11:01.353
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 5
+
+
+# Created at 2022-10-11T14:11:01.363
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-10-11T14:11:01.364
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'HOME' is done!
+
+
+# Created at 2022-10-11T14:11:02.459
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 即時圖表
+
+
+# Created at 2022-10-11T14:11:02.478
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 系統監視器
+
+
+# Created at 2022-10-11T14:11:02.495
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 通訊協定監視
+
+
+# Created at 2022-10-11T14:11:02.520
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 使用者監視器
+
+
+# Created at 2022-10-11T14:11:02.529
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: BWM 監視器
+
+
+# Created at 2022-10-11T14:11:02.541
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: AppFlow
+
+
+# Created at 2022-10-11T14:11:02.553
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: AppFlow 報告
+
+
+# Created at 2022-10-11T14:11:02.574
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: AppFlow 監視器
+
+
+# Created at 2022-10-11T14:11:02.583
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: CTA 報告
+
+
+# Created at 2022-10-11T14:11:02.591
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 記錄
+
+
+# Created at 2022-10-11T14:11:02.600
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 系統記錄
+
+
+# Created at 2022-10-11T14:11:02.609
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 工具與監視器
+
+
+# Created at 2022-10-11T14:11:02.617
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 封包監視
+
+
+# Created at 2022-10-11T14:11:02.625
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 連線
+
+
+# Created at 2022-10-11T14:11:02.633
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 核心 0 處理序
+
+
+# Created at 2022-10-11T14:11:02.643
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'MONITOR' Menu: 封包重放
+
+
+# Created at 2022-10-11T14:11:02.643
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-10-11T14:11:02.644
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 16
+
+
+# Created at 2022-10-11T14:11:02.651
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-10-11T14:11:02.651
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'MONITOR' is done!
+
+
+# Created at 2022-10-11T14:11:04.128
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定
+
+
+# Created at 2022-10-11T14:11:04.144
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 授權
+
+
+# Created at 2022-10-11T14:11:04.157
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 管理
+
+
+# Created at 2022-10-11T14:11:04.167
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 時間
+
+
+# Created at 2022-10-11T14:11:04.179
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 憑證
+
+
+# Created at 2022-10-11T14:11:04.193
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: SNMP
+
+
+# Created at 2022-10-11T14:11:04.207
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 韌體與設定
+
+
+# Created at 2022-10-11T14:11:04.223
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 儲存空間
+
+
+# Created at 2022-10-11T14:11:04.246
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 重新啟動
+
+
+# Created at 2022-10-11T14:11:04.263
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 高可用性
+
+
+# Created at 2022-10-11T14:11:04.277
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 狀態
+
+
+# Created at 2022-10-11T14:11:04.289
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定
+
+
+# Created at 2022-10-11T14:11:04.302
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 進階
+
+
+# Created at 2022-10-11T14:11:04.316
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 監視
+
+
+# Created at 2022-10-11T14:11:04.326
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 使用者
+
+
+# Created at 2022-10-11T14:11:04.337
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 狀態
+
+
+# Created at 2022-10-11T14:11:04.347
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定
+
+
+# Created at 2022-10-11T14:11:04.356
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 本機使用者與群組
+
+
+# Created at 2022-10-11T14:11:04.366
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓服務
+
+
+# Created at 2022-10-11T14:11:04.373
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓帳戶
+
+
+# Created at 2022-10-11T14:11:04.376
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System
+
+
+# Created at 2022-10-11T14:11:04.383
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 來賓狀態
+
+
+# Created at 2022-10-11T14:11:04.391
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces
+
+
+# Created at 2022-10-11T14:11:04.392
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AppFlow
+
+
+# Created at 2022-10-11T14:11:04.400
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 流量報告
+
+
+# Created at 2022-10-11T14:11:04.406
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB
+
+
+# Created at 2022-10-11T14:11:04.410
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: AppFlow 代理程式
+
+
+# Created at 2022-10-11T14:11:04.419
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 記錄
+
+
+# Created at 2022-10-11T14:11:04.421
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery
+
+
+# Created at 2022-10-11T14:11:04.428
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 設定
+
+
+# Created at 2022-10-11T14:11:04.435
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: ARP
+
+
+# Created at 2022-10-11T14:11:04.436
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Syslog
+
+
+# Created at 2022-10-11T14:11:04.444
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 自動化
+
+
+# Created at 2022-10-11T14:11:04.448
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof
+
+
+# Created at 2022-10-11T14:11:04.453
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 名稱解析
+
+
+# Created at 2022-10-11T14:11:04.462
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 報告
+
+
+# Created at 2022-10-11T14:11:04.462
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy
+
+
+# Created at 2022-10-11T14:11:04.471
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 診斷
+
+
+# Created at 2022-10-11T14:11:04.479
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IP Helper
+
+
+# Created at 2022-10-11T14:11:04.480
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 技術支援報告
+
+
+# Created at 2022-10-11T14:11:04.491
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 檢查網路設定
+
+
+# Created at 2022-10-11T14:11:04.494
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic Routing
+
+
+# Created at 2022-10-11T14:11:04.502
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: DNS 名稱查詢
+
+
+# Created at 2022-10-11T14:11:04.508
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP Server
+
+
+# Created at 2022-10-11T14:11:04.510
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 網路路徑
+
+
+# Created at 2022-10-11T14:11:04.518
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 偵測
+
+
+# Created at 2022-10-11T14:11:04.521
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Multicast
+
+
+# Created at 2022-10-11T14:11:04.528
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 追蹤路由
+
+
+# Created at 2022-10-11T14:11:04.536
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Network Monitor
+
+
+# Created at 2022-10-11T14:11:04.539
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 即時封鎖清單
+
+
+# Created at 2022-10-11T14:11:04.550
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 反向名稱查詢
+
+
+# Created at 2022-10-11T14:11:04.551
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Firewall
+
+
+# Created at 2022-10-11T14:11:04.559
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 連線 TopX
+
+
+# Created at 2022-10-11T14:11:04.567
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced
+
+
+# Created at 2022-10-11T14:11:04.570
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: Geo 和 Botnet
+
+
+# Created at 2022-10-11T14:11:04.580
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: URL 評等要求
+
+
+# Created at 2022-10-11T14:11:04.582
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL Control
+
+
+# Created at 2022-10-11T14:11:04.589
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: PMTU 探索
+
+
+# Created at 2022-10-11T14:11:04.596
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Cipher Control
+
+
+# Created at 2022-10-11T14:11:04.600
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器網路
+
+
+# Created at 2022-10-11T14:11:04.611
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 概觀
+
+
+# Created at 2022-10-11T14:11:04.616
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: RBL Filter
+
+
+# Created at 2022-10-11T14:11:04.621
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: 交換器
+
+
+# Created at 2022-10-11T14:11:04.630
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VoIP
+
+
+# Created at 2022-10-11T14:11:04.631
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'DEVICE' Menu: WWAN
+
+
+# Created at 2022-10-11T14:11:04.631
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-10-11T14:11:04.632
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 47
+
+
+# Created at 2022-10-11T14:11:04.645
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-10-11T14:11:04.645
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'DEVICE' is done!
+
+
+# Created at 2022-10-11T14:11:04.649
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings
+
+
+# Created at 2022-10-11T14:11:04.664
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Call Status
+
+
+# Created at 2022-10-11T14:11:04.680
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS
+
+
+# Created at 2022-10-11T14:11:04.696
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Settings
+
+
+# Created at 2022-10-11T14:11:04.714
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic DNS
+
+
+# Created at 2022-10-11T14:11:04.733
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Proxy
+
+
+# Created at 2022-10-11T14:11:04.750
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Security
+
+
+# Created at 2022-10-11T14:11:04.771
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IPSec VPN
+
+
+# Created at 2022-10-11T14:11:04.796
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Rules and Settings
+
+
+# Created at 2022-10-11T14:11:04.815
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Advanced
+
+
+# Created at 2022-10-11T14:11:04.833
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DHCP over VPN
+
+
+# Created at 2022-10-11T14:11:04.852
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2TP Server
+
+
+# Created at 2022-10-11T14:11:04.870
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SSL VPN
+
+
+# Created at 2022-10-11T14:11:04.887
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Status
+
+
+# Created at 2022-10-11T14:11:04.907
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Server Settings
+
+
+# Created at 2022-10-11T14:11:04.923
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Client Settings
+
+
+# Created at 2022-10-11T14:11:04.955
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Portal Settings
+
+
+# Created at 2022-10-11T14:11:05.080
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Virtual Office
+
+
+# Created at 2022-10-11T14:11:05.081
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:11:05.081
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-10-11T14:11:05.081
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:11:05.082
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 36
+
+
+# Created at 2022-10-11T14:11:05.107
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-10-11T14:11:05.107
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'NETWORK' is done!
+
+
+# Created at 2022-10-11T14:11:06.276
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects
+
+
+# Created at 2022-10-11T14:11:06.295
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Zones
+
+
+# Created at 2022-10-11T14:11:06.311
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Addresses
+
+
+# Created at 2022-10-11T14:11:06.328
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Services
+
+
+# Created at 2022-10-11T14:11:06.345
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists
+
+
+# Created at 2022-10-11T14:11:06.363
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects
+
+
+# Created at 2022-10-11T14:11:06.379
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Schedules
+
+
+# Created at 2022-10-11T14:11:06.398
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group
+
+
+# Created at 2022-10-11T14:11:06.416
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses
+
+
+# Created at 2022-10-11T14:11:06.449
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects
+
+
+# Created at 2022-10-11T14:11:06.471
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth
+
+
+# Created at 2022-10-11T14:11:06.492
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking
+
+
+# Created at 2022-10-11T14:11:06.514
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter
+
+
+# Created at 2022-10-11T14:11:06.531
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option
+
+
+# Created at 2022-10-11T14:11:06.547
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects
+
+
+# Created at 2022-10-11T14:11:06.563
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions
+
+
+# Created at 2022-10-11T14:11:06.579
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions
+
+
+# Created at 2022-10-11T14:11:06.580
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:11:06.580
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects >> Match Objects (TOP)
+
+
+# Created at 2022-10-11T14:11:06.581
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:11:06.581
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 17
+
+
+# Created at 2022-10-11T14:11:06.602
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-10-11T14:11:06.603
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'OBJECT' is done!
+
+
+# Created at 2022-10-11T14:11:08.231
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Rules and Policies
+
+
+# Created at 2022-10-11T14:11:08.445
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Access Rules
+
+
+# Created at 2022-10-11T14:11:08.478
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: NAT Rules
+
+
+# Created at 2022-10-11T14:11:08.501
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Routing Rules
+
+
+# Created at 2022-10-11T14:11:08.517
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Content Filter Rules
+
+
+# Created at 2022-10-11T14:11:08.536
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: App Rules
+
+
+# Created at 2022-10-11T14:11:08.554
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Security Services
+
+
+# Created at 2022-10-11T14:11:08.570
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Summary
+
+
+# Created at 2022-10-11T14:11:08.570
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:11:08.571
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: No duplicated data to the TOP
+
+
+# Created at 2022-10-11T14:11:08.571
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ========================================================================
+
+
+# Created at 2022-10-11T14:11:08.571
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 8
+
+
+# Created at 2022-10-11T14:11:08.577
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!
+
+
+# Created at 2022-10-11T14:11:08.577
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!
+
+
+# Created at 2022-10-11T14:11:11.024
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 系統
+
+
+# Created at 2022-10-11T14:11:11.040
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 介面
+
+
+# Created at 2022-10-11T14:11:11.054
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 容錯移轉和負載平衡
+
+
+# Created at 2022-10-11T14:11:11.063
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 探索芳鄰
+
+
+# Created at 2022-10-11T14:11:11.077
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: ARP
+
+
+# Created at 2022-10-11T14:11:11.112
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: MAC-IP 反詐騙
+
+
+# Created at 2022-10-11T14:11:11.127
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: Web 代理
+
+
+# Created at 2022-10-11T14:11:11.150
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: IP 協助程式
+
+
+# Created at 2022-10-11T14:11:11.162
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 動態路由
+
+
+# Created at 2022-10-11T14:11:11.171
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DHCP 伺服器
+
+
+# Created at 2022-10-11T14:11:11.180
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 多點傳送
+
+
+# Created at 2022-10-11T14:11:11.198
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 網路監視器
+
+
+# Created at 2022-10-11T14:11:11.207
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 防火牆
+
+
+# Created at 2022-10-11T14:11:11.215
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 進階
+
+
+# Created at 2022-10-11T14:11:11.225
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SSL 控制
+
+
+# Created at 2022-10-11T14:11:11.234
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 加密控制
+
+
+# Created at 2022-10-11T14:11:11.245
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: RBL 篩選條件
+
+
+# Created at 2022-10-11T14:11:11.255
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: VoIP
+
+
+# Created at 2022-10-11T14:11:11.267
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 設定
+
+
+# Created at 2022-10-11T14:11:11.280
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 呼叫狀態
+
+
+# Created at 2022-10-11T14:11:11.291
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS
+
+
+# Created at 2022-10-11T14:11:11.301
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 設定
+
+
+# Created at 2022-10-11T14:11:11.311
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 動態 DNS
+
+
+# Created at 2022-10-11T14:11:11.321
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS 代理
+
+
+# Created at 2022-10-11T14:11:11.330
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: DNS 安全性
+
+
+# Created at 2022-10-11T14:11:11.339
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: IPsec VPN
+
+
+# Created at 2022-10-11T14:11:11.349
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 規則與設定
+
+
+# Created at 2022-10-11T14:11:11.359
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 進階
+
+
+# Created at 2022-10-11T14:11:11.369
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 透過 VPN 的 DHCP
+
+
+# Created at 2022-10-11T14:11:11.380
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: L2TP 伺服器
+
+
+# Created at 2022-10-11T14:11:11.390
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: SSL VPN
+
+
+# Created at 2022-10-11T14:11:11.402
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 狀態
+
+
+# Created at 2022-10-11T14:11:11.413
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 伺服器設定
+
+
+# Created at 2022-10-11T14:11:11.425
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 用戶端設定
+
+
+# Created at 2022-10-11T14:11:11.438
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 入口網站設定
+
+
+# Created at 2022-10-11T14:11:11.449
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'NETWORK' Menu: 虛擬辦公室
+
+
+# Created at 2022-10-11T14:11:11.449
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-10-11T14:11:11.450
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 36
+
+
+# Created at 2022-10-11T14:11:11.462
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-10-11T14:11:11.462
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'NETWORK' is done!
+
+
+# Created at 2022-10-11T14:11:12.450
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 比對物件
+
+
+# Created at 2022-10-11T14:11:12.472
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 區域
+
+
+# Created at 2022-10-11T14:11:12.489
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 位址
+
+
+# Created at 2022-10-11T14:11:12.502
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 服務
+
+
+# Created at 2022-10-11T14:11:12.516
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: URI 清單
+
+
+# Created at 2022-10-11T14:11:12.529
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 比對物件
+
+
+# Created at 2022-10-11T14:11:12.548
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 排程
+
+
+# Created at 2022-10-11T14:11:12.558
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 動態群組
+
+
+# Created at 2022-10-11T14:11:12.568
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 電子郵件地址
+
+
+# Created at 2022-10-11T14:11:12.578
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 設定檔物件
+
+
+# Created at 2022-10-11T14:11:12.587
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 頻寬
+
+
+# Created at 2022-10-11T14:11:12.598
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: QoS 標記
+
+
+# Created at 2022-10-11T14:11:12.610
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 內容篩選
+
+
+# Created at 2022-10-11T14:11:12.620
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: DHCP 選項
+
+
+# Created at 2022-10-11T14:11:12.631
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 動作物件
+
+
+# Created at 2022-10-11T14:11:12.640
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 應用程式規則執行
+
+
+# Created at 2022-10-11T14:11:12.650
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'OBJECT' Menu: 內容篩選器執行
+
+
+# Created at 2022-10-11T14:11:12.650
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-10-11T14:11:12.651
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 17
+
+
+# Created at 2022-10-11T14:11:12.665
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-10-11T14:11:12.666
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'OBJECT' is done!
+
+
+# Created at 2022-10-11T14:11:13.683
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 規則與原則
+
+
+# Created at 2022-10-11T14:11:13.698
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 存取規則
+
+
+# Created at 2022-10-11T14:11:13.714
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: NAT 規則
+
+
+# Created at 2022-10-11T14:11:13.730
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 路由規則
+
+
+# Created at 2022-10-11T14:11:13.747
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 內容篩選規則
+
+
+# Created at 2022-10-11T14:11:13.815
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 應用程式規則
+
+
+# Created at 2022-10-11T14:11:13.926
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 安全性服務
+
+
+# Created at 2022-10-11T14:11:13.946
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > 'POLICY' Menu: 摘要
+
+
+# Created at 2022-10-11T14:11:13.946
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ========================================================================
+
+
+# Created at 2022-10-11T14:11:13.947
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > ALL MENU: 8
+
+
+# Created at 2022-10-11T14:11:13.960
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Data updated for [ZHT]!
+
+
+# Created at 2022-10-11T14:11:13.960
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ZHT > Top menu 'POLICY' is done!
+
+
+# Created at 2022-10-11T14:11:39.386
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_ENG > Element Not Found!
+
+

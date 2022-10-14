@@ -4,8 +4,8 @@ import java.io.File;
 
 public class iData_ZHT {
 	// Box info
-//	public static String baseUrl = "https://10.103.50.199"; // TZ 270W
-	public static String baseUrl = "https://10.8.56.226"; // NSa 5700
+//	public static String baseUrl = "https://10.103.50.77"; // TZ 270W
+	public static String baseUrl = "https://10.8.56.239"; // NSa 5700
 
 	// Check list
 	public static int check_list = 0;
@@ -79,7 +79,7 @@ public class iData_ZHT {
 			{ "虛擬存取點", "Virtual Access Point" }, { "高可用性", "High Availability" }, { "監視", "Monitoring" },
 			{ "使用者", "Users" }, { "分割區", "Partitions" }, { "本機使用者與群組", "Local Users & Groups" },
 			{ "來賓服務", "Guest Services" }, { "來賓帳戶", "Guest Accounts" }, { "來賓狀態", "Guest Status" },
-			{ "AppFlow", "AppFlow" }, { "流量報告", "Flow Reporting" }, { "AppFlow Agent", "AppFlow Agent" }, { "記錄", "Log" },
+			{ "AppFlow", "AppFlow" }, { "流量報告", "Flow Reporting" }, { "AppFlow 代理程式", "AppFlow Agent" }, { "記錄", "Log" },
 			{ "Syslog", "Syslog" }, { "自動化", "Automation" }, { "名稱解析", "Name Resolution" }, { "報告", "Reports" },
 			{ "AWS", "AWS" }, { "診斷", "Diagnostics" }, { "技術支援報告", "Tech Support Report" },
 			{ "檢查網路設定", "Check Network Settings" }, { "DNS 名稱查詢", "DNS Name Lookup" }, { "網路路徑", "Network Path" },
@@ -92,7 +92,7 @@ public class iData_ZHT {
 			{ "進階 IDP", "Advanced IDP" }, { "封包擷取", "Packet Capture" }, { "虛擬存取點", "Virtual Access Point" },
 			{ "RF 監視", "RF Monitoring" }, { "RF 分析", "RF Analysis" }, { "RF 頻譜", "RF Spectrum" },
 			{ "FairNet", "FairNet" }, { "Wi-Fi 多媒體", "Wi-Fi Multimedia" }, { "3G/4G/LTE WWAN", "3G/4G/LTE WWAN" },
-			{ "藍牙 LE", "Bluetooth LE" }, { "無線電管理", "Radio Management" }, { "無線廣域網路 (WWAN)", "WWAN" } };
+			{ "藍牙 LE", "Bluetooth LE" }, { "無線電管理", "Radio Management" }, { "WWAN", "WWAN" } };
 
 	// NETWORK
 	public static String[][] leftPane_NETWORK = { { "系統", "System" }, { "介面", "Interfaces" },
@@ -116,7 +116,7 @@ public class iData_ZHT {
 	public static String[][] leftPane_OBJECT = { { "比對物件", "Match Objects" }, { "區域", "Zones" }, { "位址", "Addresses" },
 			{ "服務", "Services" }, { "URI 清單", "URI Lists" }, { "比對物件", "Match Objects" }, { "排程", "Schedules" },
 			{ "動態群組", "Dynamic Group" }, { "電子郵件地址", "Email Addresses" }, { "設定檔物件", "Profile Objects" },
-			{ "端點安全性", "Endpoint Security" }, { "頻寬", "Bandwidth" }, { "服務品質 (QoS) 標記", "QoS Marking" },
+			{ "端點安全性", "Endpoint Security" }, { "頻寬", "Bandwidth" }, { "QoS 標記", "QoS Marking" },
 			{ "內容篩選", "Content Filter" }, { "DHCP 選項", "DHCP Option" }, { "AWS", "AWS" }, { "動作物件", "Action Objects" },
 			{ "應用程式規則執行", "App Rule Actions" }, { "內容篩選器執行", "Content Filter Actions" } };
 

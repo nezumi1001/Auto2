@@ -101,7 +101,7 @@ public class Test_NavData_ZHT {
 
 	@Test
 	public void test_Step02_MenuTop_ZHT() throws Exception {
-		List<String> actualData;
+		List<String> actualData = null;
 		String[] topMenus = { "HOME", "MONITOR", "DEVICE", "NETWORK", "OBJECT", "POLICY" };
 		// [A]Switch to "Non-Config" mode
 		if (Preempt == 0) {

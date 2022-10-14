@@ -4,9 +4,9 @@ import java.io.File;
 
 public class iData_ENG {
 	// Box info
-//	public static String baseUrl = "https://10.103.50.219"; // TZ 370W
-	public static String baseUrl = "https://10.8.162.173"; // NSa 2700
-//	public static String baseUrl = "https://10.8.178.176"; // NSa 4700 KellyDu
+//	public static String baseUrl = "https://10.103.50.189"; // TZ 370W
+//	public static String baseUrl = "https://10.8.162.195"; // NSa 2700
+	public static String baseUrl = "https://10.8.178.176"; // NSa 4700 KellyDu
 
 	// ChromeDriver Settings
 	public static File my_path = new File(System.getProperty("user.dir"));
@@ -24,7 +24,7 @@ public class iData_ENG {
 
 //	public static String login_pass = "password";
 	public static String login_pass = "sonicwall";
-//	public static String login_pass = "pwdpwdpwd";
+//	public static String login_pass = "laotouzi";
 
 	// LOGIN button
 	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'LOG')]";
