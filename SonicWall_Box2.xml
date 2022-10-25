@@ -4,14 +4,14 @@
 	<test name="Menu Test ENG/JPN/ZHT">
 		<classes>
 			<class name="test.Test_NavData_ENG"></class>
-			<class name="test.Test_NavData_JPN"></class>
+			<class name="test.Test_NavData_ZHT"></class>
 			<!-- <class name="test.Test_NavData_JPN"></class> -->
 			<!-- <class name="test.Test_NavData_ZHT"></class> -->
 		</classes>
 	</test>
 	<test name="Menu Compare JE/ZE">
 		<classes>
-			<class name="test.Test_vsDATA_JE"></class>
+			<class name="test.Test_vsDATA_ZE"></class>
 			<!-- <class name="test.Test_vsDATA_JE"></class> -->
 			<!-- <class name="test.Test_vsDATA_ZE"></class> -->
 		</classes>

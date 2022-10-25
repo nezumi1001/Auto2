@@ -5,7 +5,7 @@ import java.io.File;
 public class iData_ZHT {
 	// Box info
 //	public static String baseUrl = "https://10.103.50.77"; // TZ 270W
-	public static String baseUrl = "https://10.8.56.239"; // NSa 5700
+	public static String baseUrl = "https://10.8.56.155"; // NSa 5700
 
 	// Check list
 	public static int check_list = 0;
@@ -25,8 +25,8 @@ public class iData_ZHT {
 	public static String password_path = "//input[contains(@placeholder,'輸入您的密碼')]";
 
 //	public static String login_pass = "password";
-	public static String login_pass = "sonicwall";
-//	public static String login_pass = "pwdpwdpwd";
+//	public static String login_pass = "sonicwall";
+	public static String login_pass = "laotouzi";
 
 	// LOGIN button
 	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'登入')]";
@@ -104,7 +104,7 @@ public class iData_ZHT {
 			{ "進階", "Advanced" }, { "洪水攻擊防護", "Flood Protection" }, { "SSL 控制", "SSL Control" },
 			{ "加密控制", "Cipher Control" }, { "RBL 篩選條件", "RBL Filter" }, { "VoIP", "VoIP" }, { "設定", "Settings" },
 			{ "呼叫狀態", "Call Status" }, { "DNS", "DNS" }, { "動態 DNS", "Dynamic DNS" }, { "DNS 代理", "DNS Proxy" },
-			{ "DNS 安全性", "DNS Security" }, { "切換中", "Switching" }, { "VLAN 主幹", "VLAN Trunking" },
+			{ "DNS 安全性", "DNS Security" }, { "交換器", "Switching" }, { "VLAN 主幹", "VLAN Trunking" },
 			{ "L2 探索", "L2 Discovery" }, { "連結彙總", "Link Aggregation" }, { "連接埠鏡像", "Port Mirroring" },
 			{ "SDWAN", "SDWAN" }, { "群組", "Groups" }, { "SLA 探查", "SLA Probes" }, { "SLA 類別物件", "SLA Class Objects" },
 			{ "路徑選取設定檔", "Path Selection Profiles" }, { "規則", "Rules" }, { "IPsec VPN", "IPSec VPN" },
