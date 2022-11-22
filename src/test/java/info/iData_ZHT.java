@@ -5,7 +5,7 @@ import java.io.File;
 public class iData_ZHT {
 	// Box info
 //	public static String baseUrl = "https://10.103.50.77"; // TZ 270W
-	public static String baseUrl = "https://10.8.56.155"; // NSa 5700
+	public static String baseUrl = "https://10.8.56.174"; // NSa 5700
 
 	// Check list
 	public static int check_list = 0;
@@ -25,8 +25,8 @@ public class iData_ZHT {
 	public static String password_path = "//input[contains(@placeholder,'輸入您的密碼')]";
 
 //	public static String login_pass = "password";
-//	public static String login_pass = "sonicwall";
-	public static String login_pass = "laotouzi";
+	public static String login_pass = "sonicwall";
+//	public static String login_pass = "laotouzi";
 
 	// LOGIN button
 	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'登入')]";

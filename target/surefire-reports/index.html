@@ -142,6 +142,28 @@
           <div class="suite-SonicWall_TestSuite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
+              <span class="class-name">test.Test_NavData_ZHT</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Step01_Login_ZHT">
+                  </a> <!-- test_Step01_Login_ZHT -->
+                  <span class="method-name">test_Step01_Login_ZHT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_Step02_MenuTop_ZHT">
+                  </a> <!-- test_Step02_MenuTop_ZHT -->
+                  <span class="method-name">test_Step02_MenuTop_ZHT</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SonicWall_TestSuite-class-passed -->
+          <div class="suite-SonicWall_TestSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
               <span class="class-name">test.Test_NavData_ENG</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -172,28 +194,6 @@
                   <a name="test_dataCompare">
                   </a> <!-- test_dataCompare -->
                   <span class="method-name">test_dataCompare</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-SonicWall_TestSuite-class-passed -->
-          <div class="suite-SonicWall_TestSuite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">test.Test_NavData_ZHT</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Step01_Login_ZHT">
-                  </a> <!-- test_Step01_Login_ZHT -->
-                  <span class="method-name">test_Step01_Login_ZHT</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="test_Step02_MenuTop_ZHT">
-                  </a> <!-- test_Step02_MenuTop_ZHT -->
-                  <span class="method-name">test_Step02_MenuTop_ZHT</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -261,25 +261,25 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'test_Step02_MenuTop_ZHT')
-data.setCell(0, 2, 'test.Test_NavData_ZHT')
-data.setCell(0, 3, 41826);
+data.setCell(0, 1, 'test_Step02_MenuTop_ENG')
+data.setCell(0, 2, 'test.Test_NavData_ENG')
+data.setCell(0, 3, 24785);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'test_Step02_MenuTop_ENG')
-data.setCell(1, 2, 'test.Test_NavData_ENG')
-data.setCell(1, 3, 41643);
+data.setCell(1, 1, 'test_Step02_MenuTop_ZHT')
+data.setCell(1, 2, 'test.Test_NavData_ZHT')
+data.setCell(1, 3, 23896);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'test_Step01_Login_ENG')
 data.setCell(2, 2, 'test.Test_NavData_ENG')
-data.setCell(2, 3, 15946);
+data.setCell(2, 3, 15502);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'test_Step01_Login_ZHT')
 data.setCell(3, 2, 'test.Test_NavData_ZHT')
-data.setCell(3, 3, 15461);
+data.setCell(3, 3, 15343);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'test_dataCompare')
 data.setCell(4, 2, 'test.Test_vsDATA_ZE')
-data.setCell(4, 3, 92);
+data.setCell(4, 3, 47);
 window.suiteTableData['SonicWall_TestSuite']= { tableData: data, tableDiv: 'times-div-SonicWall_TestSuite'}
 return data;
 }
@@ -299,6 +299,12 @@ return data;
               <span class="reporter-method-name">test_Step01_Login_ENG</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Login to main page...</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">test_Step01_Login_ZHT</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ZHT > Login to main page...</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -549,13 +555,14 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Dashboard</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: System</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Access Points</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Capture ATP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Topology</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: Legal Information</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: API</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'HOME' Menu: No duplicated data to the TOP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 6</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 7</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'HOME' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'MONITOR' Menu: Real-Time Charts</span>
@@ -601,7 +608,6 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Users</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Status</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Partitions</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Local Users & Groups</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Services</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Guest Accounts</span>
@@ -656,7 +662,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'DEVICE' Menu: Settings >> Settings (TOP)</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 69</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 68</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'DEVICE' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: System</span>
@@ -667,6 +673,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: PoE Settings</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Translation</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: IP Helper</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic Routing</span>
@@ -688,11 +695,6 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic DNS</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Proxy</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: DNS Security</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Switching</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Trunking</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: L2 Discovery</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Link Aggregation</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Port Mirroring</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SDWAN</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: Groups</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: SLA Probes</span>
@@ -714,7 +716,7 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'NETWORK' Menu: No duplicated data to the TOP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 52</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 48</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'NETWORK' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects</span>
@@ -768,21 +770,16 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Capture ATP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Settings</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Scanning History</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Security</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > 'POLICY' Menu: No duplicated data to the TOP</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ========================================================================</span>
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 27</span>
+                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > ALL MENU: 28</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Data updated for [ENG]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Top menu 'POLICY' is done!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Info created for [ENG]!</span>
                 <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ENG > Info updated for [ENG]!</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">test_Step01_Login_ZHT</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">[S]ReportLog >> test.Test_NavData_ZHT > Login to main page...</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -794,14 +791,19 @@ return data;
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ZHT] info: Device Name -----> NSa 5700</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ZHT] info: Serial Number ---> 2CB8EDA2B70F</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ZHT] info: Firmware Version > SonicOS 7.0.1-5094-D3547-t5390</span>
+                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ZHT] info: Firmware Version > SonicOS 7.0.1-5095-D3600-t5584</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> NSa 4700</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8EDA29E6E</span>
-                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5094-R3547</span>
+                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Device Name -----> TZ 570P</span>
+                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED694D58</span>
+                <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5095-P3639</span>
                 <span class="reporter-method-output">[S]ReportLog >> test_dataCompare > --------------------------------------------------------------------</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: HOME > Dashboard > Capture ATP</span>
-                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: POLICY > Capture ATP > Scanning History</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: DEVICE > Users > Partitions</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ZHT] version missing: NETWORK > System > PoE Settings</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > VLAN Trunking</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > L2 Discovery</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Link Aggregation</span>
+                <span class="reporter-method-output">[S]ReportLog >> missing_page > [ENG] version missing: NETWORK > Switching > Port Mirroring</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -819,6 +821,13 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
+              <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ZHT</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">beforeClass</span>
@@ -827,80 +836,76 @@ return data;
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">0 ms</span>
-              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">test_Step01_Login_ENG</span>
-                <span class="method-start">2724 ms</span>
+                <span class="method-start">1574 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ZHT</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_Step01_Login_ZHT</span>
-                <span class="method-start">2724 ms</span>
+                <span class="method-start">2199 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod([TestResult name=test_Step01_Login_ZHT status=SUCCESS method=Test_NavData_ZHT.test_Step01_Login_ZHT(...)</span>
-                <span class="method-start">18189 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step01_Login_ENG status=SUCCESS method=Test_NavData_ENG.test_Step01_Login_ENG(...)</span>
-                <span class="method-start">18670 ms</span>
+                <span class="method-start">17079 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ZHT</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">test_Step02_MenuTop_ZHT</span>
-                <span class="method-start">19297 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=test_Step01_Login_ZHT status=SUCCESS method=Test_NavData_ZHT.test_Step01_Login_ZHT(...)</span>
+                <span class="method-start">17543 ms</span>
+              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_Step02_MenuTop_ENG</span>
-                <span class="method-start">19966 ms</span>
+                <span class="method-start">17597 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ZHT</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test_Step02_MenuTop_ZHT</span>
+                <span class="method-start">18122 ms</span>
+              </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step02_MenuTop_ZHT status=SUCCESS method=Test_NavData_ZHT.test_Step02_MenuTop_...)</span>
-                <span class="method-start">61123 ms</span>
+                <span class="method-start">42018 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=test_Step02_MenuTop_ENG status=SUCCESS method=Test_NavData_ENG.test_Step02_MenuTop_...)</span>
-                <span class="method-start">61609 ms</span>
+                <span class="method-start">42382 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ZHT</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">62239 ms</span>
+                <span class="method-start">42698 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_NavData_ENG</div> <!-- chronological-class-name -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">62723 ms</span>
+                <span class="method-start">42962 ms</span>
               </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">test.Test_vsDATA_ZE</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">test_dataCompare</span>
-                <span class="method-start">66061 ms</span>
+                <span class="method-start">46141 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
