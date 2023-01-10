@@ -28,7 +28,9 @@ public class Test_NavData_ENG {
 		System.setProperty(iData_ENG.chromeDriver_data[0], iData_ENG.chromeDriver_data[1]);
 		ChromeOptions chromOptions = new ChromeOptions();
 		chromOptions.addArguments(iData_ENG.Chrome_userData);
-		chromOptions.addArguments("--lang=en-US", "--incognito", "--ignore-certificate-errors");
+		chromOptions.addArguments("--lang=en-US");
+		chromOptions.addArguments("--incognito");
+		chromOptions.addArguments("--ignore-certificate-errors");
 //		chromOptions.addArguments("window-size=1920, 1080");
 		chromOptions.addArguments("window-size=1920, 3000");
 		chromOptions.addArguments("--headless");
@@ -45,11 +47,11 @@ public class Test_NavData_ENG {
 		// [A]Go to DEVICE > Settings
 		driver.get(iData_ENG.FirmwareSettings_url);
 		// [A]Fix Box & SN shows unknown
-		mf.wait_element("xpath", iData_ENG.Version_path_01);
+		mf.wait_element("xpath", iData_ENG.Version_path_01, "Version_path_01");
 		// [A]Get info
-		String Box_ENG = mf.wait_element("xpath", iData_ENG.Box_path).getText();
-		String SN_ENG = mf.wait_element("xpath", iData_ENG.SN_path).getText();
-		String Version_ENG = mf.wait_element("xpath", iData_ENG.Version_path_02).getText();
+		String Box_ENG = mf.wait_element("xpath", iData_ENG.Box_path, "Box_ENG").getText();
+		String SN_ENG = mf.wait_element("xpath", iData_ENG.SN_path, "SN_ENG").getText();
+		String Version_ENG = mf.wait_element("xpath", iData_ENG.Version_path_02, "Version_ENG").getText();
 		info_ENGs.add(Box_ENG);
 		info_ENGs.add(SN_ENG);
 		info_ENGs.add(Version_ENG);
@@ -72,11 +74,11 @@ public class Test_NavData_ENG {
 		}
 
 		// [A]Expand page
-		mf.wait_element("xpath", iData_ENG.DarkMenu_LeftPane_path);
+		mf.wait_element("xpath", iData_ENG.DarkMenu_LeftPane_path, "DarkMenu_LeftPane");
 		List<WebElement> Menu_darks = mf.find_elements("xpath", iData_ENG.DarkMenu_LeftPane_path);
 		for (WebElement Menu_dark : Menu_darks)
 			mf.js_click(Menu_dark);
-		mf.wait_element("xpath", iData_ENG.SubMenu_nested);
+		mf.wait_element("xpath", iData_ENG.SubMenu_nested, "SubMenu_nested");
 		List<WebElement> Menu_alls = mf.find_elements("xpath", iData_ENG.LeftPane_path);
 		actual_data.addAll(mf.expand_menu(Menu_alls, top_menu));
 		return actual_data;
@@ -85,15 +87,15 @@ public class Test_NavData_ENG {
 	@Test
 	public void test_Step01_Login_ENG() throws Exception {
 		// [A]Enter Username
-		mf.wait_element("xpath", iData_ENG.userName_path).sendKeys(iData_ENG.login_name);
+		mf.wait_element("xpath", iData_ENG.userName_path, "userName").sendKeys(iData_ENG.login_name);
 		// [A]Enter Password
-		mf.wait_element("xpath", iData_ENG.password_path).sendKeys(iData_ENG.login_pass);
+		mf.wait_element("xpath", iData_ENG.password_path, "password").sendKeys(iData_ENG.login_pass);
 		// [A]Click LOGIN
-		mf.js_click(mf.wait_element("xpath", iData_ENG.login_path));
+		mf.js_click(mf.wait_element("xpath", iData_ENG.login_path, "login"));
 		mf.log_message(this.getClass().getName(), "Login to main page...");
-		// [A]Preempt
-		if (mf.wait_element_short("xpath", iData_ENG.preempt_path) != null) {
-			mf.js_click(mf.wait_element("xpath", iData_ENG.preempt_path));
+		// [A]Preempt > "Non-Config" mode
+		if (mf.wait_element("xpath", iData_ENG.preempt_path, "preempt") != null) {
+			mf.js_click(mf.wait_element("xpath", iData_ENG.preempt_path, "preempt"));
 			mf.log_message(this.getClass().getName(), "Preempt the box...");
 			Preempt = 1;
 		}
@@ -101,11 +103,11 @@ public class Test_NavData_ENG {
 
 	@Test
 	public void test_Step02_MenuTop_ENG() throws Exception {
-		List<String> actualData = null;
+		List<String> actualData = new ArrayList<String>();
 		String[] topMenus = { "HOME", "MONITOR", "DEVICE", "NETWORK", "OBJECT", "POLICY" };
 		// [A]Switch to "Non-Config" mode
 		if (Preempt == 0) {
-			mf.js_click(mf.wait_element("xpath", iData_ENG.Config_path));
+			mf.js_click(mf.wait_element("xpath", iData_ENG.Config_path, "Config"));
 			mf.log_message(this.getClass().getName(), "Switch to 'Non-Config' mode...");
 		}
 

@@ -144,22 +144,8 @@ public class Func_ENG {
 
 	}
 
-	// Wait element (short time) > preempt
-	public WebElement wait_element_short(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 15);
-		try {
-			if (type.equals("xpath")) {
-//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
-				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(path)));
-			}
-		} catch (Exception e) {
-			return null;
-		}
-		return we;
-	}
-
-	// Wait element (long time)
-	public WebElement wait_element(String type, String path) {
+	// Wait element
+	public WebElement wait_element(String type, String path, String msg) {
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		try {
 			if (type.equals("id")) {
@@ -172,7 +158,8 @@ public class Func_ENG {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(path)));
 			}
 		} catch (Exception e) {
-			log_message(class_name, "Element Not Found!");
+			log_message(class_name, "Element Not Found!" + " >> " + msg);
+			return null; // keep running
 		}
 		return we;
 	}
@@ -190,7 +177,7 @@ public class Func_ENG {
 				ges = driver.findElements(By.xpath(path));
 			}
 		} catch (Exception e) {
-			log_message(class_name, "Element Not Found!");
+			log_message(class_name, "Elements Not Found!" + " >> " + "All missing");
 		}
 		return ges;
 	}

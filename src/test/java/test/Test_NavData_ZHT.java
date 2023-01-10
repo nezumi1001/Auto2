@@ -28,7 +28,9 @@ public class Test_NavData_ZHT {
 		System.setProperty(iData_ZHT.chromeDriver_data[0], iData_ZHT.chromeDriver_data[1]);
 		ChromeOptions chromOptions = new ChromeOptions();
 		chromOptions.addArguments(iData_ZHT.Chrome_userData);
-		chromOptions.addArguments("--lang=zh-CN", "--incognito", "--ignore-certificate-errors");
+		chromOptions.addArguments("--lang=zh-CN");
+		chromOptions.addArguments("--incognito");
+		chromOptions.addArguments("--ignore-certificate-errors");
 //		chromOptions.addArguments("window-size=1920, 1080");
 		chromOptions.addArguments("window-size=1920, 3000");
 		chromOptions.addArguments("--headless");
@@ -45,11 +47,11 @@ public class Test_NavData_ZHT {
 		// [A]Go to DEVICE > Settings
 		driver.get(iData_ZHT.FirmwareSettings_url);
 		// [A]Fix Box & SN shows unknown
-		mf.wait_element("xpath", iData_ZHT.Version_path_01);
+		mf.wait_element("xpath", iData_ZHT.Version_path_01, "Version_path_01");
 		// [A]Get info
-		String Box_ZHT = mf.wait_element("xpath", iData_ZHT.Box_path).getText();
-		String SN_ZHT = mf.wait_element("xpath", iData_ZHT.SN_path).getText();
-		String Version_ZHT = mf.wait_element("xpath", iData_ZHT.Version_path_02).getText();
+		String Box_ZHT = mf.wait_element("xpath", iData_ZHT.Box_path, "Box_ZHT").getText();
+		String SN_ZHT = mf.wait_element("xpath", iData_ZHT.SN_path, "SN_ZHT").getText();
+		String Version_ZHT = mf.wait_element("xpath", iData_ZHT.Version_path_02, "Version_ZHT").getText();
 		info_ZHTs.add(Box_ZHT);
 		info_ZHTs.add(SN_ZHT);
 		info_ZHTs.add(Version_ZHT);
@@ -72,11 +74,11 @@ public class Test_NavData_ZHT {
 		}
 
 		// [A]Expand page
-		mf.wait_element("xpath", iData_ZHT.DarkMenu_LeftPane_path);
+		mf.wait_element("xpath", iData_ZHT.DarkMenu_LeftPane_path, "DarkMenu_LeftPane");
 		List<WebElement> Menu_darks = mf.find_elements("xpath", iData_ZHT.DarkMenu_LeftPane_path);
 		for (WebElement Menu_dark : Menu_darks)
 			mf.js_click(Menu_dark);
-		mf.wait_element("xpath", iData_ZHT.SubMenu_nested);
+		mf.wait_element("xpath", iData_ZHT.SubMenu_nested, "SubMenu_nested");
 		List<WebElement> Menu_alls = mf.find_elements("xpath", iData_ZHT.LeftPane_path);
 		actual_data.addAll(mf.expand_menu(Menu_alls, top_menu));
 		return actual_data;
@@ -85,15 +87,15 @@ public class Test_NavData_ZHT {
 	@Test
 	public void test_Step01_Login_ZHT() throws Exception {
 		// [A]Enter "使用者名稱"
-		mf.wait_element("xpath", iData_ZHT.userName_path).sendKeys(iData_ZHT.login_name);
+		mf.wait_element("xpath", iData_ZHT.userName_path, "userName").sendKeys(iData_ZHT.login_name);
 		// [A]Enter "密碼"
-		mf.wait_element("xpath", iData_ZHT.password_path).sendKeys(iData_ZHT.login_pass);
+		mf.wait_element("xpath", iData_ZHT.password_path, "password").sendKeys(iData_ZHT.login_pass);
 		// [A]Click "登入"
-		mf.js_click(mf.wait_element("xpath", iData_ZHT.login_path));
+		mf.js_click(mf.wait_element("xpath", iData_ZHT.login_path, "login"));
 		mf.log_message(this.getClass().getName(), "Login to main page...");
 		// [A]Preempt
-		if (mf.wait_element_short("xpath", iData_ZHT.preempt_path) != null) {
-			mf.js_click(mf.wait_element("xpath", iData_ZHT.preempt_path));
+		if (mf.wait_element("xpath", iData_ZHT.preempt_path, "preempt") != null) {
+			mf.js_click(mf.wait_element("xpath", iData_ZHT.preempt_path, "preempt"));
 			mf.log_message(this.getClass().getName(), "Preempt the box...");
 			Preempt = 1;
 		}
@@ -101,11 +103,11 @@ public class Test_NavData_ZHT {
 
 	@Test
 	public void test_Step02_MenuTop_ZHT() throws Exception {
-		List<String> actualData = null;
+		List<String> actualData = new ArrayList<String>();
 		String[] topMenus = { "HOME", "MONITOR", "DEVICE", "NETWORK", "OBJECT", "POLICY" };
 		// [A]Switch to "Non-Config" mode
 		if (Preempt == 0) {
-			mf.js_click(mf.wait_element("xpath", iData_ZHT.Config_path));
+			mf.js_click(mf.wait_element("xpath", iData_ZHT.Config_path, "Config"));
 			mf.log_message(this.getClass().getName(), "Switch to 'Non-Config' mode...");
 		}
 

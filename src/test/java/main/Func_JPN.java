@@ -150,39 +150,22 @@ public class Func_JPN {
 
 	}
 
-	// Wait element (short time) > preempt
-	public WebElement wait_element_short(String type, String path) {
-		WebDriverWait wait = new WebDriverWait(driver, 15);
-		try {
-			if (type.equals("xpath")) {
-				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(path)));
-//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
-			}
-		} catch (Exception e) {
-			return null;
-		}
-		return we;
-	}
-
-	// Wait element (long time)
-	public WebElement wait_element(String type, String path) {
+	// Wait element
+	public WebElement wait_element(String type, String path, String msg) {
 		WebDriverWait wait = new WebDriverWait(driver, 30);
 		try {
 			if (type.equals("id")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id(path)));
-//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(path)));
 			} else if (type.equals("name")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.name(path)));
-//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.name(path)));
 			} else if (type.equals("class")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.className(path)));
-//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.className(path)));
 			} else if (type.equals("xpath")) {
 				we = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(path)));
-//				we = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(path)));
 			}
 		} catch (Exception e) {
-			log_message(class_name, "Element Not Found!");
+			log_message(class_name, "Element Not Found!" + " >> " + msg);
+			return null;
 		}
 		return we;
 	}

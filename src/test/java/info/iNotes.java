@@ -24,6 +24,7 @@
 2022-09-02: [I]Upgraded to Locali_Auto2 (Gen7).
 2022-09-19: [I]Added self-check (ZZ check) for Traditional Chinese version.
 2022-09-20: [I]Integrated ZZ & ZE check on SonicWall_Box2.xml in test process.
+2023-01-10: [I]Added detailed info as "Element Not Found!" + " >> " + msg.
 
 <TO DO>
 # Keep on searching any new issues.

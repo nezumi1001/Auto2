@@ -2,7 +2,7 @@
 <suite name="SonicWall TestSuite">
 	<test name="Menu Test ENG/JPN/ZHT">
 		<classes>
-			<class name="test.Test_NavData_ZHT"></class>
+			<class name="test.Test_NavData_JPN"></class>
 			<!-- <class name="test.Test_NavData_ENG"></class> -->
 			<!-- <class name="test.Test_NavData_JPN"></class> -->
 			<!-- <class name="test.Test_NavData_ZHT"></class> -->

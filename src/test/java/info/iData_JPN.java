@@ -4,8 +4,8 @@ import java.io.File;
 
 public class iData_JPN {
 	// Box info
-	public static String baseUrl = "https://10.103.50.207"; // TZ 270W
-//	public static String baseUrl = "https://10.8.162.191"; // TZ 570P
+//	public static String baseUrl = "https://10.103.50.207"; // TZ 270W
+	public static String baseUrl = "https://10.8.162.236"; // NSA 2700
 
 	// Check list
 	public static int check_list = 0;
@@ -24,9 +24,8 @@ public class iData_JPN {
 	// Password field
 	public static String password_path = "//input[contains(@placeholder,'パスワードを入力')]";
 
-	public static String login_pass = "password";
-//	public static String login_pass = "sonicwall";
-//	public static String login_pass = "laotouzi";
+//	public static String login_pass = "password";
+	public static String login_pass = "sonicwall";
 
 	// LOGIN button
 	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'ログイン')]";

@@ -1,0 +1,909 @@
+# Created at 2023-01-10T10:18:31.662
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:397)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+
+# Created at 2023-01-10T10:18:49.360
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Element Not Found!
+
+
+# Created at 2023-01-10T10:18:49.401
+Unexpected IOException: 8,1,test.Test_NavData_JPN,test_Step01_Login_JPN(test.Test_NavData_JPN),null,stale element reference: element is not attached to the page document\000A  (Session info: headless chrome=108.0.5359.125)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 108.0.5359.125\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59288}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 1940d02375641f212121a7baca7a36d4,null,stale element reference: element is not attached to the page document\000A  (Session info: headless chrome=108.0.5359.125)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 108.0.5359.125\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59288}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 1940d02375641f212121a7baca7a36d4,Test_NavData_JPN.test_Step01_Login_JPN:98 \00BB StaleElementReference stale elemen...,org.openqa.selenium.StaleElementReferenceException: \000Astale element reference: element is not attached to the page document\000A  (Session info: headless chrome=108.0.5359.125)\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'G3771J3-KHUANG'\002C ip: '10.103.50.149'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '11.0.16'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 108.0.5359.125\002C chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06...\002C userDataDir: C:\005CUsers\005Ckhuang\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59288}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: WINDOWS\002C platformName: WINDOWS\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify\002C webauthn:extension:credBlob: true\002C webauthn:extension:largeBlob: true\002C webauthn:virtualAuthenticators: true}\000ASession ID: 1940d02375641f212121a7baca7a36d4\000A\0009at test.Test_NavData_JPN.test_Step01_Login_JPN(Test_NavData_JPN.java:98)\000A
+
+
+# Created at 2023-01-10T10:18:50.443
+Unexpected IOException with stream: [S]ReportLog >> test_Step01_Login_JPN > [Fail]Take screenshot...
+
+
+# Created at 2023-01-10T10:18:50.450
+Unexpected IOException: 5,1,test.Test_NavData_JPN,test_Step02_MenuTop_JPN(test.Test_NavData_JPN),test.Test_NavData_JPN,null,null
+
+
+# Created at 2023-01-10T10:18:50.681
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Switch to 'Non-Config' mode...
+
+
+# Created at 2023-01-10T10:18:50.945
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Data created for [JPN]!
+
+
+# Created at 2023-01-10T10:18:55.474
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: ダッシュボード
+
+
+# Created at 2023-01-10T10:18:55.514
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: システム
+
+
+# Created at 2023-01-10T10:18:55.544
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: アクセス ポイント
+
+
+# Created at 2023-01-10T10:18:55.574
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: キャプチャ ATP
+
+
+# Created at 2023-01-10T10:18:55.620
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: トポロジ
+
+
+# Created at 2023-01-10T10:18:55.650
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: 法的情報
+
+
+# Created at 2023-01-10T10:18:55.683
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'HOME' Menu: API
+
+
+# Created at 2023-01-10T10:18:55.685
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2023-01-10T10:18:55.686
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 7
+
+
+# Created at 2023-01-10T10:18:56.146
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!
+
+
+# Created at 2023-01-10T10:18:56.148
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Top menu 'HOME' is done!
+
+
+# Created at 2023-01-10T10:19:00.341
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: リアルタイム グラフ
+
+
+# Created at 2023-01-10T10:19:00.375
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: システム監視
+
+
+# Created at 2023-01-10T10:19:00.405
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: プロトコル監視
+
+
+# Created at 2023-01-10T10:19:00.432
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ユーザ監視
+
+
+# Created at 2023-01-10T10:19:00.456
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 帯域幅管理監視
+
+
+# Created at 2023-01-10T10:19:00.482
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow
+
+
+# Created at 2023-01-10T10:19:00.510
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow 報告
+
+
+# Created at 2023-01-10T10:19:00.540
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow 監視
+
+
+# Created at 2023-01-10T10:19:00.567
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: CTA レポート
+
+
+# Created at 2023-01-10T10:19:00.602
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: SDWAN
+
+
+# Created at 2023-01-10T10:19:00.631
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: SDWAN 監視
+
+
+# Created at 2023-01-10T10:19:00.657
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: SD-WAN 接続
+
+
+# Created at 2023-01-10T10:19:00.696
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ログ
+
+
+# Created at 2023-01-10T10:19:00.723
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: システム ログ
+
+
+# Created at 2023-01-10T10:19:00.752
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 監査ログ
+
+
+# Created at 2023-01-10T10:19:00.779
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: ツールと監視
+
+
+# Created at 2023-01-10T10:19:00.810
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: パケット監視
+
+
+# Created at 2023-01-10T10:19:00.899
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: 接続
+
+
+# Created at 2023-01-10T10:19:00.926
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: コア 0 プロセス
+
+
+# Created at 2023-01-10T10:19:00.957
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'MONITOR' Menu: パケット再生
+
+
+# Created at 2023-01-10T10:19:00.958
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2023-01-10T10:19:00.959
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 20
+
+
+# Created at 2023-01-10T10:19:00.996
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!
+
+
+# Created at 2023-01-10T10:19:00.997
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Top menu 'MONITOR' is done!
+
+
+# Created at 2023-01-10T10:19:05.885
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:05.918
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ライセンス
+
+
+# Created at 2023-01-10T10:19:05.945
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 管理
+
+
+# Created at 2023-01-10T10:19:05.971
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 時間
+
+
+# Created at 2023-01-10T10:19:05.997
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 証明書
+
+
+# Created at 2023-01-10T10:19:06.032
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: SNMP
+
+
+# Created at 2023-01-10T10:19:06.064
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ファームウェアと設定
+
+
+# Created at 2023-01-10T10:19:06.090
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 記憶装置
+
+
+# Created at 2023-01-10T10:19:06.128
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 再起動
+
+
+# Created at 2023-01-10T10:19:06.156
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 高可用性
+
+
+# Created at 2023-01-10T10:19:06.188
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況
+
+
+# Created at 2023-01-10T10:19:06.223
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:06.256
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 詳細
+
+
+# Created at 2023-01-10T10:19:06.283
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 監視
+
+
+# Created at 2023-01-10T10:19:06.313
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ユーザ
+
+
+# Created at 2023-01-10T10:19:06.338
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 状況
+
+
+# Created at 2023-01-10T10:19:06.364
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:06.390
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パーティション
+
+
+# Created at 2023-01-10T10:19:06.416
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ローカル ユーザとグループ
+
+
+# Created at 2023-01-10T10:19:06.443
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト サービス
+
+
+# Created at 2023-01-10T10:19:06.470
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト アカウント
+
+
+# Created at 2023-01-10T10:19:06.493
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト状況
+
+
+# Created at 2023-01-10T10:19:06.522
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: AppFlow
+
+
+# Created at 2023-01-10T10:19:06.554
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: フロー報告
+
+
+# Created at 2023-01-10T10:19:06.584
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: AppFlow エージェント
+
+
+# Created at 2023-01-10T10:19:06.619
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ログ
+
+
+# Created at 2023-01-10T10:19:06.649
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:06.675
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Syslog
+
+
+# Created at 2023-01-10T10:19:06.704
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 自動化
+
+
+# Created at 2023-01-10T10:19:06.732
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 名前解決
+
+
+# Created at 2023-01-10T10:19:06.758
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: レポート
+
+
+# Created at 2023-01-10T10:19:06.791
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: AWS
+
+
+# Created at 2023-01-10T10:19:06.821
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 診断
+
+
+# Created at 2023-01-10T10:19:06.851
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: テクニカル サポート レポート
+
+
+# Created at 2023-01-10T10:19:06.876
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ネットワーク設定の確認
+
+
+# Created at 2023-01-10T10:19:06.905
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: DNS 名の調査
+
+
+# Created at 2023-01-10T10:19:06.934
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ネットワーク パス
+
+
+# Created at 2023-01-10T10:19:06.963
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Ping
+
+
+# Created at 2023-01-10T10:19:06.989
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ルート追跡
+
+
+# Created at 2023-01-10T10:19:07.020
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: リアルタイム ブラックリスト
+
+
+# Created at 2023-01-10T10:19:07.048
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 逆引き名前調査
+
+
+# Created at 2023-01-10T10:19:07.074
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 上位接続
+
+
+# Created at 2023-01-10T10:19:07.113
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 地域とボットネット
+
+
+# Created at 2023-01-10T10:19:07.147
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: MX とバナー
+
+
+# Created at 2023-01-10T10:19:07.182
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: グリッド確認
+
+
+# Created at 2023-01-10T10:19:07.215
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: URL 格付け要求
+
+
+# Created at 2023-01-10T10:19:07.246
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: PMTU 検出
+
+
+# Created at 2023-01-10T10:19:07.281
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ診断
+
+
+# Created at 2023-01-10T10:19:07.310
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ ネットワーク
+
+
+# Created at 2023-01-10T10:19:07.344
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 概要
+
+
+# Created at 2023-01-10T10:19:07.374
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ
+
+
+# Created at 2023-01-10T10:19:07.405
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: アクセス ポイント
+
+
+# Created at 2023-01-10T10:19:07.435
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:07.463
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ファームウェア管理
+
+
+# Created at 2023-01-10T10:19:07.489
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: フロア プランの表示
+
+
+# Created at 2023-01-10T10:19:07.519
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: ステーション状況
+
+
+# Created at 2023-01-10T10:19:07.549
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: IDS
+
+
+# Created at 2023-01-10T10:19:07.576
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 高度な IDP
+
+
+# Created at 2023-01-10T10:19:07.606
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: パケット キャプチャ
+
+
+# Created at 2023-01-10T10:19:07.635
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 仮想アクセス ポイント
+
+
+# Created at 2023-01-10T10:19:07.663
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF 監視
+
+
+# Created at 2023-01-10T10:19:07.689
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF 解析
+
+
+# Created at 2023-01-10T10:19:07.717
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: RF スペクトラム
+
+
+# Created at 2023-01-10T10:19:07.744
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: FairNet
+
+
+# Created at 2023-01-10T10:19:07.772
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Wi-Fi マルチメディア
+
+
+# Created at 2023-01-10T10:19:07.799
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 3G/4G/LTE WWAN
+
+
+# Created at 2023-01-10T10:19:07.837
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: Bluetooth LE
+
+
+# Created at 2023-01-10T10:19:07.883
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: 無線管理
+
+
+# Created at 2023-01-10T10:19:07.912
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'DEVICE' Menu: WWAN
+
+
+# Created at 2023-01-10T10:19:07.914
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2023-01-10T10:19:07.916
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 69
+
+
+# Created at 2023-01-10T10:19:07.991
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!
+
+
+# Created at 2023-01-10T10:19:07.992
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Top menu 'DEVICE' is done!
+
+
+# Created at 2023-01-10T10:19:12.286
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: システム
+
+
+# Created at 2023-01-10T10:19:12.318
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: インターフェース
+
+
+# Created at 2023-01-10T10:19:12.355
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: フェイルオーバーと負荷分散
+
+
+# Created at 2023-01-10T10:19:12.382
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 近隣者検出
+
+
+# Created at 2023-01-10T10:19:12.408
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ARP
+
+
+# Created at 2023-01-10T10:19:12.437
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: MAC IP アンチスプーフ
+
+
+# Created at 2023-01-10T10:19:12.465
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ウェブ プロキシ
+
+
+# Created at 2023-01-10T10:19:12.492
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: PortShield グループ
+
+
+# Created at 2023-01-10T10:19:12.520
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN 変換
+
+
+# Created at 2023-01-10T10:19:12.546
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: IP ヘルパー
+
+
+# Created at 2023-01-10T10:19:12.575
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 動的ルーティング
+
+
+# Created at 2023-01-10T10:19:12.606
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DHCP サーバ
+
+
+# Created at 2023-01-10T10:19:12.635
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: マルチキャスト
+
+
+# Created at 2023-01-10T10:19:12.664
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ネットワーク監視
+
+
+# Created at 2023-01-10T10:19:12.693
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: AWS 設定
+
+
+# Created at 2023-01-10T10:19:12.720
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ファイアウォール
+
+
+# Created at 2023-01-10T10:19:12.747
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 詳細
+
+
+# Created at 2023-01-10T10:19:12.772
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: フラッド防御
+
+
+# Created at 2023-01-10T10:19:12.807
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SSL 制御
+
+
+# Created at 2023-01-10T10:19:12.837
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 暗号化制御
+
+
+# Created at 2023-01-10T10:19:12.867
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: RBL フィルタ
+
+
+# Created at 2023-01-10T10:19:12.893
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VoIP
+
+
+# Created at 2023-01-10T10:19:12.922
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:12.949
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 通話状況
+
+
+# Created at 2023-01-10T10:19:12.975
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS
+
+
+# Created at 2023-01-10T10:19:13.005
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:13.033
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 動的 DNS
+
+
+# Created at 2023-01-10T10:19:13.068
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS プロキシ
+
+
+# Created at 2023-01-10T10:19:13.108
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: DNS セキュリティ
+
+
+# Created at 2023-01-10T10:19:13.145
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: スイッチング
+
+
+# Created at 2023-01-10T10:19:13.173
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VLAN トランク
+
+
+# Created at 2023-01-10T10:19:13.206
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: L2 発見
+
+
+# Created at 2023-01-10T10:19:13.239
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: リンク統合
+
+
+# Created at 2023-01-10T10:19:13.273
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ポート ミラーリング
+
+
+# Created at 2023-01-10T10:19:13.305
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SDWAN
+
+
+# Created at 2023-01-10T10:19:13.336
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: グループ
+
+
+# Created at 2023-01-10T10:19:13.368
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SLA プローブ
+
+
+# Created at 2023-01-10T10:19:13.406
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SLA クラス オブジェクト
+
+
+# Created at 2023-01-10T10:19:13.446
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: パス選択プロファイル
+
+
+# Created at 2023-01-10T10:19:13.479
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ルール
+
+
+# Created at 2023-01-10T10:19:13.511
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: IPSec VPN
+
+
+# Created at 2023-01-10T10:19:13.541
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ルールと設定
+
+
+# Created at 2023-01-10T10:19:13.570
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 詳細
+
+
+# Created at 2023-01-10T10:19:13.602
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: VPN を越えた DHCP
+
+
+# Created at 2023-01-10T10:19:13.633
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: L2TP サーバ
+
+
+# Created at 2023-01-10T10:19:13.663
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: AWS VPN
+
+
+# Created at 2023-01-10T10:19:13.692
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: SSL VPN
+
+
+# Created at 2023-01-10T10:19:13.723
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 状況
+
+
+# Created at 2023-01-10T10:19:13.751
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: サーバ設定
+
+
+# Created at 2023-01-10T10:19:13.780
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: クライアント設定
+
+
+# Created at 2023-01-10T10:19:13.809
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: ポータル設定
+
+
+# Created at 2023-01-10T10:19:13.840
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'NETWORK' Menu: 仮想オフィス
+
+
+# Created at 2023-01-10T10:19:13.841
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2023-01-10T10:19:13.842
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 52
+
+
+# Created at 2023-01-10T10:19:13.915
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!
+
+
+# Created at 2023-01-10T10:19:13.917
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Top menu 'NETWORK' is done!
+
+
+# Created at 2023-01-10T10:19:17.535
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト
+
+
+# Created at 2023-01-10T10:19:17.570
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: ゾーン
+
+
+# Created at 2023-01-10T10:19:17.607
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: アドレス
+
+
+# Created at 2023-01-10T10:19:17.644
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: サービス
+
+
+# Created at 2023-01-10T10:19:17.673
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: URI リスト
+
+
+# Created at 2023-01-10T10:19:17.703
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト
+
+
+# Created at 2023-01-10T10:19:17.737
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: スケジュール
+
+
+# Created at 2023-01-10T10:19:17.770
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 動的グループ
+
+
+# Created at 2023-01-10T10:19:17.800
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 電子メール アドレス
+
+
+# Created at 2023-01-10T10:19:17.835
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: プロファイル オブジェクト
+
+
+# Created at 2023-01-10T10:19:17.880
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: エンドポイント セキュリティ
+
+
+# Created at 2023-01-10T10:19:17.907
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 帯域幅
+
+
+# Created at 2023-01-10T10:19:17.940
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: QoS 級割
+
+
+# Created at 2023-01-10T10:19:17.975
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタ
+
+
+# Created at 2023-01-10T10:19:18.005
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: DHCP オプション
+
+
+# Created at 2023-01-10T10:19:18.039
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: AWS
+
+
+# Created at 2023-01-10T10:19:18.072
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: 動作オブジェクト
+
+
+# Created at 2023-01-10T10:19:18.106
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: アプリケーション ルールの動作
+
+
+# Created at 2023-01-10T10:19:18.136
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタの動作
+
+
+# Created at 2023-01-10T10:19:18.137
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2023-01-10T10:19:18.137
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 19
+
+
+# Created at 2023-01-10T10:19:18.219
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!
+
+
+# Created at 2023-01-10T10:19:18.220
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Top menu 'OBJECT' is done!
+
+
+# Created at 2023-01-10T10:19:23.624
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ルールとポリシー
+
+
+# Created at 2023-01-10T10:19:23.677
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: アクセス ルール
+
+
+# Created at 2023-01-10T10:19:23.719
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: NAT ルール
+
+
+# Created at 2023-01-10T10:19:23.752
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ルーティング ルール
+
+
+# Created at 2023-01-10T10:19:23.788
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: コンテンツ フィルタ ルール
+
+
+# Created at 2023-01-10T10:19:23.818
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: アプリケーション ルール
+
+
+# Created at 2023-01-10T10:19:23.848
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: エンドポイント ルール
+
+
+# Created at 2023-01-10T10:19:23.882
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: DPI-SSL
+
+
+# Created at 2023-01-10T10:19:23.919
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: クライアント SSL
+
+
+# Created at 2023-01-10T10:19:23.954
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: サーバ SSL
+
+
+# Created at 2023-01-10T10:19:24.119
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: DPI-SSH
+
+
+# Created at 2023-01-10T10:19:24.311
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:24.368
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: セキュリティ サービス
+
+
+# Created at 2023-01-10T10:19:24.413
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: サマリ
+
+
+# Created at 2023-01-10T10:19:24.457
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ゲートウェイ アンチウイルス
+
+
+# Created at 2023-01-10T10:19:24.492
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: アンチスパイウェア
+
+
+# Created at 2023-01-10T10:19:24.535
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 侵入防御
+
+
+# Created at 2023-01-10T10:19:24.581
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 地域 IP フィルタ
+
+
+# Created at 2023-01-10T10:19:24.629
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: ボットネット フィルタ
+
+
+# Created at 2023-01-10T10:19:24.685
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: アプリケーション制御
+
+
+# Created at 2023-01-10T10:19:24.721
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: コンテンツ フィルタ
+
+
+# Created at 2023-01-10T10:19:24.770
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: アンチスパム
+
+
+# Created at 2023-01-10T10:19:24.806
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 状況
+
+
+# Created at 2023-01-10T10:19:24.840
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:24.872
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: キャプチャ ATP
+
+
+# Created at 2023-01-10T10:19:24.903
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: 設定
+
+
+# Created at 2023-01-10T10:19:24.949
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: スキャン履歴
+
+
+# Created at 2023-01-10T10:19:24.988
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > 'POLICY' Menu: エンドポイント セキュリティ
+
+
+# Created at 2023-01-10T10:19:24.989
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ========================================================================
+
+
+# Created at 2023-01-10T10:19:24.990
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > ALL MENU: 28
+
+
+# Created at 2023-01-10T10:19:25.051
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Data updated for [JPN]!
+
+
+# Created at 2023-01-10T10:19:25.052
+Unexpected IOException with stream: [S]ReportLog >> test.Test_NavData_JPN > Top menu 'POLICY' is done!
+
+
