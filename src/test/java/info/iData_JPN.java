@@ -4,8 +4,8 @@ import java.io.File;
 
 public class iData_JPN {
 	// Box info
-//	public static String baseUrl = "https://10.103.50.207"; // TZ 270W
-	public static String baseUrl = "https://10.8.162.236"; // NSA 2700
+//	public static String baseUrl = "https://10.103.50.142"; // TZ 270W
+	public static String baseUrl = "https://10.8.162.151"; // NSA 2700
 
 	// Check list
 	public static int check_list = 0;

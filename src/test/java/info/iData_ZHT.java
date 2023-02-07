@@ -5,7 +5,7 @@ import java.io.File;
 public class iData_ZHT {
 	// Box info
 //	public static String baseUrl = "https://10.103.50.77"; // TZ 270W
-	public static String baseUrl = "https://10.8.56.203"; // NSa 5700
+	public static String baseUrl = "https://10.8.56.155"; // NSa 5700
 
 	// Check list
 	public static int check_list = 0;
