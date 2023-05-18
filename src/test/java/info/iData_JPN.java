@@ -5,7 +5,7 @@ import java.io.File;
 public class iData_JPN {
 	// Box info
 //	public static String baseUrl = "https://10.103.50.142"; // TZ 270W
-	public static String baseUrl = "https://10.8.162.151"; // NSA 2700
+	public static String baseUrl = "https://10.8.162.182"; // NSA 2700
 
 	// Check list
 	public static int check_list = 0;
@@ -28,7 +28,7 @@ public class iData_JPN {
 	public static String login_pass = "sonicwall";
 
 	// LOGIN button
-	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'ログイン')]";
+	public static String login_path = "//div[@class='sw-login sw-login--desktop sw-typo-default sw-flexbox']//div[contains(text(),'ログイン')]";
 
 	// Config mode
 	public static String Config_path = "//div[@class='sw-toggle sw-toggle--left sw-toggle--regular sw-toggle--light']";

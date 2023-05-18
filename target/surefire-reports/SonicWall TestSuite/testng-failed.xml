@@ -3,14 +3,15 @@
 <suite name="Failed suite [SonicWall TestSuite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Menu Test ENG/JPN/ZHT(failed)" verbose="0">
     <classes>
-      <class name="test.Test_NavData_ZHT">
+      <class name="test.Test_NavData_JPN">
         <methods>
           <include name="afterClass"/>
-          <include name="afterMethod"/>
+          <include name="test_Step01_Login_JPN"/>
           <include name="beforeClass"/>
-          <include name="test_Step02_MenuTop_ZHT"/>
+          <include name="test_Step02_MenuTop_JPN"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- test.Test_NavData_ZHT -->
+      </class> <!-- test.Test_NavData_JPN -->
     </classes>
   </test> <!-- Menu Test ENG/JPN/ZHT(failed) -->
 </suite> <!-- Failed suite [SonicWall TestSuite] -->

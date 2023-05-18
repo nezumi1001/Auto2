@@ -6,7 +6,7 @@ public class iData_ENG {
 	// Box info
 //	public static String baseUrl = "https://10.103.50.189"; // TZ 370W
 //	public static String baseUrl = "https://10.8.162.201"; // NSa 2700
-	public static String baseUrl = "https://10.8.162.153"; // TZ 570P
+	public static String baseUrl = "https://10.8.162.181"; // TZ 570P
 //	public static String baseUrl = "https://10.8.178.176"; // NSa 4700 KellyDu
 
 	// ChromeDriver Settings
@@ -27,7 +27,7 @@ public class iData_ENG {
 	public static String login_pass = "sonicwall";
 
 	// LOGIN button
-	public static String login_path = "//div[@class='sw-login sw-typo-default sw-flexbox']//div[contains(text(),'LOG')]";
+	public static String login_path = "//div[@class='sw-login sw-login--desktop sw-typo-default sw-flexbox']//div[contains(text(),'LOG')]";
 
 	// Config mode
 	public static String Config_path = "//div[@class='sw-toggle sw-toggle--left sw-toggle--regular sw-toggle--light']";

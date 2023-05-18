@@ -1,0 +1,494 @@
+2023-05-18 14:32:05,062: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Before Navigate To...https://10.8.162.181[ENG]
+2023-05-18 14:32:05,079: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Before Navigate To...https://10.8.162.182[JPN]
+2023-05-18 14:32:05,300: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Login to main page...
+2023-05-18 14:32:05,301: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Login to main page...
+2023-05-18 14:32:35,383: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Element Not Found! >> preempt
+2023-05-18 14:32:35,780: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Element Not Found! >> preempt
+2023-05-18 14:32:35,997: - INFO - Test_NavData_ENG: test_Step01_Login_ENG > [Pass]Take screenshot...
+2023-05-18 14:32:36,096: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Switch to 'Non-Config' mode...
+2023-05-18 14:32:36,307: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Data created for [ENG]!
+2023-05-18 14:32:36,520: - INFO - Test_NavData_JPN: test_Step01_Login_JPN > [Pass]Take screenshot...
+2023-05-18 14:32:36,607: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Switch to 'Non-Config' mode...
+2023-05-18 14:32:36,622: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Data created for [JPN]!
+2023-05-18 14:32:39,391: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: Dashboard
+2023-05-18 14:32:39,425: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: System
+2023-05-18 14:32:39,466: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: Access Points
+2023-05-18 14:32:39,499: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: Capture ATP
+2023-05-18 14:32:39,538: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: Topology
+2023-05-18 14:32:39,585: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: Legal Information
+2023-05-18 14:32:39,620: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: API
+2023-05-18 14:32:39,620: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:39,620: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'HOME' Menu: No duplicated data to the TOP
+2023-05-18 14:32:39,620: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:39,621: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ALL MENU: 7
+2023-05-18 14:32:39,900: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Data updated for [ENG]!
+2023-05-18 14:32:39,900: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Top menu 'HOME' is done!
+2023-05-18 14:32:40,792: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: ダッシュボード >> Dashboard
+2023-05-18 14:32:40,829: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: システム >> System
+2023-05-18 14:32:40,853: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: アクセス ポイント >> Access Points
+2023-05-18 14:32:40,871: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: キャプチャ ATP >> Capture ATP
+2023-05-18 14:32:40,896: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: トポロジ >> Topology
+2023-05-18 14:32:40,914: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: 法的情報 >> Legal Information
+2023-05-18 14:32:40,931: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: API >> API
+2023-05-18 14:32:40,931: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:40,931: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'HOME' Menu: No duplicated data to the TOP
+2023-05-18 14:32:40,931: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:40,932: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 7
+2023-05-18 14:32:40,941: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Data updated for [JPN]!
+2023-05-18 14:32:40,941: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Top menu 'HOME' is done!
+2023-05-18 14:32:41,409: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Real-Time Charts
+2023-05-18 14:32:41,437: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: System Monitor
+2023-05-18 14:32:41,473: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Protocol Monitor
+2023-05-18 14:32:41,504: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: User Monitor
+2023-05-18 14:32:41,536: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: BWM Monitor
+2023-05-18 14:32:41,564: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow
+2023-05-18 14:32:41,604: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Report
+2023-05-18 14:32:41,630: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: AppFlow Monitor
+2023-05-18 14:32:41,654: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: CTA Report
+2023-05-18 14:32:41,675: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN
+2023-05-18 14:32:41,696: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: SDWAN Monitor
+2023-05-18 14:32:41,729: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: SD-WAN Connections
+2023-05-18 14:32:41,769: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Logs
+2023-05-18 14:32:41,803: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: System Logs
+2023-05-18 14:32:41,831: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Auditing Logs
+2023-05-18 14:32:41,927: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Tools & Monitors
+2023-05-18 14:32:41,950: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Packet Monitor
+2023-05-18 14:32:41,969: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Connections
+2023-05-18 14:32:41,992: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Core 0 Processes
+2023-05-18 14:32:42,021: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: Packet Replay
+2023-05-18 14:32:42,022: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:42,022: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'MONITOR' Menu: No duplicated data to the TOP
+2023-05-18 14:32:42,022: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:42,022: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ALL MENU: 20
+2023-05-18 14:32:42,038: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Data updated for [ENG]!
+2023-05-18 14:32:42,038: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Top menu 'MONITOR' is done!
+2023-05-18 14:32:44,177: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: リアルタイム グラフ >> Real-Time Charts
+2023-05-18 14:32:44,201: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+2023-05-18 14:32:44,203: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: システム監視 >> System Monitor
+2023-05-18 14:32:44,223: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: プロトコル監視 >> Protocol Monitor
+2023-05-18 14:32:44,249: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Licenses
+2023-05-18 14:32:44,250: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: ユーザ監視 >> User Monitor
+2023-05-18 14:32:44,272: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: 帯域幅管理監視 >> BWM Monitor
+2023-05-18 14:32:44,291: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Administration
+2023-05-18 14:32:44,301: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow >> AppFlow
+2023-05-18 14:32:44,323: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow 報告 >> AppFlow Report
+2023-05-18 14:32:44,326: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Time
+2023-05-18 14:32:44,342: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: AppFlow 監視 >> AppFlow Monitor
+2023-05-18 14:32:44,360: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Certificates
+2023-05-18 14:32:44,369: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: CTA レポート >> CTA Report
+2023-05-18 14:32:44,393: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: SDWAN >> SDWAN
+2023-05-18 14:32:44,399: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: SNMP
+2023-05-18 14:32:44,419: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: SDWAN 監視 >> SDWAN Monitor
+2023-05-18 14:32:44,438: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Firmware and Settings
+2023-05-18 14:32:44,443: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: SD-WAN 接続 >> SD-WAN Connections
+2023-05-18 14:32:44,464: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: ログ >> Logs
+2023-05-18 14:32:44,477: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Storage
+2023-05-18 14:32:44,487: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: システム ログ >> System Logs
+2023-05-18 14:32:44,512: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: 監査ログ >> Auditing Logs
+2023-05-18 14:32:44,515: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Restart
+2023-05-18 14:32:44,542: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: High Availability
+2023-05-18 14:32:44,542: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: ツールと監視 >> Tools & Monitors
+2023-05-18 14:32:44,564: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: パケット監視 >> Packet Monitor
+2023-05-18 14:32:44,578: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Status
+2023-05-18 14:32:44,591: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: 接続 >> Connections
+2023-05-18 14:32:44,614: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: コア 0 プロセス >> Core 0 Processes
+2023-05-18 14:32:44,618: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+2023-05-18 14:32:44,636: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: パケット再生 >> Packet Replay
+2023-05-18 14:32:44,636: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:44,636: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'MONITOR' Menu: No duplicated data to the TOP
+2023-05-18 14:32:44,636: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:44,636: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 20
+2023-05-18 14:32:44,653: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Advanced
+2023-05-18 14:32:44,656: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Data updated for [JPN]!
+2023-05-18 14:32:44,657: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Top menu 'MONITOR' is done!
+2023-05-18 14:32:44,695: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Monitoring
+2023-05-18 14:32:44,736: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Users
+2023-05-18 14:32:44,771: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Status
+2023-05-18 14:32:44,815: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+2023-05-18 14:32:44,855: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Local Users & Groups
+2023-05-18 14:32:44,892: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Guest Services
+2023-05-18 14:32:44,929: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Guest Accounts
+2023-05-18 14:32:44,958: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Guest Status
+2023-05-18 14:32:44,979: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow
+2023-05-18 14:32:44,999: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Flow Reporting
+2023-05-18 14:32:45,025: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: AppFlow Agent
+2023-05-18 14:32:45,048: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Log
+2023-05-18 14:32:45,068: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+2023-05-18 14:32:45,094: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Syslog
+2023-05-18 14:32:45,131: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Automation
+2023-05-18 14:32:45,162: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Name Resolution
+2023-05-18 14:32:45,200: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Reports
+2023-05-18 14:32:45,243: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: AWS
+2023-05-18 14:32:45,284: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Diagnostics
+2023-05-18 14:32:45,319: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Tech Support Report
+2023-05-18 14:32:45,356: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Check Network Settings
+2023-05-18 14:32:45,394: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: DNS Name Lookup
+2023-05-18 14:32:45,437: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Network Path
+2023-05-18 14:32:45,473: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Ping
+2023-05-18 14:32:45,505: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Trace Route
+2023-05-18 14:32:45,542: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Real-Time Blacklist
+2023-05-18 14:32:45,581: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Reverse Name Lookup
+2023-05-18 14:32:45,620: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Connection TopX
+2023-05-18 14:32:45,649: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Geo and Botnet
+2023-05-18 14:32:45,688: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: MX and Banner
+2023-05-18 14:32:45,732: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: GRID Check
+2023-05-18 14:32:45,771: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: URL Rating Request
+2023-05-18 14:32:45,809: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: PMTU Discovery
+2023-05-18 14:32:45,873: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Switch Diagnostics
+2023-05-18 14:32:45,910: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Switch Network
+2023-05-18 14:32:45,941: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Overview
+2023-05-18 14:32:45,978: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Switches
+2023-05-18 14:32:46,020: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Access Points
+2023-05-18 14:32:46,060: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Settings
+2023-05-18 14:32:46,092: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Firmware Management
+2023-05-18 14:32:46,116: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Floor Plan View
+2023-05-18 14:32:46,150: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Station Status
+2023-05-18 14:32:46,189: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: IDS
+2023-05-18 14:32:46,217: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Advanced IDP
+2023-05-18 14:32:46,241: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Packet Capture
+2023-05-18 14:32:46,273: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Virtual Access Point
+2023-05-18 14:32:46,317: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: RF Monitoring
+2023-05-18 14:32:46,362: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: RF Analysis
+2023-05-18 14:32:46,404: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: RF Spectrum
+2023-05-18 14:32:46,448: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: FairNet
+2023-05-18 14:32:46,498: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Wi-Fi Multimedia
+2023-05-18 14:32:46,525: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: 3G/4G/LTE WWAN
+2023-05-18 14:32:46,559: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Bluetooth LE
+2023-05-18 14:32:46,593: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Radio Management
+2023-05-18 14:32:46,632: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: WWAN
+2023-05-18 14:32:46,633: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:46,633: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'DEVICE' Menu: Settings >> Settings (TOP)
+2023-05-18 14:32:46,633: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:46,633: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ALL MENU: 68
+2023-05-18 14:32:46,669: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Data updated for [ENG]!
+2023-05-18 14:32:46,669: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Top menu 'DEVICE' is done!
+2023-05-18 14:32:49,021: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings
+2023-05-18 14:32:49,045: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ライセンス >> Licenses
+2023-05-18 14:32:49,069: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 管理 >> Administration
+2023-05-18 14:32:49,092: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 時間 >> Time
+2023-05-18 14:32:49,118: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 証明書 >> Certificates
+2023-05-18 14:32:49,145: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: SNMP >> SNMP
+2023-05-18 14:32:49,172: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ファームウェアと設定 >> Firmware and Settings
+2023-05-18 14:32:49,195: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 記憶装置 >> Storage
+2023-05-18 14:32:49,214: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 再起動 >> Restart
+2023-05-18 14:32:49,236: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 高可用性 >> High Availability
+2023-05-18 14:32:49,255: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status
+2023-05-18 14:32:49,281: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings
+2023-05-18 14:32:49,304: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 詳細 >> Advanced
+2023-05-18 14:32:49,328: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 監視 >> Monitoring
+2023-05-18 14:32:49,351: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ユーザ >> Users
+2023-05-18 14:32:49,372: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 状況 >> Status
+2023-05-18 14:32:49,398: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings
+2023-05-18 14:32:49,421: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: パーティション >> Partitions
+2023-05-18 14:32:49,447: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ローカル ユーザとグループ >> Local Users & Groups
+2023-05-18 14:32:49,447: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: System
+2023-05-18 14:32:49,472: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト サービス >> Guest Services
+2023-05-18 14:32:49,486: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Interfaces
+2023-05-18 14:32:49,500: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト アカウント >> Guest Accounts
+2023-05-18 14:32:49,526: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ゲスト状況 >> Guest Status
+2023-05-18 14:32:49,530: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Failover & LB
+2023-05-18 14:32:49,556: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: AppFlow >> AppFlow
+2023-05-18 14:32:49,574: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Neighbor Discovery
+2023-05-18 14:32:49,587: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: フロー報告 >> Flow Reporting
+2023-05-18 14:32:49,615: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: AppFlow エージェント >> AppFlow Agent
+2023-05-18 14:32:49,617: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: ARP
+2023-05-18 14:32:49,642: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ログ >> Log
+2023-05-18 14:32:49,653: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: MAC IP Anti-Spoof
+2023-05-18 14:32:49,666: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings
+2023-05-18 14:32:49,687: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Web Proxy
+2023-05-18 14:32:49,689: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: Syslog >> Syslog
+2023-05-18 14:32:49,708: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 自動化 >> Automation
+2023-05-18 14:32:49,715: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: PortShield Groups
+2023-05-18 14:32:49,722: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 名前解決 >> Name Resolution
+2023-05-18 14:32:49,735: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: レポート >> Reports
+2023-05-18 14:32:49,741: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: PoE Settings
+2023-05-18 14:32:49,748: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: AWS >> AWS
+2023-05-18 14:32:49,761: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 診断 >> Diagnostics
+2023-05-18 14:32:49,770: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: VLAN Translation
+2023-05-18 14:32:49,780: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: テクニカル サポート レポート >> Tech Support Report
+2023-05-18 14:32:49,788: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: IP Helper
+2023-05-18 14:32:49,793: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ネットワーク設定の確認 >> Check Network Settings
+2023-05-18 14:32:49,805: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: DNS 名の調査 >> DNS Name Lookup
+2023-05-18 14:32:49,812: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic Routing
+2023-05-18 14:32:49,817: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ネットワーク パス >> Network Path
+2023-05-18 14:32:49,834: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: Ping >> Ping
+2023-05-18 14:32:49,841: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: DHCP Server
+2023-05-18 14:32:49,854: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ルート追跡 >> Trace Route
+2023-05-18 14:32:49,865: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Multicast
+2023-05-18 14:32:49,877: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: リアルタイム ブラックリスト >> Real-Time Blacklist
+2023-05-18 14:32:49,900: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 逆引き名前調査 >> Reverse Name Lookup
+2023-05-18 14:32:49,907: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Network Monitor
+2023-05-18 14:32:49,925: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 上位接続 >> Connection TopX
+2023-05-18 14:32:49,948: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: AWS Configuration
+2023-05-18 14:32:49,949: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 地域とボットネット >> Geo and Botnet
+2023-05-18 14:32:49,978: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: MX とバナー >> MX and Banner
+2023-05-18 14:32:49,989: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Firewall
+2023-05-18 14:32:49,999: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: グリッド確認 >> GRID Check
+2023-05-18 14:32:50,023: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Advanced
+2023-05-18 14:32:50,028: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: URL 格付け要求 >> URL Rating Request
+2023-05-18 14:32:50,054: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: PMTU 検出 >> PMTU Discovery
+2023-05-18 14:32:50,064: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Flood Protection
+2023-05-18 14:32:50,082: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ診断 >> Switch Diagnostics
+2023-05-18 14:32:50,097: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: SSL Control
+2023-05-18 14:32:50,106: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ ネットワーク >> Switch Network
+2023-05-18 14:32:50,133: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 概要 >> Overview
+2023-05-18 14:32:50,137: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Cipher Control
+2023-05-18 14:32:50,147: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: スイッチ >> Switches
+2023-05-18 14:32:50,171: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: RBL Filter
+2023-05-18 14:32:50,173: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: アクセス ポイント >> Access Points
+2023-05-18 14:32:50,194: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 設定 >> Settings
+2023-05-18 14:32:50,205: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: VoIP
+2023-05-18 14:32:50,214: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ファームウェア管理 >> Firmware Management
+2023-05-18 14:32:50,226: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: フロア プランの表示 >> Floor Plan View
+2023-05-18 14:32:50,230: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Settings
+2023-05-18 14:32:50,239: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: ステーション状況 >> Station Status
+2023-05-18 14:32:50,261: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Call Status
+2023-05-18 14:32:50,262: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: IDS >> IDS
+2023-05-18 14:32:50,292: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 高度な IDP >> Advanced IDP
+2023-05-18 14:32:50,301: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: DNS
+2023-05-18 14:32:50,309: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: パケット キャプチャ >> Packet Capture
+2023-05-18 14:32:50,328: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 仮想アクセス ポイント >> Virtual Access Point
+2023-05-18 14:32:50,332: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Settings
+2023-05-18 14:32:50,356: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: RF 監視 >> RF Monitoring
+2023-05-18 14:32:50,367: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Dynamic DNS
+2023-05-18 14:32:50,379: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: RF 解析 >> RF Analysis
+2023-05-18 14:32:50,391: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: DNS Proxy
+2023-05-18 14:32:50,393: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: RF スペクトラム >> RF Spectrum
+2023-05-18 14:32:50,416: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: FairNet >> FairNet
+2023-05-18 14:32:50,428: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: DNS Security
+2023-05-18 14:32:50,438: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: Wi-Fi マルチメディア >> Wi-Fi Multimedia
+2023-05-18 14:32:50,459: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: SDWAN
+2023-05-18 14:32:50,459: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 3G/4G/LTE WWAN >> 3G/4G/LTE WWAN
+2023-05-18 14:32:50,476: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: Bluetooth LE >> Bluetooth LE
+2023-05-18 14:32:50,486: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Groups
+2023-05-18 14:32:50,493: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: 無線管理 >> Radio Management
+2023-05-18 14:32:50,510: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: WWAN >> WWAN
+2023-05-18 14:32:50,510: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:50,511: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'DEVICE' Menu: Settings >> Settings (TOP)
+2023-05-18 14:32:50,511: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:50,511: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 69
+2023-05-18 14:32:50,515: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: SLA Probes
+2023-05-18 14:32:50,532: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Data updated for [JPN]!
+2023-05-18 14:32:50,533: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Top menu 'DEVICE' is done!
+2023-05-18 14:32:50,545: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: SLA Class Objects
+2023-05-18 14:32:50,565: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Path Selection Profiles
+2023-05-18 14:32:50,601: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Rules
+2023-05-18 14:32:50,641: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: IPSec VPN
+2023-05-18 14:32:50,678: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Rules and Settings
+2023-05-18 14:32:50,704: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Advanced
+2023-05-18 14:32:50,727: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: DHCP over VPN
+2023-05-18 14:32:50,758: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: L2TP Server
+2023-05-18 14:32:50,794: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: AWS VPN
+2023-05-18 14:32:50,831: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: SSL VPN
+2023-05-18 14:32:50,860: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Status
+2023-05-18 14:32:50,893: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Server Settings
+2023-05-18 14:32:50,923: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Client Settings
+2023-05-18 14:32:50,950: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Portal Settings
+2023-05-18 14:32:50,974: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: Virtual Office
+2023-05-18 14:32:50,974: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:50,974: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'NETWORK' Menu: No duplicated data to the TOP
+2023-05-18 14:32:50,974: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:50,974: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ALL MENU: 48
+2023-05-18 14:32:51,003: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Data updated for [ENG]!
+2023-05-18 14:32:51,004: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Top menu 'NETWORK' is done!
+2023-05-18 14:32:52,804: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects
+2023-05-18 14:32:52,832: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Zones
+2023-05-18 14:32:52,857: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Addresses
+2023-05-18 14:32:52,879: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Services
+2023-05-18 14:32:52,900: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: URI Lists
+2023-05-18 14:32:52,931: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects
+2023-05-18 14:32:52,962: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Schedules
+2023-05-18 14:32:53,000: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Dynamic Group
+2023-05-18 14:32:53,038: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Email Addresses
+2023-05-18 14:32:53,078: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Profile Objects
+2023-05-18 14:32:53,108: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Endpoint Security
+2023-05-18 14:32:53,132: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Bandwidth
+2023-05-18 14:32:53,155: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: QoS Marking
+2023-05-18 14:32:53,188: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter
+2023-05-18 14:32:53,211: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: DHCP Option
+2023-05-18 14:32:53,234: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: AWS
+2023-05-18 14:32:53,270: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Action Objects
+2023-05-18 14:32:53,303: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: App Rule Actions
+2023-05-18 14:32:53,331: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Content Filter Actions
+2023-05-18 14:32:53,331: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:53,331: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'OBJECT' Menu: Match Objects >> Match Objects (TOP)
+2023-05-18 14:32:53,331: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:53,331: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ALL MENU: 19
+2023-05-18 14:32:53,366: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Data updated for [ENG]!
+2023-05-18 14:32:53,366: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Top menu 'OBJECT' is done!
+2023-05-18 14:32:54,828: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: システム >> System
+2023-05-18 14:32:54,845: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: インターフェース >> Interfaces
+2023-05-18 14:32:54,866: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: フェイルオーバーと負荷分散 >> Failover & LB
+2023-05-18 14:32:54,888: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 近隣者検出 >> Neighbor Discovery
+2023-05-18 14:32:54,905: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ARP >> ARP
+2023-05-18 14:32:54,920: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: MAC IP アンチスプーフ >> MAC IP Anti-Spoof
+2023-05-18 14:32:54,940: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ウェブ プロキシ >> Web Proxy
+2023-05-18 14:32:54,965: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: PortShield グループ >> PortShield Groups
+2023-05-18 14:32:54,982: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: VLAN 変換 >> VLAN Translation
+2023-05-18 14:32:54,995: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: IP ヘルパー >> IP Helper
+2023-05-18 14:32:55,012: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 動的ルーティング >> Dynamic Routing
+2023-05-18 14:32:55,025: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: DHCP サーバ >> DHCP Server
+2023-05-18 14:32:55,040: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: マルチキャスト >> Multicast
+2023-05-18 14:32:55,058: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ネットワーク監視 >> Network Monitor
+2023-05-18 14:32:55,070: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: AWS 設定 >> AWS Configuration
+2023-05-18 14:32:55,088: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ファイアウォール >> Firewall
+2023-05-18 14:32:55,108: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 詳細 >> Advanced
+2023-05-18 14:32:55,130: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: フラッド防御 >> Flood Protection
+2023-05-18 14:32:55,152: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: SSL 制御 >> SSL Control
+2023-05-18 14:32:55,174: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 暗号化制御 >> Cipher Control
+2023-05-18 14:32:55,199: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: RBL フィルタ >> RBL Filter
+2023-05-18 14:32:55,226: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: VoIP >> VoIP
+2023-05-18 14:32:55,257: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 設定 >> Settings
+2023-05-18 14:32:55,282: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 通話状況 >> Call Status
+2023-05-18 14:32:55,311: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: DNS >> DNS
+2023-05-18 14:32:55,337: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 設定 >> Settings
+2023-05-18 14:32:55,359: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 動的 DNS >> Dynamic DNS
+2023-05-18 14:32:55,386: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: DNS プロキシ >> DNS Proxy
+2023-05-18 14:32:55,405: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: DNS セキュリティ >> DNS Security
+2023-05-18 14:32:55,431: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: スイッチング >> Switching
+2023-05-18 14:32:55,454: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: VLAN トランク >> VLAN Trunking
+2023-05-18 14:32:55,481: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: L2 発見 >> L2 Discovery
+2023-05-18 14:32:55,512: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: リンク統合 >> Link Aggregation
+2023-05-18 14:32:55,545: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ポート ミラーリング >> Port Mirroring
+2023-05-18 14:32:55,562: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: SDWAN >> SDWAN
+2023-05-18 14:32:55,588: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: グループ >> Groups
+2023-05-18 14:32:55,611: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: SLA プローブ >> SLA Probes
+2023-05-18 14:32:55,627: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: SLA クラス オブジェクト >> SLA Class Objects
+2023-05-18 14:32:55,655: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: パス選択プロファイル >> Path Selection Profiles
+2023-05-18 14:32:55,671: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ルール >> Rules
+2023-05-18 14:32:55,699: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: IPSec VPN >> IPSec VPN
+2023-05-18 14:32:55,723: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ルールと設定 >> Rules and Settings
+2023-05-18 14:32:55,738: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 詳細 >> Advanced
+2023-05-18 14:32:55,750: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: VPN を越えた DHCP >> DHCP over VPN
+2023-05-18 14:32:55,774: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: L2TP サーバ >> L2TP Server
+2023-05-18 14:32:55,806: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: AWS VPN >> AWS VPN
+2023-05-18 14:32:55,834: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: SSL VPN >> SSL VPN
+2023-05-18 14:32:55,856: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 状況 >> Status
+2023-05-18 14:32:55,887: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: サーバ設定 >> Server Settings
+2023-05-18 14:32:55,908: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: クライアント設定 >> Client Settings
+2023-05-18 14:32:55,935: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: ポータル設定 >> Portal Settings
+2023-05-18 14:32:55,963: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: 仮想オフィス >> Virtual Office
+2023-05-18 14:32:55,963: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:55,964: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'NETWORK' Menu: No duplicated data to the TOP
+2023-05-18 14:32:55,964: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:55,964: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 52
+2023-05-18 14:32:55,999: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Data updated for [JPN]!
+2023-05-18 14:32:55,999: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Top menu 'NETWORK' is done!
+2023-05-18 14:32:56,787: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Rules and Policies
+2023-05-18 14:32:56,816: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Access Rules
+2023-05-18 14:32:56,840: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: NAT Rules
+2023-05-18 14:32:56,867: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Routing Rules
+2023-05-18 14:32:56,899: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Content Filter Rules
+2023-05-18 14:32:56,922: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: App Rules
+2023-05-18 14:32:56,945: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Rules
+2023-05-18 14:32:56,974: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSL
+2023-05-18 14:32:57,013: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Client SSL
+2023-05-18 14:32:57,052: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Server SSL
+2023-05-18 14:32:57,103: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: DPI-SSH
+2023-05-18 14:32:57,148: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Settings
+2023-05-18 14:32:57,255: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Security Services
+2023-05-18 14:32:57,353: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Summary
+2023-05-18 14:32:57,380: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Gateway Anti-Virus
+2023-05-18 14:32:57,413: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spyware
+2023-05-18 14:32:57,435: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Intrusion Prevention
+2023-05-18 14:32:57,459: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Geo-IP Filter
+2023-05-18 14:32:57,489: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Botnet Filter
+2023-05-18 14:32:57,529: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: App Control
+2023-05-18 14:32:57,561: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Content Filter
+2023-05-18 14:32:57,587: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Anti-Spam
+2023-05-18 14:32:57,615: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Status
+2023-05-18 14:32:57,648: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Settings
+2023-05-18 14:32:57,683: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Capture ATP
+2023-05-18 14:32:57,728: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Settings
+2023-05-18 14:32:57,765: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Scanning History
+2023-05-18 14:32:57,805: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: Endpoint Security
+2023-05-18 14:32:57,806: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:57,806: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > 'POLICY' Menu: No duplicated data to the TOP
+2023-05-18 14:32:57,806: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ========================================================================
+2023-05-18 14:32:57,806: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > ALL MENU: 28
+2023-05-18 14:32:57,843: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Data updated for [ENG]!
+2023-05-18 14:32:57,843: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Top menu 'POLICY' is done!
+2023-05-18 14:32:58,323: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects
+2023-05-18 14:32:58,356: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: ゾーン >> Zones
+2023-05-18 14:32:58,381: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: アドレス >> Addresses
+2023-05-18 14:32:58,404: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: サービス >> Services
+2023-05-18 14:32:58,428: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: URI リスト >> URI Lists
+2023-05-18 14:32:58,449: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: 一致オブジェクト >> Match Objects
+2023-05-18 14:32:58,480: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: スケジュール >> Schedules
+2023-05-18 14:32:58,512: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: 動的グループ >> Dynamic Group
+2023-05-18 14:32:58,543: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: 電子メール アドレス >> Email Addresses
+2023-05-18 14:32:58,584: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: プロファイル オブジェクト >> Profile Objects
+2023-05-18 14:32:58,614: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: エンドポイント セキュリティ >> Endpoint Security
+2023-05-18 14:32:58,658: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: 帯域幅 >> Bandwidth
+2023-05-18 14:32:58,679: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: QoS 級割 >> QoS Marking
+2023-05-18 14:32:58,697: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタ >> Content Filter
+2023-05-18 14:32:58,714: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: DHCP オプション >> DHCP Option
+2023-05-18 14:32:58,735: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: AWS >> AWS
+2023-05-18 14:32:58,761: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: 動作オブジェクト >> Action Objects
+2023-05-18 14:32:58,789: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: アプリケーション ルールの動作 >> App Rule Actions
+2023-05-18 14:32:58,816: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: コンテンツ フィルタの動作 >> Content Filter Actions
+2023-05-18 14:32:58,816: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:58,817: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'OBJECT' Menu: Match Objects >> Match Objects (TOP)
+2023-05-18 14:32:58,817: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:32:58,817: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 19
+2023-05-18 14:32:58,840: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Data updated for [JPN]!
+2023-05-18 14:32:58,841: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Top menu 'OBJECT' is done!
+2023-05-18 14:33:02,339: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: ルールとポリシー >> Rules and Policies
+2023-05-18 14:33:02,365: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: アクセス ルール >> Access Rules
+2023-05-18 14:33:02,379: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: NAT ルール >> NAT Rules
+2023-05-18 14:33:02,392: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: ルーティング ルール >> Routing Rules
+2023-05-18 14:33:02,412: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: コンテンツ フィルタ ルール >> Content Filter Rules
+2023-05-18 14:33:02,439: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: アプリケーション ルール >> App Rules
+2023-05-18 14:33:02,461: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: エンドポイント ルール >> Endpoint Rules
+2023-05-18 14:33:02,488: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: DPI-SSL >> DPI-SSL
+2023-05-18 14:33:02,510: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: クライアント SSL >> Client SSL
+2023-05-18 14:33:02,537: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: サーバ SSL >> Server SSL
+2023-05-18 14:33:02,558: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: DPI-SSH >> DPI-SSH
+2023-05-18 14:33:02,577: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: 設定 >> Settings
+2023-05-18 14:33:02,595: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: セキュリティ サービス >> Security Services
+2023-05-18 14:33:02,620: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: サマリ >> Summary
+2023-05-18 14:33:02,640: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: ゲートウェイ アンチウイルス >> Gateway Anti-Virus
+2023-05-18 14:33:02,656: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: アンチスパイウェア >> Anti-Spyware
+2023-05-18 14:33:02,675: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: 侵入防御 >> Intrusion Prevention
+2023-05-18 14:33:02,695: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: 地域 IP フィルタ >> Geo-IP Filter
+2023-05-18 14:33:02,720: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: ボットネット フィルタ >> Botnet Filter
+2023-05-18 14:33:02,745: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: アプリケーション制御 >> App Control
+2023-05-18 14:33:02,765: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: コンテンツ フィルタ >> Content Filter
+2023-05-18 14:33:02,784: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: アンチスパム >> Anti-Spam
+2023-05-18 14:33:02,801: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: 状況 >> Status
+2023-05-18 14:33:02,830: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: 設定 >> Settings
+2023-05-18 14:33:02,851: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: キャプチャ ATP >> Capture ATP
+2023-05-18 14:33:02,877: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: 設定 >> Settings
+2023-05-18 14:33:02,900: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: スキャン履歴 >> Scanning History
+2023-05-18 14:33:02,937: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: エンドポイント セキュリティ >> Endpoint Security
+2023-05-18 14:33:02,937: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:33:02,937: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > 'POLICY' Menu: No duplicated data to the TOP
+2023-05-18 14:33:02,937: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ========================================================================
+2023-05-18 14:33:02,937: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > ALL MENU: 28
+2023-05-18 14:33:02,962: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Data updated for [JPN]!
+2023-05-18 14:33:02,963: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Top menu 'POLICY' is done!
+2023-05-18 14:33:03,071: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Info created for [ENG]!
+2023-05-18 14:33:03,078: - INFO - Test_NavData_ENG: test.Test_NavData_ENG > Info updated for [ENG]!
+2023-05-18 14:33:03,677: - INFO - Test_NavData_ENG: test_Step02_MenuTop_ENG > [Pass]Take screenshot...
+2023-05-18 14:33:09,477: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Info created for [JPN]!
+2023-05-18 14:33:09,482: - INFO - Test_NavData_JPN: test.Test_NavData_JPN > Info updated for [JPN]!
+2023-05-18 14:33:09,927: - INFO - Test_NavData_JPN: test_Step02_MenuTop_JPN > [Pass]Take screenshot...
+2023-05-18 14:33:13,258: - INFO - Test_NavData_ENG: box_JPN > Got data!
+2023-05-18 14:33:13,265: - INFO - Test_NavData_ENG: box_ENG > Got data!
+2023-05-18 14:33:13,265: - INFO - Test_NavData_ENG: test_dataCompare > Ready to start...
+2023-05-18 14:33:13,266: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2023-05-18 14:33:13,268: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Device Name -----> NSA 2700
+2023-05-18 14:33:13,268: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Serial Number ---> 2CB8EDBA2F98
+2023-05-18 14:33:13,268: - INFO - Test_NavData_ENG: test_dataCompare > [JPN] info: Firmware Version > SonicOS 7.0.1-5114-R4492-j4576
+2023-05-18 14:33:13,268: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2023-05-18 14:33:13,269: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Device Name -----> TZ 570P
+2023-05-18 14:33:13,269: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Serial Number ---> 2CB8ED694D58
+2023-05-18 14:33:13,270: - INFO - Test_NavData_ENG: test_dataCompare > [ENG] info: Firmware Version > SonicOS 7.0.1-5114-P4494
+2023-05-18 14:33:13,270: - INFO - Test_NavData_ENG: test_dataCompare > --------------------------------------------------------------------
+2023-05-18 14:33:13,272: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: DEVICE > Users > Partitions
+2023-05-18 14:33:13,273: - INFO - Test_NavData_ENG: missing_page > [JPN] version missing: NETWORK > System > PoE Settings
+2023-05-18 14:33:13,273: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: NETWORK > Switching
+2023-05-18 14:33:13,273: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: NETWORK > Switching > VLAN Trunking
+2023-05-18 14:33:13,274: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: NETWORK > Switching > L2 Discovery
+2023-05-18 14:33:13,274: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: NETWORK > Switching > Link Aggregation
+2023-05-18 14:33:13,274: - INFO - Test_NavData_ENG: missing_page > [ENG] version missing: NETWORK > Switching > Port Mirroring
